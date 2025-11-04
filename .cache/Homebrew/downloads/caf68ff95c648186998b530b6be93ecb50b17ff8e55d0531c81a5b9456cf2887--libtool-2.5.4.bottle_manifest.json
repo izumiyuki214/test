@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1f6a3d4057319b3ed717f9905ce300fc49114ec325298801407d7a805011c501",
+      "size": 2238,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.4.arm64_sequoia",
+        "sh.brew.bottle.digest": "f21ea809c3bdc0aa1b25dce05dc05bebd228adb213957df244bf00af760392ef",
+        "sh.brew.bottle.size": "1098696",
+        "sh.brew.bottle.installed_size": "4145678",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.6-25-gf597978\",\"changed_files\":[\"bin/glibtoolize\"],\"source_modified_time\":1732133324,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.19\",\"revision\":0,\"pkg_version\":\"1.4.19\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.1\",\"clt\":\"16.1.0.0.1.1729049160\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/glibtool,bin/glibtoolize"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:994e8ba43e81b821f6d9c33ac7710efdda2a33829544d6f475d82a2b12e95377",
+      "size": 2235,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.4.arm64_sonoma",
+        "sh.brew.bottle.digest": "b78cea0747889cff2d5d5308cf2cfebef93f8fe3a5ad87cbadb5ee16f8dbc6a6",
+        "sh.brew.bottle.size": "1098697",
+        "sh.brew.bottle.installed_size": "4145678",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.6-25-gf597978\",\"changed_files\":[\"bin/glibtoolize\"],\"source_modified_time\":1732133324,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.19\",\"revision\":0,\"pkg_version\":\"1.4.19\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"dunno\",\"xcode\":\"16.1\",\"clt\":\"16.1.0.0.1.1729049160\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/glibtool,bin/glibtoolize"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:921cd5088d3f8932ec0308093a1f44f28003c3ae4841854a08d477b9bd312304",
+      "size": 2238,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.4.arm64_ventura",
+        "sh.brew.bottle.digest": "f30240dd2c3b9c42be0f4a0dc4f8a9ceabd0d12f28db8e3650076f8d1c59a7bc",
+        "sh.brew.bottle.size": "1098655",
+        "sh.brew.bottle.installed_size": "4145530",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.6-25-gf597978\",\"changed_files\":[\"bin/glibtoolize\"],\"source_modified_time\":1732133324,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.19\",\"revision\":0,\"pkg_version\":\"1.4.19\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/glibtool,bin/glibtoolize"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c30a3c7f9c3851862a6136d4ff0b4747111cef1bc02cd2ff49f07b934eafd110",
+      "size": 2354,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.4.sonoma",
+        "sh.brew.bottle.digest": "fc28339b3192a79d41f5b67f53f5d232dfed48de66b464c02f21d64536da86d8",
+        "sh.brew.bottle.size": "1096661",
+        "sh.brew.bottle.installed_size": "4092252",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.6-25-gf597978\",\"changed_files\":[\"bin/glibtool\",\"bin/glibtoolize\",\"share/libtool/build-aux/ltmain.sh\",\"share/libtool/configure\",\"ChangeLog\",\"NEWS\",\"share/aclocal/libtool.m4\"],\"source_modified_time\":1732133324,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.19\",\"revision\":0,\"pkg_version\":\"1.4.19\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"penryn\",\"xcode\":\"16.1\",\"clt\":\"16.1.0.0.1.1729049160\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/glibtool,bin/glibtoolize"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1782c8fcb10b52355471d1f66f8da721bf77fe4ddaedd55ca5ec0dbb1a3ca513",
+      "size": 2357,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.4.ventura",
+        "sh.brew.bottle.digest": "5ef401943faf0ebe8c57542bcd4ff976419f9ff67ce1b67e3c5c0b2cf0fa69df",
+        "sh.brew.bottle.size": "1097421",
+        "sh.brew.bottle.installed_size": "4124976",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.6-25-gf597978\",\"changed_files\":[\"bin/glibtool\",\"bin/glibtoolize\",\"share/libtool/build-aux/ltmain.sh\",\"share/libtool/configure\",\"ChangeLog\",\"NEWS\",\"share/aclocal/libtool.m4\"],\"source_modified_time\":1732133324,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.19\",\"revision\":0,\"pkg_version\":\"1.4.19\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/glibtool,bin/glibtoolize"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c38a85270a988c9502b73a0a0d104ba3a127646d94c03f87010ed97716086d60",
+      "size": 2345,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.4.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "cad7f708b11b5bc65f08dadaab2f3f8c51eb2267efc0cc20ad9a4ce9f7c8134e",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1102658",
+        "sh.brew.bottle.installed_size": "4169738",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.6-25-gf597978\",\"changed_files\":[\"bin/libtool\",\"bin/libtoolize\"],\"source_modified_time\":1732133324,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.19\",\"revision\":0,\"pkg_version\":\"1.4.19\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/glibtoolize,bin/glibtool,bin/libtool,bin/libtoolize"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1e1d052e894e8c0a858e01ae16b63ee53d31e4eacdf2fadb82851cd78f2a4732",
+      "size": 2342,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.4.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "deecc3ded6794f5ab08b785aa8a1800b3559376a61d369a6798b29e6568c7429",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1104591",
+        "sh.brew.bottle.installed_size": "4195070",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-276-gfec5b64\",\"changed_files\":[\"bin/libtool\",\"bin/libtoolize\"],\"source_modified_time\":1732133324,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.19\",\"revision\":0,\"pkg_version\":\"1.4.19\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/glibtool,bin/libtoolize,bin/libtool,bin/glibtoolize"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:372a536122b6c50d6feffc8b818ad7eafa116edfe6f1a36ef254c9dcc4f38d74",
+      "size": 2380,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.4.sequoia",
+        "sh.brew.bottle.digest": "b86376ec9504b188528c074fb1c5ade15679402ed1e4b20a99b2ac2235780717",
+        "sh.brew.bottle.size": "1096662",
+        "sh.brew.bottle.installed_size": "4092281",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.26-117-gad75e9b\",\"changed_files\":[\"bin/glibtool\",\"bin/glibtoolize\",\"share/libtool/build-aux/ltmain.sh\",\"share/libtool/configure\",\"ChangeLog\",\"NEWS\",\"share/aclocal/libtool.m4\"],\"source_modified_time\":1732133324,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.19\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/glibtool,bin/glibtoolize"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0c87ede4ee06ac263a6d23f5233b3b7b202e9693f9988f5d50ea85f682a19465",
+      "size": 2254,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.4.arm64_tahoe",
+        "sh.brew.bottle.digest": "e3a7e5f39f3933f3c92daacbc054a38628521aeb6b52fddd2a3c945a897050e5",
+        "sh.brew.bottle.size": "1098759",
+        "sh.brew.bottle.installed_size": "4145255",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\"bin/glibtoolize\"],\"source_modified_time\":1732133324,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/glibtool,bin/glibtoolize"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7380efa0388e919b7a99f0765570efbd1fe93141fc2b5b611dd736ccca1016fc",
+      "size": 2238,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.4.tahoe",
+        "sh.brew.bottle.digest": "4301ea7f74f94894c95e1dae08326d7f59e3dd7dd70962801ffb129f4664a253",
+        "sh.brew.bottle.size": "1096784",
+        "sh.brew.bottle.installed_size": "4092197",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-33-g34be148\",\"changed_files\":[\"bin/glibtoolize\"],\"source_modified_time\":1732133324,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"penryn\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/glibtool,bin/glibtoolize"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2024-11-21T03:37:49Z",
+    "org.opencontainers.image.description": "Generic library support script",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libtool",
+    "org.opencontainers.image.licenses": "GPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "2.5.4",
+    "org.opencontainers.image.revision": "1d88c247ea65299e9b1307263b441f8ebd6ab328",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/1d88c247ea65299e9b1307263b441f8ebd6ab328/Formula/lib/libtool.rb",
+    "org.opencontainers.image.title": "libtool",
+    "org.opencontainers.image.url": "https://www.gnu.org/software/libtool/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.5.4"
+  }
+}

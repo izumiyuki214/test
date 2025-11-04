@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:75e9e04182a4ec68d49b1072cdf4680ad9068a55f2b98aaf24ddfd78ad4f7876",
+      "size": 6263,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.10_1.arm64_linux.1",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "d6aa23170013b357b634255d980bf589fc5104f38536e99a524ffbdd20dd17e7",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "3725817",
+        "sh.brew.bottle.installed_size": "11955332",
+        "sh.brew.license": "OLDAP-2.8",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-21-g3f11702\",\"changed_files\":[\".bottle/etc/openldap/slapd.conf\",\".bottle/etc/openldap/slapd.conf.default\",\".bottle/etc/openldap/slapd.ldif\",\".bottle/etc/openldap/slapd.ldif.default\",\"lib/pkgconfig/lber.pc\",\"lib/pkgconfig/ldap.pc\",\"share/man/man5/ldap.conf.5\",\"share/man/man5/lloadd.conf.5\",\"share/man/man5/slapd-asyncmeta.5\",\"share/man/man5/slapd-config.5\",\"share/man/man5/slapd-dnssrv.5\",\"share/man/man5/slapd-ldap.5\",\"share/man/man5/slapd-ldif.5\",\"share/man/man5/slapd-mdb.5\",\"share/man/man5/slapd-meta.5\",\"share/man/man5/slapd-monitor.5\",\"share/man/man5/slapd-null.5\",\"share/man/man5/slapd-passwd.5\",\"share/man/man5/slapd-perl.5\",\"share/man/man5/slapd-relay.5\",\"share/man/man5/slapd-sock.5\",\"share/man/man5/slapd-sql.5\",\"share/man/man5/slapd-wt.5\",\"share/man/man5/slapd.access.5\",\"share/man/man5/slapd.backends.5\",\"share/man/man5/slapd.conf.5\",\"share/man/man5/slapd.overlays.5\",\"share/man/man5/slapd.plugin.5\",\"share/man/man5/slapo-accesslog.5\",\"share/man/man5/slapo-auditlog.5\",\"share/man/man5/slapo-autoca.5\",\"share/man/man5/slapo-chain.5\",\"share/man/man5/slapo-collect.5\",\"share/man/man5/slapo-constraint.5\",\"share/man/man5/slapo-dds.5\",\"share/man/man5/slapo-deref.5\",\"share/man/man5/slapo-dyngroup.5\",\"share/man/man5/slapo-dynlist.5\",\"share/man/man5/slapo-homedir.5\",\"share/man/man5/slapo-memberof.5\",\"share/man/man5/slapo-nestgroup.5\",\"share/man/man5/slapo-pbind.5\",\"share/man/man5/slapo-pcache.5\",\"share/man/man5/slapo-ppolicy.5\",\"share/man/man5/slapo-refint.5\",\"share/man/man5/slapo-remoteauth.5\",\"share/man/man5/slapo-retcode.5\",\"share/man/man5/slapo-rwm.5\",\"share/man/man5/slapo-sock.5\",\"share/man/man5/slapo-sssvlv.5\",\"share/man/man5/slapo-syncprov.5\",\"share/man/man5/slapo-translucent.5\",\"share/man/man5/slapo-unique.5\",\"share/man/man5/slapo-valsort.5\",\"share/man/man5/slappw-argon2.5\",\"share/man/man8/lloadd.8\",\"share/man/man8/slapacl.8\",\"share/man/man8/slapadd.8\",\"share/man/man8/slapauth.8\",\"share/man/man8/slapcat.8\",\"share/man/man8/slapd.8\",\"share/man/man8/slapdn.8\",\"share/man/man8/slapindex.8\",\"share/man/man8/slapmodify.8\",\"share/man/man8/slappasswd.8\",\"share/man/man8/slapschema.8\",\"share/man/man8/slaptest.8\"],\"source_modified_time\":1747954647,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.38\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.4.38\",\"declared_directly\":false},{\"full_name\":\"cyrus-sasl\",\"version\":\"2.1.28\",\"revision\":2,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.28_2\",\"declared_directly\":true},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.50.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.50.4\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.41.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.41.1_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/ldapwhoami,bin/ldapmodrdn,bin/ldapurl,bin/ldapdelete,bin/ldapmodify,bin/ldapsearch,bin/ldappasswd,bin/ldapcompare,bin/ldapexop,bin/ldapvc,bin/ldapadd,sbin/slapcat,sbin/slappasswd,sbin/slapindex,sbin/slapdn,sbin/slapmodify,sbin/slapadd,sbin/slapauth,sbin/slapschema,sbin/slaptest,sbin/slapacl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:eda5d16625660a3a98a69ed61e168fb548a26b8f3cc6b02efdec7c8f3e8f625b",
+      "size": 4920,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.10_1.arm64_sequoia.1",
+        "sh.brew.bottle.digest": "248a79f1498bbff0644cb1980d1efabf399d71f4251df230b7e6161d14482309",
+        "sh.brew.bottle.size": "3055811",
+        "sh.brew.bottle.installed_size": "9126651",
+        "sh.brew.license": "OLDAP-2.8",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-21-g3f11702\",\"changed_files\":[\".bottle/etc/openldap/slapd.conf\",\".bottle/etc/openldap/slapd.conf.default\",\".bottle/etc/openldap/slapd.ldif\",\".bottle/etc/openldap/slapd.ldif.default\",\"lib/pkgconfig/lber.pc\",\"lib/pkgconfig/ldap.pc\",\"share/man/man5/ldap.conf.5\",\"share/man/man5/lloadd.conf.5\",\"share/man/man5/slapd-asyncmeta.5\",\"share/man/man5/slapd-config.5\",\"share/man/man5/slapd-dnssrv.5\",\"share/man/man5/slapd-ldap.5\",\"share/man/man5/slapd-ldif.5\",\"share/man/man5/slapd-mdb.5\",\"share/man/man5/slapd-meta.5\",\"share/man/man5/slapd-monitor.5\",\"share/man/man5/slapd-null.5\",\"share/man/man5/slapd-passwd.5\",\"share/man/man5/slapd-perl.5\",\"share/man/man5/slapd-relay.5\",\"share/man/man5/slapd-sock.5\",\"share/man/man5/slapd-sql.5\",\"share/man/man5/slapd-wt.5\",\"share/man/man5/slapd.access.5\",\"share/man/man5/slapd.backends.5\",\"share/man/man5/slapd.conf.5\",\"share/man/man5/slapd.overlays.5\",\"share/man/man5/slapd.plugin.5\",\"share/man/man5/slapo-accesslog.5\",\"share/man/man5/slapo-auditlog.5\",\"share/man/man5/slapo-autoca.5\",\"share/man/man5/slapo-chain.5\",\"share/man/man5/slapo-collect.5\",\"share/man/man5/slapo-constraint.5\",\"share/man/man5/slapo-dds.5\",\"share/man/man5/slapo-deref.5\",\"share/man/man5/slapo-dyngroup.5\",\"share/man/man5/slapo-dynlist.5\",\"share/man/man5/slapo-homedir.5\",\"share/man/man5/slapo-memberof.5\",\"share/man/man5/slapo-nestgroup.5\",\"share/man/man5/slapo-pbind.5\",\"share/man/man5/slapo-pcache.5\",\"share/man/man5/slapo-ppolicy.5\",\"share/man/man5/slapo-refint.5\",\"share/man/man5/slapo-remoteauth.5\",\"share/man/man5/slapo-retcode.5\",\"share/man/man5/slapo-rwm.5\",\"share/man/man5/slapo-sock.5\",\"share/man/man5/slapo-sssvlv.5\",\"share/man/man5/slapo-syncprov.5\",\"share/man/man5/slapo-translucent.5\",\"share/man/man5/slapo-unique.5\",\"share/man/man5/slapo-valsort.5\",\"share/man/man5/slappw-argon2.5\",\"share/man/man8/lloadd.8\",\"share/man/man8/slapacl.8\",\"share/man/man8/slapadd.8\",\"share/man/man8/slapauth.8\",\"share/man/man8/slapcat.8\",\"share/man/man8/slapd.8\",\"share/man/man8/slapdn.8\",\"share/man/man8/slapindex.8\",\"share/man/man8/slapmodify.8\",\"share/man/man8/slappasswd.8\",\"share/man/man8/slapschema.8\",\"share/man/man8/slaptest.8\"],\"source_modified_time\":1747954647,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/ldapmodify,bin/ldapurl,bin/ldapmodrdn,bin/ldapexop,bin/ldapdelete,bin/ldapwhoami,bin/ldapvc,bin/ldappasswd,bin/ldapsearch,bin/ldapadd,bin/ldapcompare,sbin/slapacl,sbin/slapmodify,sbin/slapindex,sbin/slapadd,sbin/slapauth,sbin/slappasswd,sbin/slapdn,sbin/slapschema,sbin/slaptest,sbin/slapcat"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b99a7c3f00eb5514de3b5a2036681135394ef330668ae9caec9ab0e4b057a4d4",
+      "size": 4917,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.10_1.arm64_sonoma.1",
+        "sh.brew.bottle.digest": "e1e547e9f5a91f21715853710892d69d0356947128b15a9ae16c7b69b2c8222c",
+        "sh.brew.bottle.size": "2951662",
+        "sh.brew.bottle.installed_size": "9145843",
+        "sh.brew.license": "OLDAP-2.8",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-21-g3f11702\",\"changed_files\":[\".bottle/etc/openldap/slapd.conf\",\".bottle/etc/openldap/slapd.conf.default\",\".bottle/etc/openldap/slapd.ldif\",\".bottle/etc/openldap/slapd.ldif.default\",\"lib/pkgconfig/lber.pc\",\"lib/pkgconfig/ldap.pc\",\"share/man/man5/ldap.conf.5\",\"share/man/man5/lloadd.conf.5\",\"share/man/man5/slapd-asyncmeta.5\",\"share/man/man5/slapd-config.5\",\"share/man/man5/slapd-dnssrv.5\",\"share/man/man5/slapd-ldap.5\",\"share/man/man5/slapd-ldif.5\",\"share/man/man5/slapd-mdb.5\",\"share/man/man5/slapd-meta.5\",\"share/man/man5/slapd-monitor.5\",\"share/man/man5/slapd-null.5\",\"share/man/man5/slapd-passwd.5\",\"share/man/man5/slapd-perl.5\",\"share/man/man5/slapd-relay.5\",\"share/man/man5/slapd-sock.5\",\"share/man/man5/slapd-sql.5\",\"share/man/man5/slapd-wt.5\",\"share/man/man5/slapd.access.5\",\"share/man/man5/slapd.backends.5\",\"share/man/man5/slapd.conf.5\",\"share/man/man5/slapd.overlays.5\",\"share/man/man5/slapd.plugin.5\",\"share/man/man5/slapo-accesslog.5\",\"share/man/man5/slapo-auditlog.5\",\"share/man/man5/slapo-autoca.5\",\"share/man/man5/slapo-chain.5\",\"share/man/man5/slapo-collect.5\",\"share/man/man5/slapo-constraint.5\",\"share/man/man5/slapo-dds.5\",\"share/man/man5/slapo-deref.5\",\"share/man/man5/slapo-dyngroup.5\",\"share/man/man5/slapo-dynlist.5\",\"share/man/man5/slapo-homedir.5\",\"share/man/man5/slapo-memberof.5\",\"share/man/man5/slapo-nestgroup.5\",\"share/man/man5/slapo-pbind.5\",\"share/man/man5/slapo-pcache.5\",\"share/man/man5/slapo-ppolicy.5\",\"share/man/man5/slapo-refint.5\",\"share/man/man5/slapo-remoteauth.5\",\"share/man/man5/slapo-retcode.5\",\"share/man/man5/slapo-rwm.5\",\"share/man/man5/slapo-sock.5\",\"share/man/man5/slapo-sssvlv.5\",\"share/man/man5/slapo-syncprov.5\",\"share/man/man5/slapo-translucent.5\",\"share/man/man5/slapo-unique.5\",\"share/man/man5/slapo-valsort.5\",\"share/man/man5/slappw-argon2.5\",\"share/man/man8/lloadd.8\",\"share/man/man8/slapacl.8\",\"share/man/man8/slapadd.8\",\"share/man/man8/slapauth.8\",\"share/man/man8/slapcat.8\",\"share/man/man8/slapd.8\",\"share/man/man8/slapdn.8\",\"share/man/man8/slapindex.8\",\"share/man/man8/slapmodify.8\",\"share/man/man8/slappasswd.8\",\"share/man/man8/slapschema.8\",\"share/man/man8/slaptest.8\"],\"source_modified_time\":1747954647,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/ldapmodify,bin/ldapurl,bin/ldapmodrdn,bin/ldapexop,bin/ldapdelete,bin/ldapwhoami,bin/ldapvc,bin/ldappasswd,bin/ldapsearch,bin/ldapadd,bin/ldapcompare,sbin/slapacl,sbin/slapmodify,sbin/slapindex,sbin/slapadd,sbin/slapauth,sbin/slappasswd,sbin/slapdn,sbin/slapschema,sbin/slaptest,sbin/slapcat"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a797f644168bb4516159098d02042858001779871b798bb6662cae43c1c6a3f7",
+      "size": 4920,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.10_1.arm64_ventura.1",
+        "sh.brew.bottle.digest": "bacfcb76abf64fb280a1e845abc7ef842aa8ddaafb3c7b1a4b68e7e9cd66161d",
+        "sh.brew.bottle.size": "2953530",
+        "sh.brew.bottle.installed_size": "9145651",
+        "sh.brew.license": "OLDAP-2.8",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-21-g3f11702\",\"changed_files\":[\".bottle/etc/openldap/slapd.conf\",\".bottle/etc/openldap/slapd.conf.default\",\".bottle/etc/openldap/slapd.ldif\",\".bottle/etc/openldap/slapd.ldif.default\",\"lib/pkgconfig/lber.pc\",\"lib/pkgconfig/ldap.pc\",\"share/man/man5/ldap.conf.5\",\"share/man/man5/lloadd.conf.5\",\"share/man/man5/slapd-asyncmeta.5\",\"share/man/man5/slapd-config.5\",\"share/man/man5/slapd-dnssrv.5\",\"share/man/man5/slapd-ldap.5\",\"share/man/man5/slapd-ldif.5\",\"share/man/man5/slapd-mdb.5\",\"share/man/man5/slapd-meta.5\",\"share/man/man5/slapd-monitor.5\",\"share/man/man5/slapd-null.5\",\"share/man/man5/slapd-passwd.5\",\"share/man/man5/slapd-perl.5\",\"share/man/man5/slapd-relay.5\",\"share/man/man5/slapd-sock.5\",\"share/man/man5/slapd-sql.5\",\"share/man/man5/slapd-wt.5\",\"share/man/man5/slapd.access.5\",\"share/man/man5/slapd.backends.5\",\"share/man/man5/slapd.conf.5\",\"share/man/man5/slapd.overlays.5\",\"share/man/man5/slapd.plugin.5\",\"share/man/man5/slapo-accesslog.5\",\"share/man/man5/slapo-auditlog.5\",\"share/man/man5/slapo-autoca.5\",\"share/man/man5/slapo-chain.5\",\"share/man/man5/slapo-collect.5\",\"share/man/man5/slapo-constraint.5\",\"share/man/man5/slapo-dds.5\",\"share/man/man5/slapo-deref.5\",\"share/man/man5/slapo-dyngroup.5\",\"share/man/man5/slapo-dynlist.5\",\"share/man/man5/slapo-homedir.5\",\"share/man/man5/slapo-memberof.5\",\"share/man/man5/slapo-nestgroup.5\",\"share/man/man5/slapo-pbind.5\",\"share/man/man5/slapo-pcache.5\",\"share/man/man5/slapo-ppolicy.5\",\"share/man/man5/slapo-refint.5\",\"share/man/man5/slapo-remoteauth.5\",\"share/man/man5/slapo-retcode.5\",\"share/man/man5/slapo-rwm.5\",\"share/man/man5/slapo-sock.5\",\"share/man/man5/slapo-sssvlv.5\",\"share/man/man5/slapo-syncprov.5\",\"share/man/man5/slapo-translucent.5\",\"share/man/man5/slapo-unique.5\",\"share/man/man5/slapo-valsort.5\",\"share/man/man5/slappw-argon2.5\",\"share/man/man8/lloadd.8\",\"share/man/man8/slapacl.8\",\"share/man/man8/slapadd.8\",\"share/man/man8/slapauth.8\",\"share/man/man8/slapcat.8\",\"share/man/man8/slapd.8\",\"share/man/man8/slapdn.8\",\"share/man/man8/slapindex.8\",\"share/man/man8/slapmodify.8\",\"share/man/man8/slappasswd.8\",\"share/man/man8/slapschema.8\",\"share/man/man8/slaptest.8\"],\"source_modified_time\":1747954647,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/ldapmodify,bin/ldapurl,bin/ldapmodrdn,bin/ldapexop,bin/ldapdelete,bin/ldapwhoami,bin/ldapvc,bin/ldappasswd,bin/ldapsearch,bin/ldapadd,bin/ldapcompare,sbin/slapacl,sbin/slapmodify,sbin/slapindex,sbin/slapadd,sbin/slapauth,sbin/slappasswd,sbin/slapdn,sbin/slapschema,sbin/slaptest,sbin/slapcat"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d0f4979705719b573995a07ea9a537c08d283e465f07842fe2502e744c7cc65a",
+      "size": 4901,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.10_1.sonoma.1",
+        "sh.brew.bottle.digest": "8845255968f6ce00273b24b4ec963913900cd33179ee6a5b8e29b887f84364bd",
+        "sh.brew.bottle.size": "3088051",
+        "sh.brew.bottle.installed_size": "8517673",
+        "sh.brew.license": "OLDAP-2.8",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-21-g3f11702\",\"changed_files\":[\".bottle/etc/openldap/slapd.conf\",\".bottle/etc/openldap/slapd.conf.default\",\".bottle/etc/openldap/slapd.ldif\",\".bottle/etc/openldap/slapd.ldif.default\",\"lib/pkgconfig/lber.pc\",\"lib/pkgconfig/ldap.pc\",\"share/man/man5/ldap.conf.5\",\"share/man/man5/lloadd.conf.5\",\"share/man/man5/slapd-asyncmeta.5\",\"share/man/man5/slapd-config.5\",\"share/man/man5/slapd-dnssrv.5\",\"share/man/man5/slapd-ldap.5\",\"share/man/man5/slapd-ldif.5\",\"share/man/man5/slapd-mdb.5\",\"share/man/man5/slapd-meta.5\",\"share/man/man5/slapd-monitor.5\",\"share/man/man5/slapd-null.5\",\"share/man/man5/slapd-passwd.5\",\"share/man/man5/slapd-perl.5\",\"share/man/man5/slapd-relay.5\",\"share/man/man5/slapd-sock.5\",\"share/man/man5/slapd-sql.5\",\"share/man/man5/slapd-wt.5\",\"share/man/man5/slapd.access.5\",\"share/man/man5/slapd.backends.5\",\"share/man/man5/slapd.conf.5\",\"share/man/man5/slapd.overlays.5\",\"share/man/man5/slapd.plugin.5\",\"share/man/man5/slapo-accesslog.5\",\"share/man/man5/slapo-auditlog.5\",\"share/man/man5/slapo-autoca.5\",\"share/man/man5/slapo-chain.5\",\"share/man/man5/slapo-collect.5\",\"share/man/man5/slapo-constraint.5\",\"share/man/man5/slapo-dds.5\",\"share/man/man5/slapo-deref.5\",\"share/man/man5/slapo-dyngroup.5\",\"share/man/man5/slapo-dynlist.5\",\"share/man/man5/slapo-homedir.5\",\"share/man/man5/slapo-memberof.5\",\"share/man/man5/slapo-nestgroup.5\",\"share/man/man5/slapo-pbind.5\",\"share/man/man5/slapo-pcache.5\",\"share/man/man5/slapo-ppolicy.5\",\"share/man/man5/slapo-refint.5\",\"share/man/man5/slapo-remoteauth.5\",\"share/man/man5/slapo-retcode.5\",\"share/man/man5/slapo-rwm.5\",\"share/man/man5/slapo-sock.5\",\"share/man/man5/slapo-sssvlv.5\",\"share/man/man5/slapo-syncprov.5\",\"share/man/man5/slapo-translucent.5\",\"share/man/man5/slapo-unique.5\",\"share/man/man5/slapo-valsort.5\",\"share/man/man5/slappw-argon2.5\",\"share/man/man8/lloadd.8\",\"share/man/man8/slapacl.8\",\"share/man/man8/slapadd.8\",\"share/man/man8/slapauth.8\",\"share/man/man8/slapcat.8\",\"share/man/man8/slapd.8\",\"share/man/man8/slapdn.8\",\"share/man/man8/slapindex.8\",\"share/man/man8/slapmodify.8\",\"share/man/man8/slappasswd.8\",\"share/man/man8/slapschema.8\",\"share/man/man8/slaptest.8\"],\"source_modified_time\":1747954647,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/ldapmodify,bin/ldapurl,bin/ldapmodrdn,bin/ldapexop,bin/ldapdelete,bin/ldapwhoami,bin/ldapvc,bin/ldappasswd,bin/ldapsearch,bin/ldapadd,bin/ldapcompare,sbin/slapacl,sbin/slapmodify,sbin/slapindex,sbin/slapadd,sbin/slapauth,sbin/slappasswd,sbin/slapdn,sbin/slapschema,sbin/slaptest,sbin/slapcat"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:4efe078df93f34f3a98c4cc6a85bb95af9cbf0668f8d31c5579b057f421add5f",
+      "size": 4904,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.10_1.ventura.1",
+        "sh.brew.bottle.digest": "77370c7be27839f6b1c67b6594ede02919dafe3ce30760eddd033b382b38785c",
+        "sh.brew.bottle.size": "3089605",
+        "sh.brew.bottle.installed_size": "8894361",
+        "sh.brew.license": "OLDAP-2.8",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-21-g3f11702\",\"changed_files\":[\".bottle/etc/openldap/slapd.conf\",\".bottle/etc/openldap/slapd.conf.default\",\".bottle/etc/openldap/slapd.ldif\",\".bottle/etc/openldap/slapd.ldif.default\",\"lib/pkgconfig/lber.pc\",\"lib/pkgconfig/ldap.pc\",\"share/man/man5/ldap.conf.5\",\"share/man/man5/lloadd.conf.5\",\"share/man/man5/slapd-asyncmeta.5\",\"share/man/man5/slapd-config.5\",\"share/man/man5/slapd-dnssrv.5\",\"share/man/man5/slapd-ldap.5\",\"share/man/man5/slapd-ldif.5\",\"share/man/man5/slapd-mdb.5\",\"share/man/man5/slapd-meta.5\",\"share/man/man5/slapd-monitor.5\",\"share/man/man5/slapd-null.5\",\"share/man/man5/slapd-passwd.5\",\"share/man/man5/slapd-perl.5\",\"share/man/man5/slapd-relay.5\",\"share/man/man5/slapd-sock.5\",\"share/man/man5/slapd-sql.5\",\"share/man/man5/slapd-wt.5\",\"share/man/man5/slapd.access.5\",\"share/man/man5/slapd.backends.5\",\"share/man/man5/slapd.conf.5\",\"share/man/man5/slapd.overlays.5\",\"share/man/man5/slapd.plugin.5\",\"share/man/man5/slapo-accesslog.5\",\"share/man/man5/slapo-auditlog.5\",\"share/man/man5/slapo-autoca.5\",\"share/man/man5/slapo-chain.5\",\"share/man/man5/slapo-collect.5\",\"share/man/man5/slapo-constraint.5\",\"share/man/man5/slapo-dds.5\",\"share/man/man5/slapo-deref.5\",\"share/man/man5/slapo-dyngroup.5\",\"share/man/man5/slapo-dynlist.5\",\"share/man/man5/slapo-homedir.5\",\"share/man/man5/slapo-memberof.5\",\"share/man/man5/slapo-nestgroup.5\",\"share/man/man5/slapo-pbind.5\",\"share/man/man5/slapo-pcache.5\",\"share/man/man5/slapo-ppolicy.5\",\"share/man/man5/slapo-refint.5\",\"share/man/man5/slapo-remoteauth.5\",\"share/man/man5/slapo-retcode.5\",\"share/man/man5/slapo-rwm.5\",\"share/man/man5/slapo-sock.5\",\"share/man/man5/slapo-sssvlv.5\",\"share/man/man5/slapo-syncprov.5\",\"share/man/man5/slapo-translucent.5\",\"share/man/man5/slapo-unique.5\",\"share/man/man5/slapo-valsort.5\",\"share/man/man5/slappw-argon2.5\",\"share/man/man8/lloadd.8\",\"share/man/man8/slapacl.8\",\"share/man/man8/slapadd.8\",\"share/man/man8/slapauth.8\",\"share/man/man8/slapcat.8\",\"share/man/man8/slapd.8\",\"share/man/man8/slapdn.8\",\"share/man/man8/slapindex.8\",\"share/man/man8/slapmodify.8\",\"share/man/man8/slappasswd.8\",\"share/man/man8/slapschema.8\",\"share/man/man8/slaptest.8\"],\"source_modified_time\":1747954647,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/ldapmodify,bin/ldapurl,bin/ldapmodrdn,bin/ldapexop,bin/ldapdelete,bin/ldapwhoami,bin/ldapvc,bin/ldappasswd,bin/ldapsearch,bin/ldapadd,bin/ldapcompare,sbin/slapacl,sbin/slapmodify,sbin/slapindex,sbin/slapadd,sbin/slapauth,sbin/slappasswd,sbin/slapdn,sbin/slapschema,sbin/slaptest,sbin/slapcat"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:204ddeef1f474bc9406c18fd7c35405260b127fe1ac84a0c1d5ccb648d185e18",
+      "size": 6268,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.10_1.x86_64_linux.1",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "6593c993b1e061f4f5bd11a3a0a98cdb64244d35a12d0787797daaaa9ea4cb47",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "3717323",
+        "sh.brew.bottle.installed_size": "10525878",
+        "sh.brew.license": "OLDAP-2.8",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-21-g3f11702\",\"changed_files\":[\".bottle/etc/openldap/slapd.conf\",\".bottle/etc/openldap/slapd.conf.default\",\".bottle/etc/openldap/slapd.ldif\",\".bottle/etc/openldap/slapd.ldif.default\",\"lib/pkgconfig/lber.pc\",\"lib/pkgconfig/ldap.pc\",\"share/man/man5/ldap.conf.5\",\"share/man/man5/lloadd.conf.5\",\"share/man/man5/slapd-asyncmeta.5\",\"share/man/man5/slapd-config.5\",\"share/man/man5/slapd-dnssrv.5\",\"share/man/man5/slapd-ldap.5\",\"share/man/man5/slapd-ldif.5\",\"share/man/man5/slapd-mdb.5\",\"share/man/man5/slapd-meta.5\",\"share/man/man5/slapd-monitor.5\",\"share/man/man5/slapd-null.5\",\"share/man/man5/slapd-passwd.5\",\"share/man/man5/slapd-perl.5\",\"share/man/man5/slapd-relay.5\",\"share/man/man5/slapd-sock.5\",\"share/man/man5/slapd-sql.5\",\"share/man/man5/slapd-wt.5\",\"share/man/man5/slapd.access.5\",\"share/man/man5/slapd.backends.5\",\"share/man/man5/slapd.conf.5\",\"share/man/man5/slapd.overlays.5\",\"share/man/man5/slapd.plugin.5\",\"share/man/man5/slapo-accesslog.5\",\"share/man/man5/slapo-auditlog.5\",\"share/man/man5/slapo-autoca.5\",\"share/man/man5/slapo-chain.5\",\"share/man/man5/slapo-collect.5\",\"share/man/man5/slapo-constraint.5\",\"share/man/man5/slapo-dds.5\",\"share/man/man5/slapo-deref.5\",\"share/man/man5/slapo-dyngroup.5\",\"share/man/man5/slapo-dynlist.5\",\"share/man/man5/slapo-homedir.5\",\"share/man/man5/slapo-memberof.5\",\"share/man/man5/slapo-nestgroup.5\",\"share/man/man5/slapo-pbind.5\",\"share/man/man5/slapo-pcache.5\",\"share/man/man5/slapo-ppolicy.5\",\"share/man/man5/slapo-refint.5\",\"share/man/man5/slapo-remoteauth.5\",\"share/man/man5/slapo-retcode.5\",\"share/man/man5/slapo-rwm.5\",\"share/man/man5/slapo-sock.5\",\"share/man/man5/slapo-sssvlv.5\",\"share/man/man5/slapo-syncprov.5\",\"share/man/man5/slapo-translucent.5\",\"share/man/man5/slapo-unique.5\",\"share/man/man5/slapo-valsort.5\",\"share/man/man5/slappw-argon2.5\",\"share/man/man8/lloadd.8\",\"share/man/man8/slapacl.8\",\"share/man/man8/slapadd.8\",\"share/man/man8/slapauth.8\",\"share/man/man8/slapcat.8\",\"share/man/man8/slapd.8\",\"share/man/man8/slapdn.8\",\"share/man/man8/slapindex.8\",\"share/man/man8/slapmodify.8\",\"share/man/man8/slappasswd.8\",\"share/man/man8/slapschema.8\",\"share/man/man8/slaptest.8\"],\"source_modified_time\":1747954647,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.38\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.4.38\",\"declared_directly\":false},{\"full_name\":\"cyrus-sasl\",\"version\":\"2.1.28\",\"revision\":2,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.28_2\",\"declared_directly\":true},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.50.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.50.4\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.41.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.41.1_1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/ldapsearch,bin/ldapmodify,bin/ldapmodrdn,bin/ldapurl,bin/ldapexop,bin/ldapdelete,bin/ldapwhoami,bin/ldappasswd,bin/ldapcompare,bin/ldapadd,bin/ldapvc,sbin/slappasswd,sbin/slapschema,sbin/slapmodify,sbin/slapdn,sbin/slapadd,sbin/slaptest,sbin/slapcat,sbin/slapindex,sbin/slapacl,sbin/slapauth"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:cb6c067a48928b3d7e0960ee023c345f98cb578925bafe7580160af504e69601",
+      "size": 4913,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.10_1.arm64_tahoe.1",
+        "sh.brew.bottle.digest": "2e201b0ef1eeb3990d14dd4905ecaf36cb6acbb9457093007ed304b97a6a9856",
+        "sh.brew.bottle.size": "3052979",
+        "sh.brew.bottle.installed_size": "9093618",
+        "sh.brew.license": "OLDAP-2.8",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\".bottle/etc/openldap/slapd.conf\",\".bottle/etc/openldap/slapd.conf.default\",\".bottle/etc/openldap/slapd.ldif\",\".bottle/etc/openldap/slapd.ldif.default\",\"lib/pkgconfig/lber.pc\",\"lib/pkgconfig/ldap.pc\",\"share/man/man5/ldap.conf.5\",\"share/man/man5/lloadd.conf.5\",\"share/man/man5/slapd-asyncmeta.5\",\"share/man/man5/slapd-config.5\",\"share/man/man5/slapd-dnssrv.5\",\"share/man/man5/slapd-ldap.5\",\"share/man/man5/slapd-ldif.5\",\"share/man/man5/slapd-mdb.5\",\"share/man/man5/slapd-meta.5\",\"share/man/man5/slapd-monitor.5\",\"share/man/man5/slapd-null.5\",\"share/man/man5/slapd-passwd.5\",\"share/man/man5/slapd-perl.5\",\"share/man/man5/slapd-relay.5\",\"share/man/man5/slapd-sock.5\",\"share/man/man5/slapd-sql.5\",\"share/man/man5/slapd-wt.5\",\"share/man/man5/slapd.access.5\",\"share/man/man5/slapd.backends.5\",\"share/man/man5/slapd.conf.5\",\"share/man/man5/slapd.overlays.5\",\"share/man/man5/slapd.plugin.5\",\"share/man/man5/slapo-accesslog.5\",\"share/man/man5/slapo-auditlog.5\",\"share/man/man5/slapo-autoca.5\",\"share/man/man5/slapo-chain.5\",\"share/man/man5/slapo-collect.5\",\"share/man/man5/slapo-constraint.5\",\"share/man/man5/slapo-dds.5\",\"share/man/man5/slapo-deref.5\",\"share/man/man5/slapo-dyngroup.5\",\"share/man/man5/slapo-dynlist.5\",\"share/man/man5/slapo-homedir.5\",\"share/man/man5/slapo-memberof.5\",\"share/man/man5/slapo-nestgroup.5\",\"share/man/man5/slapo-pbind.5\",\"share/man/man5/slapo-pcache.5\",\"share/man/man5/slapo-ppolicy.5\",\"share/man/man5/slapo-refint.5\",\"share/man/man5/slapo-remoteauth.5\",\"share/man/man5/slapo-retcode.5\",\"share/man/man5/slapo-rwm.5\",\"share/man/man5/slapo-sock.5\",\"share/man/man5/slapo-sssvlv.5\",\"share/man/man5/slapo-syncprov.5\",\"share/man/man5/slapo-translucent.5\",\"share/man/man5/slapo-unique.5\",\"share/man/man5/slapo-valsort.5\",\"share/man/man5/slappw-argon2.5\",\"share/man/man8/lloadd.8\",\"share/man/man8/slapacl.8\",\"share/man/man8/slapadd.8\",\"share/man/man8/slapauth.8\",\"share/man/man8/slapcat.8\",\"share/man/man8/slapd.8\",\"share/man/man8/slapdn.8\",\"share/man/man8/slapindex.8\",\"share/man/man8/slapmodify.8\",\"share/man/man8/slappasswd.8\",\"share/man/man8/slapschema.8\",\"share/man/man8/slaptest.8\"],\"source_modified_time\":1747954647,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/ldapmodify,bin/ldapurl,bin/ldapmodrdn,bin/ldapexop,bin/ldapdelete,bin/ldapwhoami,bin/ldapvc,bin/ldappasswd,bin/ldapsearch,bin/ldapadd,bin/ldapcompare,sbin/slapacl,sbin/slapmodify,sbin/slapindex,sbin/slapadd,sbin/slapauth,sbin/slappasswd,sbin/slapdn,sbin/slapschema,sbin/slaptest,sbin/slapcat"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-09-06T15:43:05Z",
+    "org.opencontainers.image.description": "Open source suite of directory software",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/openldap",
+    "org.opencontainers.image.licenses": "OLDAP-2.8",
+    "org.opencontainers.image.ref.name": "2.6.10_1-1",
+    "org.opencontainers.image.revision": "fdc62d9819b1a01a0d2ba790c8628c409a53f6a9",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/fdc62d9819b1a01a0d2ba790c8628c409a53f6a9/Formula/o/openldap.rb",
+    "org.opencontainers.image.title": "openldap",
+    "org.opencontainers.image.url": "https://www.openldap.org/software/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.6.10_1"
+  }
+}

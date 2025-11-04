@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:944297890602e171b413c2e3b0454bbcfd1873bd84f12ed23e6c8948b330d6e3",
+      "size": 3495,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.0.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "4d8b90c79d3e912e86136a88e49295f76fe2b67803b299c5fbe7ab12f01f4faf",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1087073",
+        "sh.brew.bottle.installed_size": "3635537",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.0-30-gad48b5a\",\"changed_files\":[\"lib/pkgconfig/libsharpyuv.pc\",\"lib/pkgconfig/libwebp.pc\",\"lib/pkgconfig/libwebpdecoder.pc\",\"lib/pkgconfig/libwebpdemux.pc\",\"lib/pkgconfig/libwebpmux.pc\"],\"source_modified_time\":1752094414,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/dwebp,bin/img2webp,bin/webpinfo,bin/gif2webp,bin/cwebp,bin/webpmux"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:006f9b6daecd3915f32a98bdc9726017114ee2ebcafeece33c974f4988422b9e",
+      "size": 3308,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.0.arm64_sequoia",
+        "sh.brew.bottle.digest": "ad74e4538a799bc21e85fb2899c2267f7b6c8761212d195ec3cb3583062ad19e",
+        "sh.brew.bottle.size": "902989",
+        "sh.brew.bottle.installed_size": "2636381",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.0-34-g0a9fec1\",\"changed_files\":[\"lib/pkgconfig/libsharpyuv.pc\",\"lib/pkgconfig/libwebp.pc\",\"lib/pkgconfig/libwebpdecoder.pc\",\"lib/pkgconfig/libwebpdemux.pc\",\"lib/pkgconfig/libwebpmux.pc\"],\"source_modified_time\":1752094414,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/webpmux,bin/webpinfo,bin/img2webp,bin/gif2webp,bin/dwebp,bin/cwebp,bin/vwebp"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:82bb52988353d4864390e845ee6aa2040e0b70c5309cc3b4951efed6bdc631b4",
+      "size": 3305,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.0.arm64_sonoma",
+        "sh.brew.bottle.digest": "2c0172632efa4d17103aad0d82dd27addce7db290b5cf52cd9afcbff3c39a497",
+        "sh.brew.bottle.size": "907643",
+        "sh.brew.bottle.installed_size": "2655893",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.0-34-g0a9fec1\",\"changed_files\":[\"lib/pkgconfig/libsharpyuv.pc\",\"lib/pkgconfig/libwebp.pc\",\"lib/pkgconfig/libwebpdecoder.pc\",\"lib/pkgconfig/libwebpdemux.pc\",\"lib/pkgconfig/libwebpmux.pc\"],\"source_modified_time\":1752094414,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/webpmux,bin/webpinfo,bin/img2webp,bin/gif2webp,bin/dwebp,bin/cwebp,bin/vwebp"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8faa7702bc801c815033cbfbfe3b82099e52f75aa70e6aa74ddb1cffa9bfc4c5",
+      "size": 3308,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.0.arm64_ventura",
+        "sh.brew.bottle.digest": "984de8caf92ff3492d12b9c0afabd97e07139f212222021a6813a2c99f66855d",
+        "sh.brew.bottle.size": "909806",
+        "sh.brew.bottle.installed_size": "2656981",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.0-34-g0a9fec1\",\"changed_files\":[\"lib/pkgconfig/libsharpyuv.pc\",\"lib/pkgconfig/libwebp.pc\",\"lib/pkgconfig/libwebpdecoder.pc\",\"lib/pkgconfig/libwebpdemux.pc\",\"lib/pkgconfig/libwebpmux.pc\"],\"source_modified_time\":1752094414,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/webpmux,bin/webpinfo,bin/img2webp,bin/gif2webp,bin/dwebp,bin/cwebp,bin/vwebp"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:99b82293931f3e5f1d68f254840518d32fd7afe8b57d097ad876ea35a44cb903",
+      "size": 3305,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.0.sonoma",
+        "sh.brew.bottle.digest": "ea4e1ab3ff7e848a8b26a6e851e032887c0a5853d4586e77e98ca586b7f96a35",
+        "sh.brew.bottle.size": "1050259",
+        "sh.brew.bottle.installed_size": "2660998",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.0-34-g0a9fec1\",\"changed_files\":[\"ChangeLog\",\"lib/pkgconfig/libsharpyuv.pc\",\"lib/pkgconfig/libwebp.pc\",\"lib/pkgconfig/libwebpdecoder.pc\",\"lib/pkgconfig/libwebpdemux.pc\",\"lib/pkgconfig/libwebpmux.pc\"],\"source_modified_time\":1752094414,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/webpmux,bin/webpinfo,bin/img2webp,bin/gif2webp,bin/dwebp,bin/cwebp,bin/vwebp"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:244ceaa6b75c691e22c202a51dc7bb2291f2a443b91572a3d7ee4da114ea693c",
+      "size": 3308,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.0.ventura",
+        "sh.brew.bottle.digest": "f5fa0476d932c52eedee49bdfc95d49514a6816f38c479cd8732a866e44ee3b3",
+        "sh.brew.bottle.size": "1060536",
+        "sh.brew.bottle.installed_size": "2939678",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.0-34-g0a9fec1\",\"changed_files\":[\"ChangeLog\",\"lib/pkgconfig/libsharpyuv.pc\",\"lib/pkgconfig/libwebp.pc\",\"lib/pkgconfig/libwebpdecoder.pc\",\"lib/pkgconfig/libwebpdemux.pc\",\"lib/pkgconfig/libwebpmux.pc\"],\"source_modified_time\":1752094414,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/webpmux,bin/webpinfo,bin/img2webp,bin/gif2webp,bin/dwebp,bin/cwebp,bin/vwebp"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:bf99cec315d409b91fe9d06adfc0f4a1fe6fc98466658e9d02721a21b150f4e9",
+      "size": 3500,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "5520d52bce6d837491accd768420cb44e9c64b6bcd4063817668fd5245fc9cfc",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1210565",
+        "sh.brew.bottle.installed_size": "3287507",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.0-30-gad48b5a\",\"changed_files\":[\"lib/pkgconfig/libsharpyuv.pc\",\"lib/pkgconfig/libwebp.pc\",\"lib/pkgconfig/libwebpdecoder.pc\",\"lib/pkgconfig/libwebpdemux.pc\",\"lib/pkgconfig/libwebpmux.pc\"],\"source_modified_time\":1752094414,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/gif2webp,bin/img2webp,bin/cwebp,bin/dwebp,bin/webpmux,bin/webpinfo"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b6c73e789697125e769a9b68c55cf204301535b6cda7a2b2f7c10b60e02d1d26",
+      "size": 3301,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.0.arm64_tahoe",
+        "sh.brew.bottle.digest": "11a19ac5db13a8485d4d6f712d65d48531f99e8d7237407ab42718777eefacb3",
+        "sh.brew.bottle.size": "901860",
+        "sh.brew.bottle.installed_size": "2630540",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-33-g34be148\",\"changed_files\":[\"lib/pkgconfig/libsharpyuv.pc\",\"lib/pkgconfig/libwebp.pc\",\"lib/pkgconfig/libwebpdecoder.pc\",\"lib/pkgconfig/libwebpdemux.pc\",\"lib/pkgconfig/libwebpmux.pc\"],\"source_modified_time\":1752094414,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/webpmux,bin/webpinfo,bin/img2webp,bin/gif2webp,bin/dwebp,bin/cwebp,bin/vwebp"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-08-07T08:31:30Z",
+    "org.opencontainers.image.description": "Image format providing lossless and lossy compression for web images",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/webp",
+    "org.opencontainers.image.licenses": "BSD-3-Clause",
+    "org.opencontainers.image.ref.name": "1.6.0",
+    "org.opencontainers.image.revision": "9fe3e614ac7690ff62e017277032c8474a74552e",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/9fe3e614ac7690ff62e017277032c8474a74552e/Formula/w/webp.rb",
+    "org.opencontainers.image.title": "webp",
+    "org.opencontainers.image.url": "https://developers.google.com/speed/webp/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.6.0"
+  }
+}

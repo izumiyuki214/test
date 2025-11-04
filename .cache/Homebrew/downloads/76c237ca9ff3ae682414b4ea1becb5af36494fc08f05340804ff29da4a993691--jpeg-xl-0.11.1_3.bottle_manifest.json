@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e7181564a72b4b687386123526ace3db2d14d1bc932f7449e6a52e2bb341edec",
+      "size": 6689,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.11.1_3.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "cb085aec6b29e8cd401ba77b5ba655cbcd3041fce47ac51458717f3b1210abc4",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "19451415",
+        "sh.brew.bottle.installed_size": "47593401",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-19-g1da17b8\",\"changed_files\":[\"lib/pkgconfig/libjxl.pc\",\"lib/pkgconfig/libjxl_cms.pc\",\"lib/pkgconfig/libjxl_threads.pc\"],\"source_modified_time\":1732626155,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.1.0\",\"declared_directly\":true},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"highway\",\"version\":\"1.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.0\",\"declared_directly\":true},{\"full_name\":\"imath\",\"version\":\"3.2.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":false},{\"full_name\":\"little-cms2\",\"version\":\"2.17\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.17\",\"declared_directly\":true},{\"full_name\":\"libdeflate\",\"version\":\"1.24\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24\",\"declared_directly\":false},{\"full_name\":\"openjph\",\"version\":\"0.22.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.22.0\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.4.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.0\",\"declared_directly\":true},{\"full_name\":\"webp\",\"version\":\"1.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.0\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.50.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.50.4\",\"declared_directly\":false},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.1\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"bottle_rebuild\":1,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.7\",\"declared_directly\":false}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/decode_and_encode,bin/texture_to_cube,bin/jxlinfo,bin/djxl_fuzzer_corpus,bin/ssimulacra2,bin/benchmark_xl,bin/pq_to_hlg,bin/ssimulacra_main,bin/generate_lut_template,bin/icc_simplify,bin/local_tone_map,bin/xyb_range,bin/tone_map,bin/jxl_from_tree,bin/butteraugli_main,bin/cjxl,bin/exr_to_pq,bin/render_hlg,bin/display_to_hlg,bin/djxl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3ca1f343ef0adb644c29650778f21c443a12139af2e99d5a9418a1b336e19c96",
+      "size": 4608,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.11.1_3.arm64_sequoia",
+        "sh.brew.bottle.digest": "73de0c3b5ca045185ff1dd02c030060c19be06679b3f5be7c1863ddcf82461df",
+        "sh.brew.bottle.size": "13891022",
+        "sh.brew.bottle.installed_size": "36084562",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-21-g3f11702\",\"changed_files\":[\"lib/pkgconfig/libjxl.pc\",\"lib/pkgconfig/libjxl_cms.pc\",\"lib/pkgconfig/libjxl_threads.pc\"],\"source_modified_time\":1732626155,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.1.0\",\"declared_directly\":true},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"highway\",\"version\":\"1.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.0\",\"declared_directly\":true},{\"full_name\":\"imath\",\"version\":\"3.2.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":false},{\"full_name\":\"little-cms2\",\"version\":\"2.17\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.17\",\"declared_directly\":true},{\"full_name\":\"libdeflate\",\"version\":\"1.24\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24\",\"declared_directly\":false},{\"full_name\":\"openjph\",\"version\":\"0.22.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.22.0\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.4.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.0\",\"declared_directly\":true},{\"full_name\":\"webp\",\"version\":\"1.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/djxl,bin/ssimulacra2,bin/jxlinfo,bin/exr_to_pq,bin/jxl_from_tree,bin/butteraugli_main,bin/texture_to_cube,bin/benchmark_xl,bin/generate_lut_template,bin/local_tone_map,bin/xyb_range,bin/display_to_hlg,bin/icc_simplify,bin/pq_to_hlg,bin/djxl_fuzzer_corpus,bin/render_hlg,bin/tone_map,bin/decode_and_encode,bin/cjxl,bin/ssimulacra_main"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e096c7ab91580ac8e1622854d191e5ee34cae2c7d9db498a120b101f7e59892a",
+      "size": 4605,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.11.1_3.arm64_sonoma",
+        "sh.brew.bottle.digest": "da29a81d0b58caeed58e8988e7a90ec57e40760b2e26767e0dc5e0755ee4f97d",
+        "sh.brew.bottle.size": "14157866",
+        "sh.brew.bottle.installed_size": "36783986",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-19-g1da17b8\",\"changed_files\":[\"lib/pkgconfig/libjxl.pc\",\"lib/pkgconfig/libjxl_cms.pc\",\"lib/pkgconfig/libjxl_threads.pc\"],\"source_modified_time\":1732626155,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.1.0\",\"declared_directly\":true},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"highway\",\"version\":\"1.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.0\",\"declared_directly\":true},{\"full_name\":\"imath\",\"version\":\"3.2.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":false},{\"full_name\":\"little-cms2\",\"version\":\"2.17\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.17\",\"declared_directly\":true},{\"full_name\":\"libdeflate\",\"version\":\"1.24\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24\",\"declared_directly\":false},{\"full_name\":\"openjph\",\"version\":\"0.22.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.22.0\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.4.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.0\",\"declared_directly\":true},{\"full_name\":\"webp\",\"version\":\"1.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/djxl,bin/ssimulacra2,bin/jxlinfo,bin/exr_to_pq,bin/jxl_from_tree,bin/butteraugli_main,bin/texture_to_cube,bin/benchmark_xl,bin/generate_lut_template,bin/local_tone_map,bin/xyb_range,bin/display_to_hlg,bin/icc_simplify,bin/pq_to_hlg,bin/djxl_fuzzer_corpus,bin/render_hlg,bin/tone_map,bin/decode_and_encode,bin/cjxl,bin/ssimulacra_main"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1ab61cc05fb49859841c7cf0916a5374ebe43c210d327887155bd13a4dac764a",
+      "size": 4608,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.11.1_3.arm64_ventura",
+        "sh.brew.bottle.digest": "565bc7b3c96e8f5e39f4cb0fa197071448eb57ead24ee953455d425b0996345f",
+        "sh.brew.bottle.size": "13914210",
+        "sh.brew.bottle.installed_size": "33439618",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-19-g1da17b8\",\"changed_files\":[\"lib/pkgconfig/libjxl.pc\",\"lib/pkgconfig/libjxl_cms.pc\",\"lib/pkgconfig/libjxl_threads.pc\"],\"source_modified_time\":1732626155,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.1.0\",\"declared_directly\":true},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"highway\",\"version\":\"1.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.0\",\"declared_directly\":true},{\"full_name\":\"imath\",\"version\":\"3.2.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":false},{\"full_name\":\"little-cms2\",\"version\":\"2.17\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.17\",\"declared_directly\":true},{\"full_name\":\"libdeflate\",\"version\":\"1.24\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24\",\"declared_directly\":false},{\"full_name\":\"openjph\",\"version\":\"0.22.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.22.0\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.4.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.0\",\"declared_directly\":true},{\"full_name\":\"webp\",\"version\":\"1.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/djxl,bin/ssimulacra2,bin/jxlinfo,bin/exr_to_pq,bin/jxl_from_tree,bin/butteraugli_main,bin/texture_to_cube,bin/benchmark_xl,bin/generate_lut_template,bin/local_tone_map,bin/xyb_range,bin/display_to_hlg,bin/icc_simplify,bin/pq_to_hlg,bin/djxl_fuzzer_corpus,bin/render_hlg,bin/tone_map,bin/decode_and_encode,bin/cjxl,bin/ssimulacra_main"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9e05dd97b73f4ee5bbc444d8c030cc2517b8248596bd2e0c63ea8809ecd6c9ca",
+      "size": 4589,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.11.1_3.sonoma",
+        "sh.brew.bottle.digest": "1aeb4fc9fb480313485f8681f532fe2c511de1deab15383c57b28769a32148f6",
+        "sh.brew.bottle.size": "19145238",
+        "sh.brew.bottle.installed_size": "55919657",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-19-g1da17b8\",\"changed_files\":[\"lib/pkgconfig/libjxl.pc\",\"lib/pkgconfig/libjxl_cms.pc\",\"lib/pkgconfig/libjxl_threads.pc\"],\"source_modified_time\":1732626155,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.1.0\",\"declared_directly\":true},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"highway\",\"version\":\"1.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.0\",\"declared_directly\":true},{\"full_name\":\"imath\",\"version\":\"3.2.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":false},{\"full_name\":\"little-cms2\",\"version\":\"2.17\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.17\",\"declared_directly\":true},{\"full_name\":\"libdeflate\",\"version\":\"1.24\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24\",\"declared_directly\":false},{\"full_name\":\"openjph\",\"version\":\"0.22.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.22.0\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.4.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.0\",\"declared_directly\":true},{\"full_name\":\"webp\",\"version\":\"1.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/djxl,bin/ssimulacra2,bin/jxlinfo,bin/exr_to_pq,bin/jxl_from_tree,bin/butteraugli_main,bin/texture_to_cube,bin/benchmark_xl,bin/generate_lut_template,bin/local_tone_map,bin/xyb_range,bin/display_to_hlg,bin/icc_simplify,bin/pq_to_hlg,bin/djxl_fuzzer_corpus,bin/render_hlg,bin/tone_map,bin/decode_and_encode,bin/cjxl,bin/ssimulacra_main"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:4cfb22587106487186a3f8b21fc692bccb05e5219ecf6ac70d233086edf40966",
+      "size": 4592,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.11.1_3.ventura",
+        "sh.brew.bottle.digest": "6833f6747b3593cc25c952847208aad213f602dbe607812f83e8c555750cadc3",
+        "sh.brew.bottle.size": "19630256",
+        "sh.brew.bottle.installed_size": "58473777",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-19-g1da17b8\",\"changed_files\":[\"lib/pkgconfig/libjxl.pc\",\"lib/pkgconfig/libjxl_cms.pc\",\"lib/pkgconfig/libjxl_threads.pc\"],\"source_modified_time\":1732626155,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.1.0\",\"declared_directly\":true},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"highway\",\"version\":\"1.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.0\",\"declared_directly\":true},{\"full_name\":\"imath\",\"version\":\"3.2.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":false},{\"full_name\":\"little-cms2\",\"version\":\"2.17\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.17\",\"declared_directly\":true},{\"full_name\":\"libdeflate\",\"version\":\"1.24\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24\",\"declared_directly\":false},{\"full_name\":\"openjph\",\"version\":\"0.22.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.22.0\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.4.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.0\",\"declared_directly\":true},{\"full_name\":\"webp\",\"version\":\"1.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/djxl,bin/ssimulacra2,bin/jxlinfo,bin/exr_to_pq,bin/jxl_from_tree,bin/butteraugli_main,bin/texture_to_cube,bin/benchmark_xl,bin/generate_lut_template,bin/local_tone_map,bin/xyb_range,bin/display_to_hlg,bin/icc_simplify,bin/pq_to_hlg,bin/djxl_fuzzer_corpus,bin/render_hlg,bin/tone_map,bin/decode_and_encode,bin/cjxl,bin/ssimulacra_main"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3f217f8e03060ac78675bbf8c665d76c0865f5f5e991bdd56365cdbe3dac2787",
+      "size": 6694,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.11.1_3.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "d9c5316dbb34c75942763b74b129daf0a49661b0e3b0f1687fef9de566eb3c91",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "24404582",
+        "sh.brew.bottle.installed_size": "69971055",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.9-19-g1da17b8\",\"changed_files\":[\"lib/pkgconfig/libjxl.pc\",\"lib/pkgconfig/libjxl_cms.pc\",\"lib/pkgconfig/libjxl_threads.pc\"],\"source_modified_time\":1732626155,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.1.0\",\"declared_directly\":true},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"highway\",\"version\":\"1.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.0\",\"declared_directly\":true},{\"full_name\":\"imath\",\"version\":\"3.2.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":false},{\"full_name\":\"little-cms2\",\"version\":\"2.17\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.17\",\"declared_directly\":true},{\"full_name\":\"libdeflate\",\"version\":\"1.24\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24\",\"declared_directly\":false},{\"full_name\":\"openjph\",\"version\":\"0.22.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.22.0\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.4.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.0\",\"declared_directly\":true},{\"full_name\":\"webp\",\"version\":\"1.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.0\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.50.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.50.4\",\"declared_directly\":false},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.1\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"bottle_rebuild\":1,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.7\",\"declared_directly\":false}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/generate_lut_template,bin/texture_to_cube,bin/decode_and_encode,bin/local_tone_map,bin/cjxl,bin/ssimulacra2,bin/icc_simplify,bin/jxlinfo,bin/butteraugli_main,bin/djxl,bin/pq_to_hlg,bin/render_hlg,bin/jxl_from_tree,bin/benchmark_xl,bin/exr_to_pq,bin/tone_map,bin/xyb_range,bin/djxl_fuzzer_corpus,bin/ssimulacra_main,bin/display_to_hlg"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a7f04a6f5d33702480551c8878f96771738d97a429d23cac00e7ac921031a878",
+      "size": 4601,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.11.1_3.arm64_tahoe",
+        "sh.brew.bottle.digest": "f2c0ca06fd06dc92da7e195f0aaa729f4571ea2a9af3f2d60e51da78139888aa",
+        "sh.brew.bottle.size": "13791433",
+        "sh.brew.bottle.installed_size": "35788113",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-33-g34be148\",\"changed_files\":[\"lib/pkgconfig/libjxl.pc\",\"lib/pkgconfig/libjxl_cms.pc\",\"lib/pkgconfig/libjxl_threads.pc\"],\"source_modified_time\":1732626155,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.1.0\",\"declared_directly\":true},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":true},{\"full_name\":\"highway\",\"version\":\"1.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.0\",\"declared_directly\":true},{\"full_name\":\"imath\",\"version\":\"3.2.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":false},{\"full_name\":\"little-cms2\",\"version\":\"2.17\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.17\",\"declared_directly\":true},{\"full_name\":\"libdeflate\",\"version\":\"1.24\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24\",\"declared_directly\":false},{\"full_name\":\"openjph\",\"version\":\"0.22.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.22.0\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.4.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.0\",\"declared_directly\":true},{\"full_name\":\"webp\",\"version\":\"1.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/djxl,bin/ssimulacra2,bin/jxlinfo,bin/exr_to_pq,bin/jxl_from_tree,bin/butteraugli_main,bin/texture_to_cube,bin/benchmark_xl,bin/generate_lut_template,bin/local_tone_map,bin/xyb_range,bin/display_to_hlg,bin/icc_simplify,bin/pq_to_hlg,bin/djxl_fuzzer_corpus,bin/render_hlg,bin/tone_map,bin/decode_and_encode,bin/cjxl,bin/ssimulacra_main"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-09-06T00:34:08Z",
+    "org.opencontainers.image.description": "New file format for still image compression",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/jpeg-xl",
+    "org.opencontainers.image.licenses": "BSD-3-Clause",
+    "org.opencontainers.image.ref.name": "0.11.1_3",
+    "org.opencontainers.image.revision": "bc757f97ec893b3d9e640b777cd29c914e1476c8",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/bc757f97ec893b3d9e640b777cd29c914e1476c8/Formula/j/jpeg-xl.rb",
+    "org.opencontainers.image.title": "jpeg-xl",
+    "org.opencontainers.image.url": "https://jpeg.org/jpegxl/index.html",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "0.11.1_3"
+  }
+}

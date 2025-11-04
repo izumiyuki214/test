@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:aa19b1c0b087b37be9b8c03c9403142e4668f261e0b7edeaa3db1af6a34f3348",
+      "size": 3971,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "18.0.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "04f59478f4bb3fe1f2c0e3645915cd5871ecf8e9293bb8e7776c0dac7f2061b7",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "8662786",
+        "sh.brew.bottle.installed_size": "39713003",
+        "sh.brew.license": "PostgreSQL",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.13-4-g4747ead\",\"changed_files\":[\"include/pg_config.h\",\"include/postgresql/server/pg_config.h\",\"lib/pkgconfig/libecpg.pc\",\"lib/pkgconfig/libecpg_compat.pc\",\"lib/pkgconfig/libpgtypes.pc\",\"lib/pkgconfig/libpq.pc\"],\"source_modified_time\":1758571893,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"icu4c@77\",\"version\":\"77.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"77.1\",\"declared_directly\":true},{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":true},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":true},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/pg_ctl,bin/clusterdb,bin/pg_isready,bin/ecpg,bin/pg_resetwal,bin/pg_combinebackup,bin/pg_config,bin/reindexdb,bin/pg_test_fsync,bin/dropuser,bin/pg_walsummary,bin/pg_createsubscriber,bin/pg_restore,bin/pg_waldump,bin/pg_controldata,bin/pg_archivecleanup,bin/vacuumdb,bin/pg_test_timing,bin/pg_recvlogical,bin/pg_upgrade,bin/pgbench,bin/dropdb,bin/createuser,bin/pg_amcheck,bin/pg_rewind,bin/pg_verifybackup,bin/psql,bin/createdb,bin/pg_basebackup,bin/initdb,bin/pg_dumpall,bin/pg_checksums,bin/pg_receivewal,bin/pg_dump"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:47f0dab3dc8866069f9b479511f9a0d4492c74cfb04c79a2e32923da4c8dcf3c",
+      "size": 3347,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "18.0.arm64_sequoia",
+        "sh.brew.bottle.digest": "3d598f9d52ab87201a766bb9e2f2994936a648715835fd117ebdcd4053657a51",
+        "sh.brew.bottle.size": "7905477",
+        "sh.brew.bottle.installed_size": "35376290",
+        "sh.brew.license": "PostgreSQL",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.13-4-g4747ead\",\"changed_files\":[\"include/pg_config.h\",\"include/postgresql/server/pg_config.h\",\"lib/pkgconfig/libecpg.pc\",\"lib/pkgconfig/libecpg_compat.pc\",\"lib/pkgconfig/libpgtypes.pc\",\"lib/pkgconfig/libpq.pc\"],\"source_modified_time\":1758571893,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"icu4c@77\",\"version\":\"77.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"77.1\",\"declared_directly\":true},{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/pg_rewind,bin/ecpg,bin/pg_basebackup,bin/pg_restore,bin/pg_isready,bin/createuser,bin/pg_config,bin/pg_dumpall,bin/pg_createsubscriber,bin/pg_test_fsync,bin/pg_walsummary,bin/pg_combinebackup,bin/initdb,bin/pg_waldump,bin/createdb,bin/reindexdb,bin/pg_verifybackup,bin/pg_receivewal,bin/pg_amcheck,bin/dropdb,bin/psql,bin/pg_checksums,bin/clusterdb,bin/pg_archivecleanup,bin/dropuser,bin/pg_controldata,bin/pg_recvlogical,bin/pg_test_timing,bin/pg_upgrade,bin/pg_ctl,bin/vacuumdb,bin/pgbench,bin/pg_resetwal,bin/pg_dump"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:cc869f0cd073b12e344e1d5b6b915dde1c683fc9abb3247becdfe82e4d34024d",
+      "size": 3344,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "18.0.arm64_sonoma",
+        "sh.brew.bottle.digest": "c461783362ef84350fefa58ba6125b75def2be4fe3d280e6352c47d5d3853c3c",
+        "sh.brew.bottle.size": "7902259",
+        "sh.brew.bottle.installed_size": "35357762",
+        "sh.brew.license": "PostgreSQL",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.13-4-g4747ead\",\"changed_files\":[\"include/pg_config.h\",\"include/postgresql/server/pg_config.h\",\"lib/pkgconfig/libecpg.pc\",\"lib/pkgconfig/libecpg_compat.pc\",\"lib/pkgconfig/libpgtypes.pc\",\"lib/pkgconfig/libpq.pc\"],\"source_modified_time\":1758571893,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"icu4c@77\",\"version\":\"77.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"77.1\",\"declared_directly\":true},{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/pg_rewind,bin/ecpg,bin/pg_basebackup,bin/pg_restore,bin/pg_isready,bin/createuser,bin/pg_config,bin/pg_dumpall,bin/pg_createsubscriber,bin/pg_test_fsync,bin/pg_walsummary,bin/pg_combinebackup,bin/initdb,bin/pg_waldump,bin/createdb,bin/reindexdb,bin/pg_verifybackup,bin/pg_receivewal,bin/pg_amcheck,bin/dropdb,bin/psql,bin/pg_checksums,bin/clusterdb,bin/pg_archivecleanup,bin/dropuser,bin/pg_controldata,bin/pg_recvlogical,bin/pg_test_timing,bin/pg_upgrade,bin/pg_ctl,bin/vacuumdb,bin/pgbench,bin/pg_resetwal,bin/pg_dump"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:15d050eb008f1773eed812437e7d4f8bb133fe90b4430fec691f0f4c3dfe318d",
+      "size": 3339,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "18.0.arm64_tahoe",
+        "sh.brew.bottle.digest": "c18bfa80a4e1d0dc070110db4d049c2c8ade1e6e99d63137f75f6a71c588eacf",
+        "sh.brew.bottle.size": "7904066",
+        "sh.brew.bottle.installed_size": "35364672",
+        "sh.brew.license": "PostgreSQL",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.13-4-g4747ead\",\"changed_files\":[\"include/pg_config.h\",\"include/postgresql/server/pg_config.h\",\"lib/pkgconfig/libecpg.pc\",\"lib/pkgconfig/libecpg_compat.pc\",\"lib/pkgconfig/libpgtypes.pc\",\"lib/pkgconfig/libpq.pc\"],\"source_modified_time\":1758571893,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"icu4c@77\",\"version\":\"77.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"77.1\",\"declared_directly\":true},{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/pg_rewind,bin/ecpg,bin/pg_basebackup,bin/pg_restore,bin/pg_isready,bin/createuser,bin/pg_config,bin/pg_dumpall,bin/pg_createsubscriber,bin/pg_test_fsync,bin/pg_walsummary,bin/pg_combinebackup,bin/initdb,bin/pg_waldump,bin/createdb,bin/reindexdb,bin/pg_verifybackup,bin/pg_receivewal,bin/pg_amcheck,bin/dropdb,bin/psql,bin/pg_checksums,bin/clusterdb,bin/pg_archivecleanup,bin/dropuser,bin/pg_controldata,bin/pg_recvlogical,bin/pg_test_timing,bin/pg_upgrade,bin/pg_ctl,bin/vacuumdb,bin/pgbench,bin/pg_resetwal,bin/pg_dump"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a316250c6fab50a3ccee51bedd5530777ca8a21afb5fbb35708c2fdcdf14d235",
+      "size": 3328,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "18.0.sonoma",
+        "sh.brew.bottle.digest": "7a11639f02dace4fc119a01cb6289e8135a274acb3eb50aedc038056a54bc578",
+        "sh.brew.bottle.size": "7889822",
+        "sh.brew.bottle.installed_size": "33712768",
+        "sh.brew.license": "PostgreSQL",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.13-4-g4747ead\",\"changed_files\":[\"include/pg_config.h\",\"include/postgresql/server/pg_config.h\",\"lib/pkgconfig/libecpg.pc\",\"lib/pkgconfig/libecpg_compat.pc\",\"lib/pkgconfig/libpgtypes.pc\",\"lib/pkgconfig/libpq.pc\"],\"source_modified_time\":1758571893,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"icu4c@77\",\"version\":\"77.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"77.1\",\"declared_directly\":true},{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/pg_rewind,bin/ecpg,bin/pg_basebackup,bin/pg_restore,bin/pg_isready,bin/createuser,bin/pg_config,bin/pg_dumpall,bin/pg_createsubscriber,bin/pg_test_fsync,bin/pg_walsummary,bin/pg_combinebackup,bin/initdb,bin/pg_waldump,bin/createdb,bin/reindexdb,bin/pg_verifybackup,bin/pg_receivewal,bin/pg_amcheck,bin/dropdb,bin/psql,bin/pg_checksums,bin/clusterdb,bin/pg_archivecleanup,bin/dropuser,bin/pg_controldata,bin/pg_recvlogical,bin/pg_test_timing,bin/pg_upgrade,bin/pg_ctl,bin/vacuumdb,bin/pgbench,bin/pg_resetwal,bin/pg_dump"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:26167241206be6fc6f64175fa766d3ec659965a6913b387d83203dee759a7e5f",
+      "size": 3976,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "18.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "f40cc688f06fb820de47f84243a51d654227dc82d154a2f43b5905eb114b7f73",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "8630498",
+        "sh.brew.bottle.installed_size": "36509779",
+        "sh.brew.license": "PostgreSQL",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.13-4-g4747ead\",\"changed_files\":[\"include/pg_config.h\",\"include/postgresql/server/pg_config.h\",\"lib/pkgconfig/libecpg.pc\",\"lib/pkgconfig/libecpg_compat.pc\",\"lib/pkgconfig/libpgtypes.pc\",\"lib/pkgconfig/libpq.pc\"],\"source_modified_time\":1758571893,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"icu4c@77\",\"version\":\"77.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"77.1\",\"declared_directly\":true},{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":true},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":true},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/pg_controldata,bin/pg_dumpall,bin/pg_archivecleanup,bin/pg_config,bin/pg_checksums,bin/psql,bin/pg_walsummary,bin/pg_test_timing,bin/pg_test_fsync,bin/createdb,bin/pg_recvlogical,bin/pg_resetwal,bin/vacuumdb,bin/pg_combinebackup,bin/dropdb,bin/pg_rewind,bin/pg_verifybackup,bin/pg_basebackup,bin/pg_upgrade,bin/pg_ctl,bin/ecpg,bin/initdb,bin/pg_receivewal,bin/pg_isready,bin/pg_dump,bin/reindexdb,bin/pg_createsubscriber,bin/pg_amcheck,bin/pgbench,bin/pg_waldump,bin/dropuser,bin/createuser,bin/pg_restore,bin/clusterdb"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-09-25T14:28:30Z",
+    "org.opencontainers.image.description": "Postgres C API library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libpq",
+    "org.opencontainers.image.licenses": "PostgreSQL",
+    "org.opencontainers.image.ref.name": "18.0",
+    "org.opencontainers.image.revision": "e112bf8579c878b0dc7bf9672473542708c4373f",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/e112bf8579c878b0dc7bf9672473542708c4373f/Formula/lib/libpq.rb",
+    "org.opencontainers.image.title": "libpq",
+    "org.opencontainers.image.url": "https://www.postgresql.org/docs/current/libpq.html",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "18.0"
+  }
+}

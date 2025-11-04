@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:cd1188c088452f5134a238ce7e31793dca8299c3410e97cf3a3d2ad3ca446476",
+      "size": 2161,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.2.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "be13320613472344b92cb55712581bdd059a5137d4f3edd60781b5d99946de95",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "196478",
+        "sh.brew.bottle.installed_size": "992536",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-55-g04d0386\",\"changed_files\":[\"lib/pkgconfig/Imath.pc\"],\"source_modified_time\":1759850240,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3d4fb72fe47d3f42d28737861df8353bc867278a2feb5c9a283b8b637f27c8f9",
+      "size": 2078,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.2.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "473751d9832776b48e077e901e51d68bc141f3b53f84d47ea92ea78acab812d2",
+        "sh.brew.bottle.size": "194427",
+        "sh.brew.bottle.installed_size": "988666",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-55-g04d0386\",\"changed_files\":[\"lib/pkgconfig/Imath.pc\"],\"source_modified_time\":1759850240,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:5ef91601190d84de401897cb1c637455493a6c1e86296f36e53f51c856671623",
+      "size": 2075,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.2.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "695ca118bef6d41442b21fe26c5f26dd22be274dc6a914b535e37b93907f9dc2",
+        "sh.brew.bottle.size": "194240",
+        "sh.brew.bottle.installed_size": "988682",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-55-g04d0386\",\"changed_files\":[\"lib/pkgconfig/Imath.pc\"],\"source_modified_time\":1759850240,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:48ada53aa29b52222cba3e02d12836b021e4a4861276696b8564f357b4f9ec04",
+      "size": 2070,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.2.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "ce46ad834b2daf8d6e85f8f2ffa5ee5bb0ef241d8f55effedf54bba69e8a6437",
+        "sh.brew.bottle.size": "194260",
+        "sh.brew.bottle.installed_size": "986680",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-55-g04d0386\",\"changed_files\":[\"lib/pkgconfig/Imath.pc\"],\"source_modified_time\":1759850240,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d73937681ef40f281f872d18bcfcbd0c74e862c47a05cd76169e44f8d0a4f3d5",
+      "size": 2059,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.2.2.sonoma",
+        "sh.brew.bottle.digest": "72a4653f1f1b9e820fcb53cd85720264dd29d9de6346d97a600d8177799020af",
+        "sh.brew.bottle.size": "195146",
+        "sh.brew.bottle.installed_size": "947271",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-55-g04d0386\",\"changed_files\":[\"lib/pkgconfig/Imath.pc\"],\"source_modified_time\":1759850240,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:02cba279d4f63c44ffe73c125b42140e2fed752602d83f5943b8e7ee2991fbbb",
+      "size": 2167,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.2.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "66774757b29808a5fde422b5ddb395c14419f9e8d10bab44897777734fd52d26",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "202322",
+        "sh.brew.bottle.installed_size": "1000730",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-55-g04d0386\",\"changed_files\":[\"lib/pkgconfig/Imath.pc\"],\"source_modified_time\":1759850240,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-10-08T20:09:39Z",
+    "org.opencontainers.image.description": "Library of 2D and 3D vector, matrix, and math operations",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/imath",
+    "org.opencontainers.image.licenses": "BSD-3-Clause",
+    "org.opencontainers.image.ref.name": "3.2.2",
+    "org.opencontainers.image.revision": "62b6be8d65206584e06f9d3f7c9458e692eab410",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/62b6be8d65206584e06f9d3f7c9458e692eab410/Formula/i/imath.rb",
+    "org.opencontainers.image.title": "imath",
+    "org.opencontainers.image.url": "https://imath.readthedocs.io/en/latest/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "3.2.2"
+  }
+}

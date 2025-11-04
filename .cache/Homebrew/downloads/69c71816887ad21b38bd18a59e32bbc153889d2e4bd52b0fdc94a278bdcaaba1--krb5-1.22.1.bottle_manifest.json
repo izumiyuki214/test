@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e80bedef365f61608f584a6417c17a67a00d26f50eee66fa957a6a50c6955ead",
+      "size": 3458,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.22.1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "5d657c89c3796d2acc33c0af7e707df90866fc8b83d20c0b80df7178005d2595",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1763002",
+        "sh.brew.bottle.installed_size": "8444908",
+        "sh.brew.license": "LicenseRef-Homebrew-cannot-represent",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.6-6-gb6976f3\",\"changed_files\":[\"bin/compile_et\",\"bin/krb5-config\",\"lib/pkgconfig/gssrpc.pc\",\"lib/pkgconfig/kadm-client.pc\",\"lib/pkgconfig/kadm-server.pc\",\"lib/pkgconfig/kdb.pc\",\"lib/pkgconfig/krb5-gssapi.pc\",\"lib/pkgconfig/krb5.pc\",\"lib/pkgconfig/mit-krb5-gssapi.pc\",\"lib/pkgconfig/mit-krb5.pc\",\"share/man/man5/krb5.conf.5\",\"share/man/man7/kerberos.7\"],\"source_modified_time\":1755719165,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/klist,bin/kvno,bin/sim_client,bin/compile_et,bin/ktutil,bin/sclient,bin/uuclient,bin/ksu,bin/krb5-config,bin/kpasswd,bin/kinit,bin/kadmin,bin/kswitch,bin/gss-client,bin/kdestroy,bin/k5srvutil,sbin/krb5-send-pr,sbin/kprop,sbin/sim_server,sbin/gss-server,sbin/kdb5_util,sbin/uuserver,sbin/kpropd,sbin/krb5kdc,sbin/sserver,sbin/kproplog,sbin/kadmind,sbin/kadmin.local"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9cf7cba8dd936d5b0875eaceb6943bdef6471ae71614fde557311639836a31b5",
+      "size": 3103,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.22.1.arm64_sequoia",
+        "sh.brew.bottle.digest": "902884745603d3d55cdbe5e30ca2972a1d0829ae2512f6ef8e8731d92a607938",
+        "sh.brew.bottle.size": "1333395",
+        "sh.brew.bottle.installed_size": "5897701",
+        "sh.brew.license": "LicenseRef-Homebrew-cannot-represent",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.6-6-gb6976f3\",\"changed_files\":[\"bin/compile_et\",\"bin/krb5-config\",\"lib/pkgconfig/gssrpc.pc\",\"lib/pkgconfig/kadm-client.pc\",\"lib/pkgconfig/kadm-server.pc\",\"lib/pkgconfig/kdb.pc\",\"lib/pkgconfig/krb5-gssapi.pc\",\"lib/pkgconfig/krb5.pc\",\"lib/pkgconfig/mit-krb5-gssapi.pc\",\"lib/pkgconfig/mit-krb5.pc\",\"share/man/man5/krb5.conf.5\",\"share/man/man7/kerberos.7\"],\"source_modified_time\":1755719165,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/k5srvutil,bin/ktutil,bin/uuclient,bin/krb5-config,bin/kinit,bin/kpasswd,bin/kdestroy,bin/kvno,bin/gss-client,bin/compile_et,bin/sclient,bin/kswitch,bin/kadmin,bin/sim_client,bin/klist,sbin/kproplog,sbin/krb5kdc,sbin/gss-server,sbin/sserver,sbin/kprop,sbin/kadmin.local,sbin/kdb5_util,sbin/kpropd,sbin/sim_server,sbin/kadmind,sbin/uuserver,sbin/krb5-send-pr"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:63ff4e391ab29b1bc5461db5251ba8e946e9608832d7f7a3115068749510f1ec",
+      "size": 3100,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.22.1.arm64_sonoma",
+        "sh.brew.bottle.digest": "5dc445bcf366abc34e62ae564695d123ce24ee9c0d625de7c62f4d0785a110ba",
+        "sh.brew.bottle.size": "1331498",
+        "sh.brew.bottle.installed_size": "5913749",
+        "sh.brew.license": "LicenseRef-Homebrew-cannot-represent",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.6-6-gb6976f3\",\"changed_files\":[\"bin/compile_et\",\"bin/krb5-config\",\"lib/pkgconfig/gssrpc.pc\",\"lib/pkgconfig/kadm-client.pc\",\"lib/pkgconfig/kadm-server.pc\",\"lib/pkgconfig/kdb.pc\",\"lib/pkgconfig/krb5-gssapi.pc\",\"lib/pkgconfig/krb5.pc\",\"lib/pkgconfig/mit-krb5-gssapi.pc\",\"lib/pkgconfig/mit-krb5.pc\",\"share/man/man5/krb5.conf.5\",\"share/man/man7/kerberos.7\"],\"source_modified_time\":1755719165,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/k5srvutil,bin/ktutil,bin/uuclient,bin/krb5-config,bin/kinit,bin/kpasswd,bin/kdestroy,bin/kvno,bin/gss-client,bin/compile_et,bin/sclient,bin/kswitch,bin/kadmin,bin/sim_client,bin/klist,sbin/kproplog,sbin/krb5kdc,sbin/gss-server,sbin/sserver,sbin/kprop,sbin/kadmin.local,sbin/kdb5_util,sbin/kpropd,sbin/sim_server,sbin/kadmind,sbin/uuserver,sbin/krb5-send-pr"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:07054010ec53cab130a3e66bd37a6dcbb907e0de1495fba3e818d6701b8979e3",
+      "size": 3103,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.22.1.arm64_ventura",
+        "sh.brew.bottle.digest": "ac9341e0db85afbf17f8d923d67527d5d6cac7c9dd0da09dbab36ffe5d9c2a02",
+        "sh.brew.bottle.size": "1338140",
+        "sh.brew.bottle.installed_size": "5930405",
+        "sh.brew.license": "LicenseRef-Homebrew-cannot-represent",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.6-6-gb6976f3\",\"changed_files\":[\"bin/compile_et\",\"bin/krb5-config\",\"lib/pkgconfig/gssrpc.pc\",\"lib/pkgconfig/kadm-client.pc\",\"lib/pkgconfig/kadm-server.pc\",\"lib/pkgconfig/kdb.pc\",\"lib/pkgconfig/krb5-gssapi.pc\",\"lib/pkgconfig/krb5.pc\",\"lib/pkgconfig/mit-krb5-gssapi.pc\",\"lib/pkgconfig/mit-krb5.pc\",\"share/man/man5/krb5.conf.5\",\"share/man/man7/kerberos.7\"],\"source_modified_time\":1755719165,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/k5srvutil,bin/ktutil,bin/uuclient,bin/krb5-config,bin/kinit,bin/kpasswd,bin/kdestroy,bin/kvno,bin/gss-client,bin/compile_et,bin/sclient,bin/kswitch,bin/kadmin,bin/sim_client,bin/klist,sbin/kproplog,sbin/krb5kdc,sbin/gss-server,sbin/sserver,sbin/kprop,sbin/kadmin.local,sbin/kdb5_util,sbin/kpropd,sbin/sim_server,sbin/kadmind,sbin/uuserver,sbin/krb5-send-pr"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:90b18cb33f44ca393d0a5fc9007dc668b5221e71bd5f19f93b1d6309d6e33bee",
+      "size": 3147,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.22.1.sonoma",
+        "sh.brew.bottle.digest": "b6af4b9221012af0d3e7d364713d1ce95cc10e490973b66766fe3113409f0acd",
+        "sh.brew.bottle.size": "1326860",
+        "sh.brew.bottle.installed_size": "4150079",
+        "sh.brew.license": "LicenseRef-Homebrew-cannot-represent",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.6-6-gb6976f3\",\"changed_files\":[\"bin/compile_et\",\"bin/krb5-config\",\"lib/pkgconfig/gssrpc.pc\",\"lib/pkgconfig/kadm-client.pc\",\"lib/pkgconfig/kadm-server.pc\",\"lib/pkgconfig/kdb.pc\",\"lib/pkgconfig/krb5-gssapi.pc\",\"lib/pkgconfig/krb5.pc\",\"lib/pkgconfig/mit-krb5-gssapi.pc\",\"lib/pkgconfig/mit-krb5.pc\",\"share/examples/krb5/kdc.conf\",\"share/man/man5/kdc.conf.5\",\"share/man/man5/krb5.conf.5\",\"share/man/man7/kerberos.7\"],\"source_modified_time\":1755719165,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/k5srvutil,bin/ktutil,bin/uuclient,bin/krb5-config,bin/kinit,bin/kpasswd,bin/kdestroy,bin/kvno,bin/gss-client,bin/compile_et,bin/sclient,bin/kswitch,bin/kadmin,bin/sim_client,bin/klist,sbin/kproplog,sbin/krb5kdc,sbin/gss-server,sbin/sserver,sbin/kprop,sbin/kadmin.local,sbin/kdb5_util,sbin/kpropd,sbin/sim_server,sbin/kadmind,sbin/uuserver,sbin/krb5-send-pr"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e882101324d3d2d094fe5d79b7c620dd104e2db6f9061dbe73b26b7d99fc3fb3",
+      "size": 3150,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.22.1.ventura",
+        "sh.brew.bottle.digest": "3816d54634a8bee2ac51dda7c8cb5fd6dc3e9a25693c9242b9b80f4c9c262fd1",
+        "sh.brew.bottle.size": "1347501",
+        "sh.brew.bottle.installed_size": "5199079",
+        "sh.brew.license": "LicenseRef-Homebrew-cannot-represent",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.6-6-gb6976f3\",\"changed_files\":[\"bin/compile_et\",\"bin/krb5-config\",\"lib/pkgconfig/gssrpc.pc\",\"lib/pkgconfig/kadm-client.pc\",\"lib/pkgconfig/kadm-server.pc\",\"lib/pkgconfig/kdb.pc\",\"lib/pkgconfig/krb5-gssapi.pc\",\"lib/pkgconfig/krb5.pc\",\"lib/pkgconfig/mit-krb5-gssapi.pc\",\"lib/pkgconfig/mit-krb5.pc\",\"share/examples/krb5/kdc.conf\",\"share/man/man5/kdc.conf.5\",\"share/man/man5/krb5.conf.5\",\"share/man/man7/kerberos.7\"],\"source_modified_time\":1755719165,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/k5srvutil,bin/ktutil,bin/uuclient,bin/krb5-config,bin/kinit,bin/kpasswd,bin/kdestroy,bin/kvno,bin/gss-client,bin/compile_et,bin/sclient,bin/kswitch,bin/kadmin,bin/sim_client,bin/klist,sbin/kproplog,sbin/krb5kdc,sbin/gss-server,sbin/sserver,sbin/kprop,sbin/kadmin.local,sbin/kdb5_util,sbin/kpropd,sbin/sim_server,sbin/kadmind,sbin/uuserver,sbin/krb5-send-pr"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9c806d35881b1f5593e6502f3ad4400244a3450def9a2b6c15d519416e163367",
+      "size": 3463,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.22.1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "fe519bd1bd2742d34763055beac8767693c1a8a8c412259829f39b9d1a6c6a66",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1720042",
+        "sh.brew.bottle.installed_size": "5599134",
+        "sh.brew.license": "LicenseRef-Homebrew-cannot-represent",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.6-6-gb6976f3\",\"changed_files\":[\"bin/compile_et\",\"bin/krb5-config\",\"lib/pkgconfig/gssrpc.pc\",\"lib/pkgconfig/kadm-client.pc\",\"lib/pkgconfig/kadm-server.pc\",\"lib/pkgconfig/kdb.pc\",\"lib/pkgconfig/krb5-gssapi.pc\",\"lib/pkgconfig/krb5.pc\",\"lib/pkgconfig/mit-krb5-gssapi.pc\",\"lib/pkgconfig/mit-krb5.pc\",\"share/man/man5/krb5.conf.5\",\"share/man/man7/kerberos.7\"],\"source_modified_time\":1755719165,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-08-12\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-08-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/ktutil,bin/k5srvutil,bin/sclient,bin/klist,bin/krb5-config,bin/kpasswd,bin/kvno,bin/gss-client,bin/sim_client,bin/kadmin,bin/kswitch,bin/uuclient,bin/compile_et,bin/kinit,bin/kdestroy,bin/ksu,sbin/sserver,sbin/kadmin.local,sbin/kdb5_util,sbin/gss-server,sbin/krb5kdc,sbin/kproplog,sbin/sim_server,sbin/kadmind,sbin/kprop,sbin/uuserver,sbin/krb5-send-pr,sbin/kpropd"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9d555b0c60ca8c63437e8eada45632cac8bc0b78473565ed8072488627ed2232",
+      "size": 3097,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.22.1.arm64_tahoe",
+        "sh.brew.bottle.digest": "7922c7d39301812f11f49cc564c79b7e24822a6650216fb102e6209c837cef15",
+        "sh.brew.bottle.size": "1330330",
+        "sh.brew.bottle.installed_size": "5872581",
+        "sh.brew.license": "LicenseRef-Homebrew-cannot-represent",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\"bin/compile_et\",\"bin/krb5-config\",\"lib/pkgconfig/gssrpc.pc\",\"lib/pkgconfig/kadm-client.pc\",\"lib/pkgconfig/kadm-server.pc\",\"lib/pkgconfig/kdb.pc\",\"lib/pkgconfig/krb5-gssapi.pc\",\"lib/pkgconfig/krb5.pc\",\"lib/pkgconfig/mit-krb5-gssapi.pc\",\"lib/pkgconfig/mit-krb5.pc\",\"share/man/man5/krb5.conf.5\",\"share/man/man7/kerberos.7\"],\"source_modified_time\":1755719165,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/k5srvutil,bin/ktutil,bin/uuclient,bin/krb5-config,bin/kinit,bin/kpasswd,bin/kdestroy,bin/kvno,bin/gss-client,bin/compile_et,bin/sclient,bin/kswitch,bin/kadmin,bin/sim_client,bin/klist,sbin/kproplog,sbin/krb5kdc,sbin/gss-server,sbin/sserver,sbin/kprop,sbin/kadmin.local,sbin/kdb5_util,sbin/kpropd,sbin/sim_server,sbin/kadmind,sbin/uuserver,sbin/krb5-send-pr"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-08-22T18:04:41Z",
+    "org.opencontainers.image.description": "Network authentication protocol",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/krb5",
+    "org.opencontainers.image.licenses": "LicenseRef-Homebrew-cannot-represent",
+    "org.opencontainers.image.ref.name": "1.22.1",
+    "org.opencontainers.image.revision": "cde0ba895c5b9d05e0d0583983b4c523db6caffb",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/cde0ba895c5b9d05e0d0583983b4c523db6caffb/Formula/k/krb5.rb",
+    "org.opencontainers.image.title": "krb5",
+    "org.opencontainers.image.url": "https://web.mit.edu/kerberos/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.22.1"
+  }
+}

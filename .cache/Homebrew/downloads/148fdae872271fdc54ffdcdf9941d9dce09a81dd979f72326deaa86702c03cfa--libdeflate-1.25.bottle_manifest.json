@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9aa2a1aaac12e11fd077eba8281ad39510f33b56e15cb2b3691a3c3eac7e2c2f",
+      "size": 2225,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.25.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "d50f2f720c56c25d13111d2a54c4b0d8600ad89dbe4703319ec4196df988aa60",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "168081",
+        "sh.brew.bottle.installed_size": "520276",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-36-gab17997\",\"changed_files\":[\"lib/pkgconfig/libdeflate.pc\"],\"source_modified_time\":1761963567,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/libdeflate-gzip,bin/libdeflate-gunzip"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:78f1c92f3b9025f7bbf59309724d6729704ad6191de0fea06d6cfb9eb87edc22",
+      "size": 2167,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.25.arm64_sequoia",
+        "sh.brew.bottle.digest": "81bb3537257061a0a60cf1b6842b7c13d9090ddce9bd8ec84fa7381e08c45b47",
+        "sh.brew.bottle.size": "113339",
+        "sh.brew.bottle.installed_size": "334981",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-36-gab17997\",\"changed_files\":[\"lib/pkgconfig/libdeflate.pc\"],\"source_modified_time\":1761963567,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/libdeflate-gzip,bin/libdeflate-gunzip"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:92150b5d6b4d4d016d39c0dac5c7be3638e7c53469ef33643238ce09af4a9636",
+      "size": 2164,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.25.arm64_sonoma",
+        "sh.brew.bottle.digest": "6a2cab5c8f45cec6f2df4ceae582183ecaa7624c9857d13a2daa5078f5ae09a4",
+        "sh.brew.bottle.size": "111074",
+        "sh.brew.bottle.installed_size": "332213",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-36-gab17997\",\"changed_files\":[\"lib/pkgconfig/libdeflate.pc\"],\"source_modified_time\":1761963567,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/libdeflate-gzip,bin/libdeflate-gunzip"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:5639ab705b18396e5cca315a52be6471ec2ccc4c85b66e0b07ab958f146eea95",
+      "size": 2159,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.25.arm64_tahoe",
+        "sh.brew.bottle.digest": "bac15aaf2c6c274e7015f543a3ea80cfcafd16ffae196c71d91b3e490156a9c9",
+        "sh.brew.bottle.size": "113251",
+        "sh.brew.bottle.installed_size": "334467",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-36-gab17997\",\"changed_files\":[\"lib/pkgconfig/libdeflate.pc\"],\"source_modified_time\":1761963567,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/libdeflate-gzip,bin/libdeflate-gunzip"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:69014105ede72f2162c26ccedbe1b31b6ff60a2aafcb100e23fd243faf057aed",
+      "size": 2148,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.25.sonoma",
+        "sh.brew.bottle.digest": "89347badfd54cb48639e530a51d86cf3c83d946740dc90519460bac0271270c6",
+        "sh.brew.bottle.size": "123200",
+        "sh.brew.bottle.installed_size": "283706",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-36-gab17997\",\"changed_files\":[\"lib/pkgconfig/libdeflate.pc\"],\"source_modified_time\":1761963567,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/libdeflate-gzip,bin/libdeflate-gunzip"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:271256b0211324cfec3c9e927b62d6cd7fc25c2ffe23353bc56757293947eb14",
+      "size": 2230,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.25.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "7b498b36ecd45eae8f0f1b84366ec1e82b996d037610ee0006ae384233b4a4bb",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "171968",
+        "sh.brew.bottle.installed_size": "404998",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-36-gab17997\",\"changed_files\":[\"lib/pkgconfig/libdeflate.pc\"],\"source_modified_time\":1761963567,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/libdeflate-gzip,bin/libdeflate-gunzip"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-11-01T05:06:39Z",
+    "org.opencontainers.image.description": "Heavily optimized DEFLATE/zlib/gzip compression and decompression",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libdeflate",
+    "org.opencontainers.image.licenses": "MIT",
+    "org.opencontainers.image.ref.name": "1.25",
+    "org.opencontainers.image.revision": "fb1b150e8bec4552799396d8a454c798eaa4067a",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/fb1b150e8bec4552799396d8a454c798eaa4067a/Formula/lib/libdeflate.rb",
+    "org.opencontainers.image.title": "libdeflate",
+    "org.opencontainers.image.url": "https://github.com/ebiggers/libdeflate",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.25"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c7cb703dbd50ae39c367b52b19165a1a499e89dc6ed204afeb393816c7a1de3c",
+      "size": 3003,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.1.43.arm64_sequoia",
+        "sh.brew.bottle.digest": "882f9071165800a694e3dc146e614c984b70d80cf8fa284cc78dd0f35f096a2f",
+        "sh.brew.bottle.size": "269812",
+        "sh.brew.bottle.installed_size": "1299294",
+        "sh.brew.license": "X11",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-115-g02ced18\",\"changed_files\":[\"bin/xslt-config\",\"lib/pkgconfig/libexslt.pc\",\"lib/pkgconfig/libxslt.pc\",\"lib/xsltConf.sh\"],\"source_modified_time\":1741802272,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.24\",\"revision\":0,\"pkg_version\":\"0.24\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true},{\"full_name\":\"libgcrypt\",\"version\":\"1.11.0\",\"revision\":0,\"pkg_version\":\"1.11.0\",\"declared_directly\":true},{\"full_name\":\"icu4c@76\",\"version\":\"76.1\",\"revision\":1,\"pkg_version\":\"76.1_1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.13\",\"revision\":0,\"pkg_version\":\"8.2.13\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.13.6\",\"revision\":0,\"pkg_version\":\"2.13.6\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/xsltproc,bin/xslt-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8c6ba363e68e5145481a81d8ad59fb5763cdb2208c653c9476200c8da1f1a7c2",
+      "size": 3002,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.1.43.arm64_sonoma",
+        "sh.brew.bottle.digest": "ba204e6736fe30b763bc9372a464f050daa8c5d66aebbff6c8659abbc796d4ae",
+        "sh.brew.bottle.size": "269823",
+        "sh.brew.bottle.installed_size": "1299296",
+        "sh.brew.license": "X11",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-115-g02ced18\",\"changed_files\":[\"bin/xslt-config\",\"lib/pkgconfig/libexslt.pc\",\"lib/pkgconfig/libxslt.pc\",\"lib/xsltConf.sh\"],\"source_modified_time\":1741802272,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.24\",\"revision\":0,\"pkg_version\":\"0.24\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true},{\"full_name\":\"libgcrypt\",\"version\":\"1.11.0\",\"revision\":0,\"pkg_version\":\"1.11.0\",\"declared_directly\":true},{\"full_name\":\"icu4c@76\",\"version\":\"76.1\",\"revision\":1,\"pkg_version\":\"76.1_1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.13\",\"revision\":0,\"pkg_version\":\"8.2.13\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.13.6\",\"revision\":0,\"pkg_version\":\"2.13.6\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/xsltproc,bin/xslt-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8ac62f746f9bb570f45d17c75531ac0a7293694787e81d9c9159b71e6f9594ee",
+      "size": 3005,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.1.43.arm64_ventura",
+        "sh.brew.bottle.digest": "68fbcc1a39a1af56dda4c550816f0a4796ed8b70608518b184331f1e13a1ff1b",
+        "sh.brew.bottle.size": "269712",
+        "sh.brew.bottle.installed_size": "1299296",
+        "sh.brew.license": "X11",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-115-g02ced18\",\"changed_files\":[\"bin/xslt-config\",\"lib/pkgconfig/libexslt.pc\",\"lib/pkgconfig/libxslt.pc\",\"lib/xsltConf.sh\"],\"source_modified_time\":1741802272,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.24\",\"revision\":0,\"pkg_version\":\"0.24\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true},{\"full_name\":\"libgcrypt\",\"version\":\"1.11.0\",\"revision\":0,\"pkg_version\":\"1.11.0\",\"declared_directly\":true},{\"full_name\":\"icu4c@76\",\"version\":\"76.1\",\"revision\":1,\"pkg_version\":\"76.1_1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.13\",\"revision\":0,\"pkg_version\":\"8.2.13\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.13.6\",\"revision\":0,\"pkg_version\":\"2.13.6\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/xsltproc,bin/xslt-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e4c3cc5486f720c48c4c4cd4715ed46a7abb6aedf50167629a48498612e0dafd",
+      "size": 2986,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.1.43.sonoma",
+        "sh.brew.bottle.digest": "c2432ea083f92c5d6ffd4968f7a0e3d675f7c2098f27e2742b607a9ba68d1f6d",
+        "sh.brew.bottle.size": "271298",
+        "sh.brew.bottle.installed_size": "1143046",
+        "sh.brew.license": "X11",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-115-g02ced18\",\"changed_files\":[\"bin/xslt-config\",\"lib/pkgconfig/libexslt.pc\",\"lib/pkgconfig/libxslt.pc\",\"lib/xsltConf.sh\"],\"source_modified_time\":1741802272,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.24\",\"revision\":0,\"pkg_version\":\"0.24\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true},{\"full_name\":\"libgcrypt\",\"version\":\"1.11.0\",\"revision\":0,\"pkg_version\":\"1.11.0\",\"declared_directly\":true},{\"full_name\":\"icu4c@76\",\"version\":\"76.1\",\"revision\":1,\"pkg_version\":\"76.1_1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.13\",\"revision\":0,\"pkg_version\":\"8.2.13\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.13.6\",\"revision\":0,\"pkg_version\":\"2.13.6\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/xsltproc,bin/xslt-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9777630171ccb84ce723527c1243908b85527c8df72de6ad56b34ac815bf5679",
+      "size": 2989,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.1.43.ventura",
+        "sh.brew.bottle.digest": "96311a902a7c1ce991bfb90a01b11442d5ede675238afd8ed22980f7d91b415f",
+        "sh.brew.bottle.size": "272604",
+        "sh.brew.bottle.installed_size": "1241374",
+        "sh.brew.license": "X11",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-115-g02ced18\",\"changed_files\":[\"bin/xslt-config\",\"lib/pkgconfig/libexslt.pc\",\"lib/pkgconfig/libxslt.pc\",\"lib/xsltConf.sh\"],\"source_modified_time\":1741802272,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.24\",\"revision\":0,\"pkg_version\":\"0.24\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true},{\"full_name\":\"libgcrypt\",\"version\":\"1.11.0\",\"revision\":0,\"pkg_version\":\"1.11.0\",\"declared_directly\":true},{\"full_name\":\"icu4c@76\",\"version\":\"76.1\",\"revision\":1,\"pkg_version\":\"76.1_1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.13\",\"revision\":0,\"pkg_version\":\"8.2.13\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.13.6\",\"revision\":0,\"pkg_version\":\"2.13.6\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/xsltproc,bin/xslt-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:96f898b11467babbc28925eb1bc83da021af6b5871f72a190825c2e676a9a588",
+      "size": 3063,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.1.43.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "595b354dd8c9dc086224701709d5a471f7a916693ebf52e5d68eea1f454bd98d",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "316085",
+        "sh.brew.bottle.installed_size": "1385799",
+        "sh.brew.license": "X11",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-115-g02ced18\",\"changed_files\":[\"bin/xslt-config\",\"lib/pkgconfig/libexslt.pc\",\"lib/pkgconfig/libxslt.pc\",\"lib/xsltConf.sh\"],\"source_modified_time\":1741802272,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":false},{\"full_name\":\"libgcrypt\",\"version\":\"1.11.0\",\"revision\":0,\"pkg_version\":\"1.11.0\",\"declared_directly\":true},{\"full_name\":\"icu4c@76\",\"version\":\"76.1\",\"revision\":1,\"pkg_version\":\"76.1_1\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.13\",\"revision\":0,\"pkg_version\":\"8.2.13\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.13.6\",\"revision\":0,\"pkg_version\":\"2.13.6\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/xsltproc,bin/xslt-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:055fb2ddacc656e885214a5c68b97c8eefc4d14f919b6beab5d14a742c3efb18",
+      "size": 3058,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.1.43.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "847d260b760e00468ab47ce7b72514ef3381622fdb396512926ef4c82d54d1cc",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "314360",
+        "sh.brew.bottle.installed_size": "1527381",
+        "sh.brew.license": "X11",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-276-gfec5b64\",\"changed_files\":[\"bin/xslt-config\",\"lib/pkgconfig/libexslt.pc\",\"lib/pkgconfig/libxslt.pc\",\"lib/xsltConf.sh\"],\"source_modified_time\":1741802272,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":false},{\"full_name\":\"libgcrypt\",\"version\":\"1.11.0\",\"revision\":0,\"pkg_version\":\"1.11.0\",\"declared_directly\":true},{\"full_name\":\"icu4c@77\",\"version\":\"77.1\",\"revision\":0,\"pkg_version\":\"77.1\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.13\",\"revision\":0,\"pkg_version\":\"8.2.13\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.13.6\",\"revision\":1,\"pkg_version\":\"2.13.6_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/xsltproc,bin/xslt-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:36da29ba07fc01d805e13f2f11ed5125072ceb8c82d939d0eaf7a5b20face182",
+      "size": 3139,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.1.43.arm64_tahoe",
+        "sh.brew.bottle.digest": "fb41634cae71bdaeea02f10b3f967dff20ce58ca1a9869ea7540e16878d5328e",
+        "sh.brew.bottle.size": "269534",
+        "sh.brew.bottle.installed_size": "1296727",
+        "sh.brew.license": "X11",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-79-g5f1241b\",\"changed_files\":[\"bin/xslt-config\",\"lib/pkgconfig/libexslt.pc\",\"lib/pkgconfig/libxslt.pc\",\"lib/xsltConf.sh\"],\"source_modified_time\":1741802272,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.26\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.55\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.55\",\"declared_directly\":true},{\"full_name\":\"libgcrypt\",\"version\":\"1.11.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.11.2\",\"declared_directly\":true},{\"full_name\":\"icu4c@77\",\"version\":\"77.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"77.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.13.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.13.8\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/xsltproc,bin/xslt-config"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-03-12T20:07:26Z",
+    "org.opencontainers.image.description": "C XSLT library for GNOME",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libxslt",
+    "org.opencontainers.image.licenses": "X11",
+    "org.opencontainers.image.ref.name": "1.1.43",
+    "org.opencontainers.image.revision": "1e990aa84bf0a92484f753cc822d7d77a2d217aa",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/1e990aa84bf0a92484f753cc822d7d77a2d217aa/Formula/lib/libxslt.rb",
+    "org.opencontainers.image.title": "libxslt",
+    "org.opencontainers.image.url": "http://xmlsoft.org/XSLT/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.1.43"
+  }
+}

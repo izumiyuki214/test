@@ -1,0 +1,12 @@
+2025-11-03 16:40:33 +0900
+
+/home/linuxbrew/.linuxbrew/Cellar/php/8.4.14/bin/pear
+update-channels
+
+Updating channel "doc.php.net"
+Error: Unable to create XML parser
+Invalid channel.xml file
+Updating channel "pear.php.net"
+Update of Channel "pear.php.net" succeeded
+Updating channel "pecl.php.net"
+Update of Channel "pecl.php.net" succeeded

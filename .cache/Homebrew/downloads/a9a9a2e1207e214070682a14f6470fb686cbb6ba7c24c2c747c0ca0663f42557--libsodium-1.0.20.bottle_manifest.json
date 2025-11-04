@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:23507957c0b8119879bc0237fd4c57810f15601e6b73d0a0dfec1a8e19aa9478",
+      "size": 1967,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.20.arm64_monterey",
+        "sh.brew.bottle.digest": "25377f9e16747b9af732be608a966b580287d0854c2d530f23eea1235bca1ff7",
+        "sh.brew.bottle.size": "307336",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.3-85-gf8b1d1f\",\"changed_files\":[\"lib/pkgconfig/libsodium.pc\"],\"source_modified_time\":1716639503,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.7\",\"cpu_family\":\"dunno\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:dd2664ff28bfc8c22da51ad466ab37766482c7cede1ee555dd22383a3bdc39b7",
+      "size": 1961,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.20.arm64_sonoma",
+        "sh.brew.bottle.digest": "66835fcd7e4dd8dde5be4e8d34c5314481c1d724e8dd82d4e97059d9fdaf1a45",
+        "sh.brew.bottle.size": "316597",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.3-85-gf8b1d1f\",\"changed_files\":[\"lib/pkgconfig/libsodium.pc\"],\"source_modified_time\":1716639503,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.4\",\"cpu_family\":\"dunno\",\"xcode\":\"15.3\",\"clt\":\"15.3.0.0.1.1708646388\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a7321385ad866347281ebad27e8ae79e16c50925f425f797fe53e8b0d58db20f",
+      "size": 1964,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.20.arm64_ventura",
+        "sh.brew.bottle.digest": "21b83b95eef039b914d712f4ac5d235d85e1f1143383dfa9c5359f0cc88fa08d",
+        "sh.brew.bottle.size": "316772",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.3-85-gf8b1d1f\",\"changed_files\":[\"lib/pkgconfig/libsodium.pc\"],\"source_modified_time\":1716639503,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.6\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:45a8b7806dfe32d98fc1eed565a99c14ffe7171a636377c155c973bf4a67f3d3",
+      "size": 1951,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.20.monterey",
+        "sh.brew.bottle.digest": "0556f27feb8d4b5f31edf42e392eb4901daa5b9dbb8510499aa196c9e77134c6",
+        "sh.brew.bottle.size": "394010",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.3-85-gf8b1d1f\",\"changed_files\":[\"lib/pkgconfig/libsodium.pc\"],\"source_modified_time\":1716639503,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.7\",\"cpu_family\":\"penryn\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f31f07f8f372abf42f78a6486b0aec995c285ae89c12beb8c48aed5f63f3324e",
+      "size": 1945,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.20.sonoma",
+        "sh.brew.bottle.digest": "ebc452002391195287aef3819c1285ba597bbfe55cb926f18dae5990202afa12",
+        "sh.brew.bottle.size": "399452",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.3-85-gf8b1d1f\",\"changed_files\":[\"lib/pkgconfig/libsodium.pc\"],\"source_modified_time\":1716639503,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.4\",\"cpu_family\":\"penryn\",\"xcode\":\"15.3\",\"clt\":\"15.3.0.0.1.1708646388\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6e7d395259b49e523db5b9952edfbb1b9bbd460bc2b34d4fa9ebc98f332e17eb",
+      "size": 1948,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.20.ventura",
+        "sh.brew.bottle.digest": "5de3b5180b73678d93c4c69a77d662afd6aac0bfd71246be6e78cfacf97cc3d7",
+        "sh.brew.bottle.size": "399825",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.3-85-gf8b1d1f\",\"changed_files\":[\"lib/pkgconfig/libsodium.pc\"],\"source_modified_time\":1716639503,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.6\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:73d1b1ef5febe7b3404b29c95a34930a1089755e19cee6dd3780c206e2b76824",
+      "size": 2027,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.20.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "94394d217dc5a833492a702a8a9e914573a945da13f3b4f42b59f2513835f439",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "444040",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.2-19-gcd65109\",\"changed_files\":[\"lib/pkgconfig/libsodium.pc\"],\"source_modified_time\":1716639503,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.4\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b37957513a7f022be2f9f6e0f9f27cdc059bcbbe632f8d5d5247ab50225daab7",
+      "size": 2050,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.20.arm64_sequoia",
+        "sh.brew.bottle.digest": "e8ba0aafe8fe7266d68630ff7ab11d7357af35dbf5113bb648a1e02bed397970",
+        "sh.brew.bottle.size": "307817",
+        "sh.brew.bottle.installed_size": "903228",
+        "sh.brew.license": "ISC",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.20-36-gf0be97f\",\"changed_files\":[\"lib/pkgconfig/libsodium.pc\"],\"source_modified_time\":1716639503,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.0\",\"clt\":\"16.0.0.0.1.1724870825\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:99036abc304ccc2f99c5b6939f90b35f90eb755c267522e9b7cbd2e1d3a71a50",
+      "size": 2112,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.20.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "5a31f0fb4b4c1d89161e49a5f94bef970b0f23068475ef3dc46589d869f52a38",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "360079",
+        "sh.brew.bottle.installed_size": "1234881",
+        "sh.brew.license": "ISC",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-276-gfec5b64\",\"changed_files\":[\"lib/pkgconfig/libsodium.pc\"],\"source_modified_time\":1716639503,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b644eba20e3d96bb4710d4a4e9dd26c801c7718f98328a1726420b4869a6b05f",
+      "size": 2044,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.20.arm64_tahoe",
+        "sh.brew.bottle.digest": "fc8c1b02d3c050f67d92d6ca76b10b6f4d720a6ec148e1438ae12a5a13a502f0",
+        "sh.brew.bottle.size": "306256",
+        "sh.brew.bottle.installed_size": "900717",
+        "sh.brew.license": "ISC",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\"lib/pkgconfig/libsodium.pc\"],\"source_modified_time\":1716639503,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2024-05-29",
+    "org.opencontainers.image.description": "NaCl networking and cryptography library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libsodium",
+    "org.opencontainers.image.license": "ISC",
+    "org.opencontainers.image.ref.name": "1.0.20",
+    "org.opencontainers.image.revision": "68a9abcedf528ca3a4896a9ff8b545a85420518b",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/68a9abcedf528ca3a4896a9ff8b545a85420518b/Formula/lib/libsodium.rb",
+    "org.opencontainers.image.title": "libsodium",
+    "org.opencontainers.image.url": "https://libsodium.org/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.0.20"
+  }
+}

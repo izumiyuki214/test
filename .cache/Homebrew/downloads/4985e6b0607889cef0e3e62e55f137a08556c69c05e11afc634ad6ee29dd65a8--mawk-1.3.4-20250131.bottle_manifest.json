@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:17e025c4f6349886af67a5cf6ca62c3faf168b7906243de48ff69c717db9bb2f",
+      "size": 2108,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.4-20250131.arm64_sequoia",
+        "sh.brew.bottle.digest": "ae1fe393d35cda1a41cbe812a9a947e52d14a8c3c5280578ecd8a5693e50e6ec",
+        "sh.brew.bottle.size": "124442",
+        "sh.brew.bottle.installed_size": "348890",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.19-65-g362c526\",\"changed_files\":[],\"source_modified_time\":1738362802,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/mawk"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c447f4e6d3c9f8bcf949eb60c92bf9039c6b4217679b38fe8339820e16a1748b",
+      "size": 2107,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.4-20250131.arm64_sonoma",
+        "sh.brew.bottle.digest": "2816a9a45edde2402da6af6788012f22c4a11ce5a27975bd7a104b8e1e7b3df5",
+        "sh.brew.bottle.size": "124444",
+        "sh.brew.bottle.installed_size": "348892",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.19-65-g362c526\",\"changed_files\":[],\"source_modified_time\":1738362802,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/mawk"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:fcc37ef1fcbcb8db8be23d54d909c65030930743a5da4859b42b67365e9c1480",
+      "size": 2110,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.4-20250131.arm64_ventura",
+        "sh.brew.bottle.digest": "87970558c84e6172003dfede622bf5fe3b78309f709a3c5a81dfcf2f8a44d24f",
+        "sh.brew.bottle.size": "124221",
+        "sh.brew.bottle.installed_size": "348828",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.19-65-g362c526\",\"changed_files\":[],\"source_modified_time\":1738362802,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/mawk"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a9bbbdb38ceddc4e6eaa395f45f71d149b697c53f878e52771bdc4a93e1ed7e4",
+      "size": 2102,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.4-20250131.sonoma",
+        "sh.brew.bottle.digest": "056917eaa79d45b640add493c114d8e027cab6d5dbe954f1dd5cc5654b482f09",
+        "sh.brew.bottle.size": "128685",
+        "sh.brew.bottle.installed_size": "318684",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.19-65-g362c526\",\"changed_files\":[\"CHANGES\"],\"source_modified_time\":1738362802,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/mawk"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f9147ab03483880d5775909340cf05bf66bf28615543f1ac35c54d89175910d4",
+      "size": 2105,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.4-20250131.ventura",
+        "sh.brew.bottle.digest": "bec5bb0e31eb1bb02091352669b80053544c636cbfb591ba96ea57c5639abe8c",
+        "sh.brew.bottle.size": "129068",
+        "sh.brew.bottle.installed_size": "347332",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.19-65-g362c526\",\"changed_files\":[\"CHANGES\"],\"source_modified_time\":1738362802,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/mawk"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:659020ccb9c3e16d838d9cc0a3cc83c0fab59a88eb167f8f531f961975174acd",
+      "size": 2173,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.4-20250131.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "2a6fd86d47f102fd70685b287128bb0d7b71e1c1cb5814d4fdb31b674598b00a",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "144821",
+        "sh.brew.bottle.installed_size": "396663",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.19-65-g362c526\",\"changed_files\":[],\"source_modified_time\":1738362802,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/mawk"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:65b282337efa5299e465cc68dcdee2702153b804936600acb49d796f063e9bbc",
+      "size": 2169,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.4-20250131.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "e43b15161774ffd1beaa7373041268f90ec6f41ae1078ea01708d566e813bde8",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "143668",
+        "sh.brew.bottle.installed_size": "519510",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-276-gfec5b64\",\"changed_files\":[],\"source_modified_time\":1738362802,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/mawk"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e54465ef280b9274be67e1589c44f4722281bc369af773c5f4d4d722142f6f47",
+      "size": 2102,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.4-20250131.arm64_tahoe",
+        "sh.brew.bottle.digest": "000c7e786c0898721626b361f24d36150d4bd78af31df136ab02c022385d7712",
+        "sh.brew.bottle.size": "124886",
+        "sh.brew.bottle.installed_size": "348826",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.11-14-gfebcc79\",\"changed_files\":[],\"source_modified_time\":1738362802,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/mawk"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-02-01T02:32:15Z",
+    "org.opencontainers.image.description": "Interpreter for the AWK Programming Language",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/mawk",
+    "org.opencontainers.image.licenses": "GPL-2.0-only",
+    "org.opencontainers.image.ref.name": "1.3.4-20250131",
+    "org.opencontainers.image.revision": "8cbcb9907884eba7f68553aa88aec759720071c3",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/8cbcb9907884eba7f68553aa88aec759720071c3/Formula/m/mawk.rb",
+    "org.opencontainers.image.title": "mawk",
+    "org.opencontainers.image.url": "https://invisible-island.net/mawk/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.3.4-20250131"
+  }
+}

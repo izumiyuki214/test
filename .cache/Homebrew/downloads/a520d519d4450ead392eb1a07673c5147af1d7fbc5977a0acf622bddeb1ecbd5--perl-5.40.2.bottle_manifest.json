@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c8e94b9d2acbd978798325784ec048a82696e492c479d6f4fbcc6715572ebd01",
+      "size": 3754,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.40.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "6c2b1d9010669da23fe973949dc0d714bdff92d2cbd006d52a0d4736e743ffca",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "19863720",
+        "sh.brew.bottle.installed_size": "82215266",
+        "sh.brew.license": "Artistic-1.0-Perl OR GPL-1.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.29-73-gee80a2d\",\"changed_files\":[\"bin/corelist\",\"bin/cpan\",\"bin/enc2xs\",\"bin/encguess\",\"bin/h2ph\",\"bin/h2xs\",\"bin/instmodsh\",\"bin/json_pp\",\"bin/libnetcfg\",\"bin/perlbug\",\"bin/perlthanks\",\"bin/perldoc\",\"bin/perlivp\",\"bin/piconv\",\"bin/pl2pm\",\"bin/pod2html\",\"bin/pod2man\",\"bin/pod2text\",\"bin/pod2usage\",\"bin/podchecker\",\"bin/prove\",\"bin/ptar\",\"bin/ptardiff\",\"bin/ptargrep\",\"bin/shasum\",\"bin/splain\",\"bin/streamzip\",\"bin/xsubpp\",\"bin/zipdetails\",\"lib/perl5/5.40/aarch64-linux-thread-multi/CORE/config.h\",\"lib/perl5/5.40/aarch64-linux-thread-multi/Config.pm\",\"lib/perl5/5.40/aarch64-linux-thread-multi/Config_heavy.pl\"],\"source_modified_time\":1744534353,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":true},{\"full_name\":\"gdbm\",\"version\":\"1.25\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.25\",\"declared_directly\":true},{\"full_name\":\"expat\",\"version\":\"2.7.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.1\",\"declared_directly\":true},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.38\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.4.38\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/perlthanks,bin/pl2pm,bin/shasum,bin/pod2text,bin/podchecker,bin/perl5.40.2,bin/ptardiff,bin/enc2xs,bin/xsubpp,bin/json_pp,bin/corelist,bin/perldoc,bin/splain,bin/piconv,bin/perlivp,bin/zipdetails,bin/encguess,bin/pod2usage,bin/h2xs,bin/ptar,bin/h2ph,bin/instmodsh,bin/prove,bin/ptargrep,bin/libnetcfg,bin/streamzip,bin/perl,bin/perlbug,bin/cpan,bin/pod2html,bin/pod2man"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:458936733b299863a3195b17bd7ad5170c6269fa8d66b08fc83a2bfe153488c1",
+      "size": 3414,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.40.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "c984a79cf9dba490a830081f3587349723c8c156b79dc7b6c159360624181299",
+        "sh.brew.bottle.size": "18502296",
+        "sh.brew.bottle.installed_size": "73232801",
+        "sh.brew.license": "Artistic-1.0-Perl OR GPL-1.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.29-73-gee80a2d\",\"changed_files\":[\"bin/corelist\",\"bin/cpan\",\"bin/enc2xs\",\"bin/encguess\",\"bin/h2ph\",\"bin/h2xs\",\"bin/instmodsh\",\"bin/json_pp\",\"bin/libnetcfg\",\"bin/perlbug\",\"bin/perlthanks\",\"bin/perldoc\",\"bin/perlivp\",\"bin/piconv\",\"bin/pl2pm\",\"bin/pod2html\",\"bin/pod2man\",\"bin/pod2text\",\"bin/pod2usage\",\"bin/podchecker\",\"bin/prove\",\"bin/ptar\",\"bin/ptardiff\",\"bin/ptargrep\",\"bin/shasum\",\"bin/splain\",\"bin/streamzip\",\"bin/xsubpp\",\"bin/zipdetails\",\"lib/perl5/5.40/darwin-thread-multi-2level/CORE/config.h\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config.pm\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config_heavy.pl\"],\"source_modified_time\":1744534353,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":true},{\"full_name\":\"gdbm\",\"version\":\"1.25\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.25\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/cpan,bin/instmodsh,bin/perlivp,bin/pod2usage,bin/corelist,bin/libnetcfg,bin/encguess,bin/pod2text,bin/ptardiff,bin/json_pp,bin/perl,bin/perlbug,bin/piconv,bin/ptargrep,bin/h2ph,bin/prove,bin/podchecker,bin/shasum,bin/ptar,bin/pl2pm,bin/perlthanks,bin/xsubpp,bin/streamzip,bin/perldoc,bin/perl5.40.2,bin/h2xs,bin/pod2man,bin/enc2xs,bin/splain,bin/pod2html,bin/zipdetails"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:73766c6c8cdb773e6de76e46318afcfcc7e56976d74e3af099d604138be75c49",
+      "size": 3413,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.40.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "3900203e58329e754f54397b61b9120a892f70d61ba48835b90b2fde45c1ecc0",
+        "sh.brew.bottle.size": "18502478",
+        "sh.brew.bottle.installed_size": "73233089",
+        "sh.brew.license": "Artistic-1.0-Perl OR GPL-1.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.29-73-gee80a2d\",\"changed_files\":[\"bin/corelist\",\"bin/cpan\",\"bin/enc2xs\",\"bin/encguess\",\"bin/h2ph\",\"bin/h2xs\",\"bin/instmodsh\",\"bin/json_pp\",\"bin/libnetcfg\",\"bin/perlbug\",\"bin/perlthanks\",\"bin/perldoc\",\"bin/perlivp\",\"bin/piconv\",\"bin/pl2pm\",\"bin/pod2html\",\"bin/pod2man\",\"bin/pod2text\",\"bin/pod2usage\",\"bin/podchecker\",\"bin/prove\",\"bin/ptar\",\"bin/ptardiff\",\"bin/ptargrep\",\"bin/shasum\",\"bin/splain\",\"bin/streamzip\",\"bin/xsubpp\",\"bin/zipdetails\",\"lib/perl5/5.40/darwin-thread-multi-2level/CORE/config.h\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config.pm\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config_heavy.pl\"],\"source_modified_time\":1744534353,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":true},{\"full_name\":\"gdbm\",\"version\":\"1.25\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.25\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/cpan,bin/instmodsh,bin/perlivp,bin/pod2usage,bin/corelist,bin/libnetcfg,bin/encguess,bin/pod2text,bin/ptardiff,bin/json_pp,bin/perl,bin/perlbug,bin/piconv,bin/ptargrep,bin/h2ph,bin/prove,bin/podchecker,bin/shasum,bin/ptar,bin/pl2pm,bin/perlthanks,bin/xsubpp,bin/streamzip,bin/perldoc,bin/perl5.40.2,bin/h2xs,bin/pod2man,bin/enc2xs,bin/splain,bin/pod2html,bin/zipdetails"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:366b6b484db2c3c6652f4667e14aacdac22d889bdc5b53a8289cc2ac48e6f3e2",
+      "size": 3416,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.40.2.arm64_ventura",
+        "sh.brew.bottle.digest": "f695d132859207d5406bb2ec7f5c522df7085065da91b2fdee94c53d090fc8b0",
+        "sh.brew.bottle.size": "18517758",
+        "sh.brew.bottle.installed_size": "73283445",
+        "sh.brew.license": "Artistic-1.0-Perl OR GPL-1.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.29-73-gee80a2d\",\"changed_files\":[\"bin/corelist\",\"bin/cpan\",\"bin/enc2xs\",\"bin/encguess\",\"bin/h2ph\",\"bin/h2xs\",\"bin/instmodsh\",\"bin/json_pp\",\"bin/libnetcfg\",\"bin/perlbug\",\"bin/perlthanks\",\"bin/perldoc\",\"bin/perlivp\",\"bin/piconv\",\"bin/pl2pm\",\"bin/pod2html\",\"bin/pod2man\",\"bin/pod2text\",\"bin/pod2usage\",\"bin/podchecker\",\"bin/prove\",\"bin/ptar\",\"bin/ptardiff\",\"bin/ptargrep\",\"bin/shasum\",\"bin/splain\",\"bin/streamzip\",\"bin/xsubpp\",\"bin/zipdetails\",\"lib/perl5/5.40/darwin-thread-multi-2level/CORE/config.h\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config.pm\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config_heavy.pl\"],\"source_modified_time\":1744534353,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":true},{\"full_name\":\"gdbm\",\"version\":\"1.25\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.25\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/cpan,bin/instmodsh,bin/perlivp,bin/pod2usage,bin/corelist,bin/libnetcfg,bin/encguess,bin/pod2text,bin/ptardiff,bin/json_pp,bin/perl,bin/perlbug,bin/piconv,bin/ptargrep,bin/h2ph,bin/prove,bin/podchecker,bin/shasum,bin/ptar,bin/pl2pm,bin/perlthanks,bin/xsubpp,bin/streamzip,bin/perldoc,bin/perl5.40.2,bin/h2xs,bin/pod2man,bin/enc2xs,bin/splain,bin/pod2html,bin/zipdetails"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:751b31d84f9be5cfff0c2e1e74bf41e084d0b64c0bab54877cf8f2727f42fdb2",
+      "size": 4878,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.40.2.sonoma",
+        "sh.brew.bottle.digest": "99d35f068ce3f224448fe8a2b6d11639a0a07a5df1213907337add51e5700bc7",
+        "sh.brew.bottle.size": "18487479",
+        "sh.brew.bottle.installed_size": "71592884",
+        "sh.brew.license": "Artistic-1.0-Perl OR GPL-1.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.29-73-gee80a2d\",\"changed_files\":[\"bin/corelist\",\"bin/cpan\",\"bin/enc2xs\",\"bin/encguess\",\"bin/h2ph\",\"bin/h2xs\",\"bin/instmodsh\",\"bin/json_pp\",\"bin/libnetcfg\",\"bin/perlbug\",\"bin/perlthanks\",\"bin/perldoc\",\"bin/perlivp\",\"bin/piconv\",\"bin/pl2pm\",\"bin/pod2html\",\"bin/pod2man\",\"bin/pod2text\",\"bin/pod2usage\",\"bin/podchecker\",\"bin/prove\",\"bin/ptar\",\"bin/ptardiff\",\"bin/ptargrep\",\"bin/shasum\",\"bin/splain\",\"bin/streamzip\",\"bin/xsubpp\",\"bin/zipdetails\",\"lib/perl5/5.40/App/Cpan.pm\",\"lib/perl5/5.40/AutoLoader.pm\",\"lib/perl5/5.40/CPAN.pm\",\"lib/perl5/5.40/ExtUtils/Installed.pm\",\"lib/perl5/5.40/ExtUtils/MakeMaker.pm\",\"lib/perl5/5.40/ExtUtils/Packlist.pm\",\"lib/perl5/5.40/ExtUtils/ParseXS/Utilities.pm\",\"lib/perl5/5.40/HTTP/Tiny.pm\",\"lib/perl5/5.40/I18N/LangTags/List.pm\",\"lib/perl5/5.40/Net/SMTP.pm\",\"lib/perl5/5.40/TAP/Parser/SourceHandler/Perl.pm\",\"lib/perl5/5.40/darwin-thread-multi-2level/CORE/config.h\",\"lib/perl5/5.40/darwin-thread-multi-2level/CORE/perl_inc_macro.h\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config.pm\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config_heavy.pl\",\"share/man/man1/cpan.1\",\"share/man/man1/enc2xs.1\",\"share/man/man1/perl5160delta.1\",\"share/man/man1/perl58delta.1\",\"share/man/man1/perlbs2000.1\",\"share/man/man1/perlebcdic.1\",\"share/man/man1/perlembed.1\",\"share/man/man1/perlfaq6.1\",\"share/man/man1/perlfaq7.1\",\"share/man/man1/perlhack.1\",\"share/man/man1/perlhpux.1\",\"share/man/man1/perllocale.1\",\"share/man/man1/perlmacosx.1\",\"share/man/man1/perlnewmod.1\",\"share/man/man1/perlop.1\",\"share/man/man1/perlos390.1\",\"share/man/man1/perlplan9.1\",\"share/man/man1/perlport.1\",\"share/man/man1/perlqnx.1\",\"share/man/man1/perlrun.1\",\"share/man/man1/perlsolaris.1\",\"share/man/man1/perlsynology.1\",\"share/man/man1/perltru64.1\",\"share/man/man1/perlxstut.1\",\"share/man/man3/App::Cpan.3\",\"share/man/man3/CPAN.3\",\"share/man/man3/ExtUtils::Installed.3\",\"share/man/man3/ExtUtils::Packlist.3\",\"share/man/man3/HTTP::Tiny.3\",\"share/man/man3/Net::SMTP.3\",\"share/man/man3/TAP::Parser::SourceHandler::Perl.3\"],\"source_modified_time\":1744534353,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":true},{\"full_name\":\"gdbm\",\"version\":\"1.25\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.25\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/cpan,bin/instmodsh,bin/perlivp,bin/pod2usage,bin/corelist,bin/libnetcfg,bin/encguess,bin/pod2text,bin/ptardiff,bin/json_pp,bin/perl,bin/perlbug,bin/piconv,bin/ptargrep,bin/h2ph,bin/prove,bin/podchecker,bin/shasum,bin/ptar,bin/pl2pm,bin/perlthanks,bin/xsubpp,bin/streamzip,bin/perldoc,bin/perl5.40.2,bin/h2xs,bin/pod2man,bin/enc2xs,bin/splain,bin/pod2html,bin/zipdetails"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d65b9024460b3591ebcdb37f06c27314f981ac15979a72c00f714985d9b14de2",
+      "size": 4881,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.40.2.ventura",
+        "sh.brew.bottle.digest": "0c121d939ac294ca374240fa2aa755bb7f1debf2545961552e30ab464b337f30",
+        "sh.brew.bottle.size": "18524848",
+        "sh.brew.bottle.installed_size": "73170008",
+        "sh.brew.license": "Artistic-1.0-Perl OR GPL-1.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.29-73-gee80a2d\",\"changed_files\":[\"bin/corelist\",\"bin/cpan\",\"bin/enc2xs\",\"bin/encguess\",\"bin/h2ph\",\"bin/h2xs\",\"bin/instmodsh\",\"bin/json_pp\",\"bin/libnetcfg\",\"bin/perlbug\",\"bin/perlthanks\",\"bin/perldoc\",\"bin/perlivp\",\"bin/piconv\",\"bin/pl2pm\",\"bin/pod2html\",\"bin/pod2man\",\"bin/pod2text\",\"bin/pod2usage\",\"bin/podchecker\",\"bin/prove\",\"bin/ptar\",\"bin/ptardiff\",\"bin/ptargrep\",\"bin/shasum\",\"bin/splain\",\"bin/streamzip\",\"bin/xsubpp\",\"bin/zipdetails\",\"lib/perl5/5.40/App/Cpan.pm\",\"lib/perl5/5.40/AutoLoader.pm\",\"lib/perl5/5.40/CPAN.pm\",\"lib/perl5/5.40/ExtUtils/Installed.pm\",\"lib/perl5/5.40/ExtUtils/MakeMaker.pm\",\"lib/perl5/5.40/ExtUtils/Packlist.pm\",\"lib/perl5/5.40/ExtUtils/ParseXS/Utilities.pm\",\"lib/perl5/5.40/HTTP/Tiny.pm\",\"lib/perl5/5.40/I18N/LangTags/List.pm\",\"lib/perl5/5.40/Net/SMTP.pm\",\"lib/perl5/5.40/TAP/Parser/SourceHandler/Perl.pm\",\"lib/perl5/5.40/darwin-thread-multi-2level/CORE/config.h\",\"lib/perl5/5.40/darwin-thread-multi-2level/CORE/perl_inc_macro.h\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config.pm\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config_heavy.pl\",\"share/man/man1/cpan.1\",\"share/man/man1/enc2xs.1\",\"share/man/man1/perl5160delta.1\",\"share/man/man1/perl58delta.1\",\"share/man/man1/perlbs2000.1\",\"share/man/man1/perlebcdic.1\",\"share/man/man1/perlembed.1\",\"share/man/man1/perlfaq6.1\",\"share/man/man1/perlfaq7.1\",\"share/man/man1/perlhack.1\",\"share/man/man1/perlhpux.1\",\"share/man/man1/perllocale.1\",\"share/man/man1/perlmacosx.1\",\"share/man/man1/perlnewmod.1\",\"share/man/man1/perlop.1\",\"share/man/man1/perlos390.1\",\"share/man/man1/perlplan9.1\",\"share/man/man1/perlport.1\",\"share/man/man1/perlqnx.1\",\"share/man/man1/perlrun.1\",\"share/man/man1/perlsolaris.1\",\"share/man/man1/perlsynology.1\",\"share/man/man1/perltru64.1\",\"share/man/man1/perlxstut.1\",\"share/man/man3/App::Cpan.3\",\"share/man/man3/CPAN.3\",\"share/man/man3/ExtUtils::Installed.3\",\"share/man/man3/ExtUtils::Packlist.3\",\"share/man/man3/HTTP::Tiny.3\",\"share/man/man3/Net::SMTP.3\",\"share/man/man3/TAP::Parser::SourceHandler::Perl.3\"],\"source_modified_time\":1744534353,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":true},{\"full_name\":\"gdbm\",\"version\":\"1.25\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.25\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/cpan,bin/instmodsh,bin/perlivp,bin/pod2usage,bin/corelist,bin/libnetcfg,bin/encguess,bin/pod2text,bin/ptardiff,bin/json_pp,bin/perl,bin/perlbug,bin/piconv,bin/ptargrep,bin/h2ph,bin/prove,bin/podchecker,bin/shasum,bin/ptar,bin/pl2pm,bin/perlthanks,bin/xsubpp,bin/streamzip,bin/perldoc,bin/perl5.40.2,bin/h2xs,bin/pod2man,bin/enc2xs,bin/splain,bin/pod2html,bin/zipdetails"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:454614f5496d0ce9355e8c9ffaff16f3658f101ab2874603e785928d4bcc6255",
+      "size": 3756,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.40.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "018804347f6d231ea705e0b43c0d9ef6f996d9432697146dcce7fb65a8c3787f",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "19968095",
+        "sh.brew.bottle.installed_size": "80808803",
+        "sh.brew.license": "Artistic-1.0-Perl OR GPL-1.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.29-73-gee80a2d\",\"changed_files\":[\"bin/corelist\",\"bin/cpan\",\"bin/enc2xs\",\"bin/encguess\",\"bin/h2ph\",\"bin/h2xs\",\"bin/instmodsh\",\"bin/json_pp\",\"bin/libnetcfg\",\"bin/perlbug\",\"bin/perlthanks\",\"bin/perldoc\",\"bin/perlivp\",\"bin/piconv\",\"bin/pl2pm\",\"bin/pod2html\",\"bin/pod2man\",\"bin/pod2text\",\"bin/pod2usage\",\"bin/podchecker\",\"bin/prove\",\"bin/ptar\",\"bin/ptardiff\",\"bin/ptargrep\",\"bin/shasum\",\"bin/splain\",\"bin/streamzip\",\"bin/xsubpp\",\"bin/zipdetails\",\"lib/perl5/5.40/x86_64-linux-thread-multi/CORE/config.h\",\"lib/perl5/5.40/x86_64-linux-thread-multi/Config.pm\",\"lib/perl5/5.40/x86_64-linux-thread-multi/Config_heavy.pl\"],\"source_modified_time\":1744534353,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":true},{\"full_name\":\"gdbm\",\"version\":\"1.25\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.25\",\"declared_directly\":true},{\"full_name\":\"expat\",\"version\":\"2.7.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.1\",\"declared_directly\":true},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.38\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.4.38\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/enc2xs,bin/h2ph,bin/pod2text,bin/pl2pm,bin/pod2usage,bin/piconv,bin/perl5.40.2,bin/ptar,bin/podchecker,bin/perlbug,bin/perlivp,bin/ptargrep,bin/pod2man,bin/libnetcfg,bin/corelist,bin/shasum,bin/splain,bin/cpan,bin/pod2html,bin/encguess,bin/perldoc,bin/json_pp,bin/zipdetails,bin/perlthanks,bin/xsubpp,bin/perl,bin/streamzip,bin/instmodsh,bin/h2xs,bin/ptardiff,bin/prove"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8f6f48d225c4ddb15ad8a1e92b3f84c23dfbacd2d7d0f7b59e52b56ce2ec9f64",
+      "size": 3408,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.40.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "500dcc292ff8387aa3044c31401879dd47c4e653e5573b448c7edfbe3333cd99",
+        "sh.brew.bottle.size": "18526762",
+        "sh.brew.bottle.installed_size": "73263017",
+        "sh.brew.license": "Artistic-1.0-Perl OR GPL-1.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\"bin/corelist\",\"bin/cpan\",\"bin/enc2xs\",\"bin/encguess\",\"bin/h2ph\",\"bin/h2xs\",\"bin/instmodsh\",\"bin/json_pp\",\"bin/libnetcfg\",\"bin/perlbug\",\"bin/perlthanks\",\"bin/perldoc\",\"bin/perlivp\",\"bin/piconv\",\"bin/pl2pm\",\"bin/pod2html\",\"bin/pod2man\",\"bin/pod2text\",\"bin/pod2usage\",\"bin/podchecker\",\"bin/prove\",\"bin/ptar\",\"bin/ptardiff\",\"bin/ptargrep\",\"bin/shasum\",\"bin/splain\",\"bin/streamzip\",\"bin/xsubpp\",\"bin/zipdetails\",\"lib/perl5/5.40/darwin-thread-multi-2level/CORE/config.h\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config.pm\",\"lib/perl5/5.40/darwin-thread-multi-2level/Config_heavy.pl\"],\"source_modified_time\":1744534353,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":true},{\"full_name\":\"gdbm\",\"version\":\"1.26\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.26\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/cpan,bin/instmodsh,bin/perlivp,bin/pod2usage,bin/corelist,bin/libnetcfg,bin/encguess,bin/pod2text,bin/ptardiff,bin/json_pp,bin/perl,bin/perlbug,bin/piconv,bin/ptargrep,bin/h2ph,bin/prove,bin/podchecker,bin/shasum,bin/ptar,bin/pl2pm,bin/perlthanks,bin/xsubpp,bin/streamzip,bin/perldoc,bin/perl5.40.2,bin/h2xs,bin/pod2man,bin/enc2xs,bin/splain,bin/pod2html,bin/zipdetails"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-04-13T23:23:46Z",
+    "org.opencontainers.image.description": "Highly capable, feature-rich programming language",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/perl",
+    "org.opencontainers.image.licenses": "Artistic-1.0-Perl OR GPL-1.0-or-later",
+    "org.opencontainers.image.ref.name": "5.40.2",
+    "org.opencontainers.image.revision": "e7c7efce4528daa85a7b09d9a4686de77fb903a5",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/e7c7efce4528daa85a7b09d9a4686de77fb903a5/Formula/p/perl.rb",
+    "org.opencontainers.image.title": "perl",
+    "org.opencontainers.image.url": "https://www.perl.org/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "5.40.2"
+  }
+}

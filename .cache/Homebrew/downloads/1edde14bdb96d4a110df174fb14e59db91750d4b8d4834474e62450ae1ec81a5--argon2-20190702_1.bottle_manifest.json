@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d9f32fbe85a5ff0caa06439ddb6251f92335161cc9f738ad7bf21b7cfc7ffe31",
+      "size": 1677,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.12"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.sierra",
+        "sh.brew.bottle.digest": "21889ac6ed40c792f1b372b5aa0d6b3be1be86577a4c1b06b08569124d2d0da2",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.1.6-44-g895467a\",\"changed_files\":[\"INSTALL_RECEIPT.json\",\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":null,\"built_on\":null}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8a14b80d912e8871a17bd3d867fdffcbe1f11bd7391d904fab70f3e4dd06573c",
+      "size": 1692,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.13"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.high_sierra",
+        "sh.brew.bottle.digest": "830016982e60870f50b3f6fc9a215d8cc4bda6061595f4883f7c11ab19ecba39",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.1.6-44-g895467a\",\"changed_files\":[\"INSTALL_RECEIPT.json\",\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":null,\"built_on\":null}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d64f9b49acdd25dad34c6ea73b441736fc53a76bd8b2f0d5e17e09d9f7a7effb",
+      "size": 1685,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.catalina",
+        "sh.brew.bottle.digest": "f8e550c8597728bb9edc5a548497fd7b1219203932cd0f93ecc97a4fbf0bdad8",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.1.11-141-gdb18713\",\"changed_files\":[\"INSTALL_RECEIPT.json\",\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":null,\"built_on\":null}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6becf0f53acb1cdf7b748d6958e6f0fcf7540c54d6497d9ae7ce58e8d0e18d0f",
+      "size": 1791,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 11.0.1"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.big_sur",
+        "sh.brew.bottle.digest": "a9dd363964a2a633ace13aff04e4c5eac7e720d44faf377456de55396647ff13",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.5.10-22-g023df12\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.0.1\",\"cpu_family\":\"penryn\",\"xcode\":\"12.2\",\"clt\":\"12.2.0.0.1.1604076827\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:fbdbd541c785c4254b43ee5a9154522146d5330677e124d16d4e0f5e556e8c0d",
+      "size": 1677,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.mojave",
+        "sh.brew.bottle.digest": "a76192a41826619fc399e7f6de5e6cb1c8a5fbe6bea4f2c1554daa830fa0e296",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.1.6-44-g895467a\",\"changed_files\":[\"INSTALL_RECEIPT.json\",\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":null,\"built_on\":null}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c9d03740eefae49ba928559fd1d5f8b5fa8c05998b70ee081542cb6812b0dbfd",
+      "size": 1817,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 11.1"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.arm64_big_sur",
+        "sh.brew.bottle.digest": "192f3381abe337df8af214cf4dccef2cbfaa9c88df489b5cf9276cea9f8c6080",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.7.0-19-gfc305cc\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.1\",\"cpu_family\":\"arm_vortex_tempest\",\"xcode\":\"12.3\",\"clt\":\"12.3.0.0.1.1607026830\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:96ecc15daf2cd51bc827ddaeef3aa24066915c57e0658f804459fc4877815542",
+      "size": 1898,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "58b4014f120e135a991f1023f210366ef3e9175a37a05a3fffb06a9fe3c23ff4",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.2.1-26-g3cbf7b7\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9000e538bd64e39348ca0bf9edcba6b6a16a1b97b388d658cbc2137a2944d39a",
+      "size": 1820,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.monterey",
+        "sh.brew.bottle.digest": "decd61f1d853225582aaa70e9f67438c21f45105118d86ddb69a5e494311a841",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.2.17-133-g890190c\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12\",\"cpu_family\":\"penryn\",\"xcode\":\"13.1\",\"clt\":\"13.1.0.0.1.1633545042\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:684ee76442801f33a9f9bf33e7b332f8692789876d05e63468cc9f60adb07bda",
+      "size": 1855,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12.0"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.arm64_monterey",
+        "sh.brew.bottle.digest": "498cea03c8c9f5ab7b90a0c333122415f0360c09f837cafae6d8685d6846ced2",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.2.17-133-g890190c\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.0\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.1\",\"clt\":\"13.1.0.0.1.1633545042\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:17a9694317ba446636c238769fe59b751609e145583530c6206149c43d69d2fa",
+      "size": 1831,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.arm64_ventura",
+        "sh.brew.bottle.digest": "016bdb5f9f24c58d77c34daa974103a22a80d7ded572c2cb2d4586c97b43eb62",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.6.6-34-gfaa9950\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13\",\"cpu_family\":\"dunno\",\"xcode\":\"14.1\",\"clt\":\"14.1.0.0.1.1665256668\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:555e5d018fbb9ff95bad22c1cff104af129d64b5eb5a2291d2672d1c030b3288",
+      "size": 1806,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.0"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.ventura",
+        "sh.brew.bottle.digest": "22435030bed2a599098ef4cd239153d2c3c9b5b4b5bbe2390d32f3f9a35a96fd",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.6.11\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.0\",\"cpu_family\":\"penryn\",\"xcode\":\"14.1\",\"clt\":\"14.1.0.0.1.1666437224\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6d1cfa919486ce7d2bab74493223995ca61c3fee537cbffcac7771782c19adef",
+      "size": 1866,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.arm64_sonoma",
+        "sh.brew.bottle.digest": "c503692d2a7d5538d5cb241b69c283d998bde91b38e3065c01bc79fdbe8cd197",
+        "sh.brew.bottle.size": "508731",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.11-25-gc953076\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"dunno\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:cdc75c6b1c9df3b1b982a7949ca27656305307092b1cab584543b4b3b2e7f624",
+      "size": 1850,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.sonoma",
+        "sh.brew.bottle.digest": "00b61d421980e47df314b7b4ca74d3ed12ebf2eab0f35cb1013d0e397700c6bc",
+        "sh.brew.bottle.size": "503409",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.11-25-gc953076\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"penryn\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3d1c083820d5fe2b3f869185c18a8c81875c8112f558f72251273995dc835499",
+      "size": 2008,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.arm64_sequoia",
+        "sh.brew.bottle.digest": "4fe5808e09d5c48eac1991bb19bca51ac39517ae46d8e9f696580dc004c0bd08",
+        "sh.brew.bottle.size": "506952",
+        "sh.brew.bottle.installed_size": "702238",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.20-36-gf0be97f\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.0\",\"clt\":\"16.0.0.0.1.1724870825\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/argon2"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0c87a39ac94bf66f4b46f7ffb68a5af2f6618396b1294f52d8d7068c715cec89",
+      "size": 2069,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "1149cb3482d46eb06f07d77b2d3e3ff3f71599f573bf32553c4407f0b470c45c",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "514262",
+        "sh.brew.bottle.installed_size": "792124",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-276-gfec5b64\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/argon2"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:2a065309ed3ca7a58c00e731b8249e51c484a160ad0ef043bece5a2e39d47d67",
+      "size": 2002,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20190702_1.arm64_tahoe",
+        "sh.brew.bottle.digest": "afaa0b7c4c305b6b8ccef5abb4863d30fc1dfc537cc2bdc43e1c558df25723c6",
+        "sh.brew.bottle.size": "507024",
+        "sh.brew.bottle.installed_size": "701950",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\"lib/pkgconfig/libargon2.pc\"],\"source_modified_time\":1558343880,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/argon2"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-04-06",
+    "org.opencontainers.image.description": "Password hashing library and CLI utility",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/argon2",
+    "org.opencontainers.image.license": "Apache-2.0",
+    "org.opencontainers.image.ref.name": "20190702_1",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/argon2.rb",
+    "org.opencontainers.image.title": "argon2",
+    "org.opencontainers.image.url": "https://github.com/P-H-C/phc-winner-argon2",
+    "org.opencontainers.image.vendor": "Homebrew",
+    "org.opencontainers.image.version": "20190702_1"
+  }
+}

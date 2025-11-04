@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:5c5f28279d6b82dd79e39864ee741e0cce4843affa0b2e1cd1e79d60d730d640",
+      "size": 3405,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.ventura",
+        "sh.brew.bottle.digest": "4a75b4a92fbe6e26a47104496b6bfbaeffa73ac76d4290e68e81603de5b0f41f",
+        "sh.brew.bottle.size": "307416",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.7-2-g1d136be\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libpng\",\"version\":\"1.6.40\",\"declared_directly\":true},{\"full_name\":\"freetype\",\"version\":\"2.13.2\",\"declared_directly\":true},{\"full_name\":\"fontconfig\",\"version\":\"2.14.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.0.0\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.0.9\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.0.6\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.1.9\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.9.4\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.5\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.5.1\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.15\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.1.11\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.3.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-xl\",\"version\":\"0.8.2\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"2.3.1\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.0.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.3\",\"cpu_family\":\"penryn\",\"xcode\":\"14.3\",\"clt\":\"14.3.0.0.1.1679647830\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:45dd3566637d05c09a541c2ec382993e55a886a01656c9104bb5530bd0aae039",
+      "size": 3424,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.arm64_monterey",
+        "sh.brew.bottle.digest": "98906db0b5efdd3a46296035df0ec9a99ebfbf5d6c6d76d7af5e2862152a6c97",
+        "sh.brew.bottle.size": "309851",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.7-2-g1d136be\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libpng\",\"version\":\"1.6.40\",\"declared_directly\":true},{\"full_name\":\"freetype\",\"version\":\"2.13.2\",\"declared_directly\":true},{\"full_name\":\"fontconfig\",\"version\":\"2.14.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.0.0\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.0.9\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.0.6\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.1.9\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.9.4\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.5\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.5.1\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.15\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.1.11\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.3.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-xl\",\"version\":\"0.8.2\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"2.3.1\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.0.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"dunno\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:2240dc4f8a80ff9966eabade84f20575ab4abc797032c32dde6281c07e558222",
+      "size": 3408,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.monterey",
+        "sh.brew.bottle.digest": "4921f275ca5a840aaa215939f80dbb4adef8a13b2bcd43608428518d4730cad4",
+        "sh.brew.bottle.size": "309024",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.7-2-g1d136be\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libpng\",\"version\":\"1.6.40\",\"declared_directly\":true},{\"full_name\":\"freetype\",\"version\":\"2.13.2\",\"declared_directly\":true},{\"full_name\":\"fontconfig\",\"version\":\"2.14.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.0.0\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.0.9\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.0.6\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.1.9\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.9.4\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.5\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.5.1\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.15\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.1.11\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.3.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-xl\",\"version\":\"0.8.2\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"2.3.1\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.0.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"penryn\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9ba12710f2b09c4cd5dd5c14f8d33d28a39654ce3155de6e3ddbfcd0183687f6",
+      "size": 3440,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 11.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.arm64_big_sur",
+        "sh.brew.bottle.digest": "1751a4ef467688acf597319f376dc0e69074c96d613ba22c381157dfeec85073",
+        "sh.brew.bottle.size": "313407",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.7-2-g1d136be\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libpng\",\"version\":\"1.6.40\",\"declared_directly\":true},{\"full_name\":\"freetype\",\"version\":\"2.13.2\",\"declared_directly\":true},{\"full_name\":\"fontconfig\",\"version\":\"2.14.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.0.0\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.0.9\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.0.6\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.1.9\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.9.4\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.5\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.5.1\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.15\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.1.11\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.3.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-xl\",\"version\":\"0.8.2\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"2.3.1\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.0.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.7\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b2821dcc0c5facb742323027b81cc96b8b5c12bff9a00ec182fc2f2f884a8c02",
+      "size": 3407,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 11.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.big_sur",
+        "sh.brew.bottle.digest": "f398c94388423665c26840a86d073ba43da0b519ea3b114c58d14e50edbdd47d",
+        "sh.brew.bottle.size": "310697",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.7-2-g1d136be\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libpng\",\"version\":\"1.6.40\",\"declared_directly\":true},{\"full_name\":\"freetype\",\"version\":\"2.13.2\",\"declared_directly\":true},{\"full_name\":\"fontconfig\",\"version\":\"2.14.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.0.0\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.0.9\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.0.6\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.1.9\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.9.4\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.5\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.5.1\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.15\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.1.11\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.3.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-xl\",\"version\":\"0.8.2\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"2.3.1\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.0.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.7\",\"cpu_family\":\"penryn\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:dc710cd4a41270fd59260d4fdb8d868f336b533ba7fdcb532b81f393d161534a",
+      "size": 3421,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.arm64_ventura",
+        "sh.brew.bottle.digest": "3f868f36cc47f91ea2a896c4b6ea62fab9b3ef94d7765f34234b277ee46788af",
+        "sh.brew.bottle.size": "310581",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.7-2-g1d136be\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libpng\",\"version\":\"1.6.40\",\"declared_directly\":true},{\"full_name\":\"freetype\",\"version\":\"2.13.2\",\"declared_directly\":true},{\"full_name\":\"fontconfig\",\"version\":\"2.14.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.0.0\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.0.9\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.0.6\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.1.9\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.9.4\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.5\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.5.1\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.15\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.1.11\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.3.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-xl\",\"version\":\"0.8.2\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"2.3.1\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.0.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.3\",\"cpu_family\":\"dunno\",\"xcode\":\"14.3\",\"clt\":\"14.3.0.0.1.1679647830\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ec3156f3e0ad04567d12e49a487d44c09aca38a48fa435b8c3584fc3d8fdfeae",
+      "size": 3483,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "da124ea2c614748107f9683ed08afa140d98a5d429332137f4f6ce17460360ec",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "360136",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.7-2-g1d136be\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"zlib\",\"version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"libpng\",\"version\":\"1.6.40\",\"declared_directly\":true},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"freetype\",\"version\":\"2.13.2\",\"declared_directly\":true},{\"full_name\":\"expat\",\"version\":\"2.5.0\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.36\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.4\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.1\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.39.2\",\"declared_directly\":false},{\"full_name\":\"fontconfig\",\"version\":\"2.14.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.0.0\",\"declared_directly\":true},{\"full_name\":\"aom\",\"version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.0.0\",\"declared_directly\":true},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.9.4\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.5\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.5.1\",\"declared_directly\":true},{\"full_name\":\"giflib\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.3.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.3\",\"cpu_family\":\"icelake\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:08311b4d1a5bcb0c1234a5122ded531ad1180216694b90a2716d3ee003e8550f",
+      "size": 3401,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.sonoma",
+        "sh.brew.bottle.digest": "7bc1099e53432209a4c5da106c8105e0f8e95728a6cc77438e2761c8b6fcf05b",
+        "sh.brew.bottle.size": "307353",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.11-38-gaa2a77b\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libpng\",\"version\":\"1.6.40\",\"declared_directly\":true},{\"full_name\":\"freetype\",\"version\":\"2.13.2\",\"declared_directly\":true},{\"full_name\":\"fontconfig\",\"version\":\"2.14.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.0.0\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.0.7\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.1.9\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.9.4\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.5\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.5.1\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.15\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.2.0\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.3.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-xl\",\"version\":\"0.8.2\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"2.3.1\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.7.0\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.0.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"penryn\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c452a0d14cabafccd50bb2b650c486a100daeb5683f457a590358dea0b23812e",
+      "size": 3417,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.arm64_sonoma",
+        "sh.brew.bottle.digest": "e278f6f79e6ac00c5f0f14bc8980197c89426eab2ba90d8fc1e82da777fb8378",
+        "sh.brew.bottle.size": "310131",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.11-38-gaa2a77b\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libpng\",\"version\":\"1.6.40\",\"declared_directly\":true},{\"full_name\":\"freetype\",\"version\":\"2.13.2\",\"declared_directly\":true},{\"full_name\":\"fontconfig\",\"version\":\"2.14.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.0.0\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.0.7\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.1.9\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.4\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.9.4\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.5\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.5.1\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.15\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.2.0\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.3.2\",\"declared_directly\":true},{\"full_name\":\"jpeg-xl\",\"version\":\"0.8.2\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"2.3.1\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.7.0\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.0.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"dunno\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1f9e61179ed2dbbfdd21afd57f9a498ef1188870f1feca86f26cc6e4071375ec",
+      "size": 4485,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.arm64_sequoia",
+        "sh.brew.bottle.digest": "c4e22a92d28f3b8a49c10e29cf04f5a9b4b4932691ec4326021bc149ac0dae4c",
+        "sh.brew.bottle.size": "309741",
+        "sh.brew.bottle.installed_size": "1570892",
+        "sh.brew.license": "GD",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.21-2-g9042eb9\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libpng\",\"version\":\"1.6.43\",\"revision\":0,\"pkg_version\":\"1.6.43\",\"declared_directly\":true},{\"full_name\":\"freetype\",\"version\":\"2.13.3\",\"revision\":0,\"pkg_version\":\"2.13.3\",\"declared_directly\":true},{\"full_name\":\"fontconfig\",\"version\":\"2.15.0\",\"revision\":0,\"pkg_version\":\"2.15.0\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.0.3\",\"revision\":0,\"pkg_version\":\"3.0.3\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"pkg_version\":\"1.1.0\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.2.0\",\"revision\":0,\"pkg_version\":\"1.2.0\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.1.12\",\"revision\":0,\"pkg_version\":\"3.1.12\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.6.2\",\"revision\":0,\"pkg_version\":\"5.6.2\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.6\",\"revision\":0,\"pkg_version\":\"1.5.6\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.6.0\",\"revision\":0,\"pkg_version\":\"4.6.0\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.16\",\"revision\":0,\"pkg_version\":\"2.16\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.2.4\",\"revision\":0,\"pkg_version\":\"3.2.4\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.4.0\",\"revision\":0,\"pkg_version\":\"1.4.0\",\"declared_directly\":true},{\"full_name\":\"jpeg-xl\",\"version\":\"0.10.3\",\"revision\":0,\"pkg_version\":\"0.10.3\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"3.0.0\",\"revision\":0,\"pkg_version\":\"3.0.0\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.10.0\",\"revision\":0,\"pkg_version\":\"3.10.0\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.1.1\",\"revision\":0,\"pkg_version\":\"1.1.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.0\",\"clt\":\"16.0.0.0.1.1724870825\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/bdftogd,bin/webpng,bin/gd2togif,bin/gdtopng,bin/pngtogd2,bin/annotate,bin/gdcmpgif,bin/gdparttopng,bin/giftogd2,bin/gd2topng,bin/gd2copypal,bin/pngtogd"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:5efc4be56772a437af597c41a3f0320c0a12bcc7d835cea56c936d76f6990514",
+      "size": 6618,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "dd5992ca69dd7f7e38228b403e1e4297b56eee6850a7b59a592da2130d158ec7",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "380214",
+        "sh.brew.bottle.installed_size": "2699747",
+        "sh.brew.license": "GD",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.25-33-gfa9f8bd\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"libpng\",\"version\":\"1.6.47\",\"revision\":0,\"pkg_version\":\"1.6.47\",\"declared_directly\":true},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"freetype\",\"version\":\"2.13.3\",\"revision\":0,\"pkg_version\":\"2.13.3\",\"declared_directly\":true},{\"full_name\":\"expat\",\"version\":\"2.7.0\",\"revision\":0,\"pkg_version\":\"2.7.0\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.38\",\"revision\":0,\"pkg_version\":\"4.4.38\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.13\",\"revision\":0,\"pkg_version\":\"8.2.13\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.49.1\",\"revision\":0,\"pkg_version\":\"3.49.1\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.40.4\",\"revision\":0,\"pkg_version\":\"2.40.4\",\"declared_directly\":false},{\"full_name\":\"fontconfig\",\"version\":\"2.16.0\",\"revision\":0,\"pkg_version\":\"2.16.0\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.0\",\"revision\":0,\"pkg_version\":\"3.1.0\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"pkg_version\":\"1.1.0\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.2.0\",\"revision\":0,\"pkg_version\":\"1.2.0\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.1.12\",\"revision\":0,\"pkg_version\":\"3.1.12\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.6.4\",\"revision\":0,\"pkg_version\":\"5.6.4\",\"declared_directly\":true},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"pkg_version\":\"4.7.0\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.17\",\"revision\":0,\"pkg_version\":\"2.17\",\"declared_directly\":false},{\"full_name\":\"libdeflate\",\"version\":\"1.23\",\"revision\":0,\"pkg_version\":\"1.23\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.3.2\",\"revision\":0,\"pkg_version\":\"3.3.2\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.5.0\",\"revision\":0,\"pkg_version\":\"1.5.0\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.0\",\"revision\":0,\"pkg_version\":\"4.0.0\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2025-02-25\",\"revision\":0,\"pkg_version\":\"2025-02-25\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.4.1\",\"revision\":0,\"pkg_version\":\"3.4.1\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.4.7\",\"revision\":0,\"pkg_version\":\"3.4.7\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.2\",\"revision\":0,\"pkg_version\":\"3.13.2\",\"declared_directly\":false},{\"full_name\":\"jpeg-xl\",\"version\":\"0.11.1\",\"revision\":0,\"pkg_version\":\"0.11.1\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"3.0.0\",\"revision\":0,\"pkg_version\":\"3.0.0\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.12.0\",\"revision\":0,\"pkg_version\":\"3.12.0\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.2.1\",\"revision\":0,\"pkg_version\":\"1.2.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/gdcmpgif,bin/pngtogd2,bin/gd2topng,bin/gd2togif,bin/annotate,bin/bdftogd,bin/gdparttopng,bin/giftogd2,bin/pngtogd,bin/gd2copypal,bin/gdtopng,bin/webpng"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:656ed7f6219de390e8c0a45a959b611b7741aa19c41a5a8cfc1e80f4f10b474f",
+      "size": 5443,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_6.arm64_tahoe",
+        "sh.brew.bottle.digest": "db4a448757d199dc1a925c0d0b36a990c8126ab81cf6a634374cd7307d042fb0",
+        "sh.brew.bottle.size": "310635",
+        "sh.brew.bottle.installed_size": "1568083",
+        "sh.brew.license": "GD",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-77-g6cb3473\",\"changed_files\":[\"lib/pkgconfig/gdlib.pc\"],\"source_modified_time\":1631337131,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libpng\",\"version\":\"1.6.50\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.50\",\"declared_directly\":true},{\"full_name\":\"freetype\",\"version\":\"2.14.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.14.1\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.26\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26\",\"declared_directly\":false},{\"full_name\":\"fontconfig\",\"version\":\"2.17.1\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2.17.1\",\"declared_directly\":true},{\"full_name\":\"jpeg-turbo\",\"version\":\"3.1.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.1.2\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.1.0\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.1.0\",\"declared_directly\":false},{\"full_name\":\"giflib\",\"version\":\"5.2.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.2.2\",\"declared_directly\":false},{\"full_name\":\"highway\",\"version\":\"1.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.0\",\"declared_directly\":false},{\"full_name\":\"imath\",\"version\":\"3.2.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"libtiff\",\"version\":\"4.7.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"4.7.0\",\"declared_directly\":true},{\"full_name\":\"little-cms2\",\"version\":\"2.17\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.17\",\"declared_directly\":false},{\"full_name\":\"libdeflate\",\"version\":\"1.24\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24\",\"declared_directly\":false},{\"full_name\":\"openjph\",\"version\":\"0.23.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.23.0\",\"declared_directly\":false},{\"full_name\":\"openexr\",\"version\":\"3.4.0\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.0_1\",\"declared_directly\":false},{\"full_name\":\"webp\",\"version\":\"1.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.6.0\",\"declared_directly\":true},{\"full_name\":\"jpeg-xl\",\"version\":\"0.11.1\",\"revision\":3,\"bottle_rebuild\":0,\"pkg_version\":\"0.11.1_3\",\"declared_directly\":false},{\"full_name\":\"libvmaf\",\"version\":\"3.0.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"3.0.0\",\"declared_directly\":false},{\"full_name\":\"aom\",\"version\":\"3.13.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.1\",\"declared_directly\":false},{\"full_name\":\"libavif\",\"version\":\"1.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/bdftogd,bin/webpng,bin/gd2togif,bin/gdtopng,bin/pngtogd2,bin/annotate,bin/gdcmpgif,bin/gdparttopng,bin/giftogd2,bin/gd2topng,bin/gd2copypal,bin/pngtogd"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2023-08-29",
+    "org.opencontainers.image.description": "Graphics library to dynamically manipulate images",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/gd",
+    "org.opencontainers.image.license": "Cannot Represent",
+    "org.opencontainers.image.ref.name": "2.3.3_6",
+    "org.opencontainers.image.revision": "b3446dda489203756c6b3a6a516ca14cc80a00f7",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/b3446dda489203756c6b3a6a516ca14cc80a00f7/Formula/g/gd.rb",
+    "org.opencontainers.image.title": "gd",
+    "org.opencontainers.image.url": "https://libgd.github.io/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.3.3_6"
+  }
+}

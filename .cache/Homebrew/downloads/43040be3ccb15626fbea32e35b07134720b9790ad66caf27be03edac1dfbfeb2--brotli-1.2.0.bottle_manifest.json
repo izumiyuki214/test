@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9958b45faeb8a058bbd1d419c0db77322d1de6a26d0d84c1c4d65d0f8bee12ea",
+      "size": 2239,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.0.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "485e0a6a74702cbe57819b32177bfb81e0195a71f52a16bab84b03529a672cf3",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "851773",
+        "sh.brew.bottle.installed_size": "2123898",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.18-54-g8f67192\",\"changed_files\":[\"lib/pkgconfig/libbrotlicommon.pc\",\"lib/pkgconfig/libbrotlidec.pc\",\"lib/pkgconfig/libbrotlienc.pc\"],\"source_modified_time\":1761570468,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/brotli"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f038ff26b63bab0ff1f71a563673c92c66371edf6e100baab0bb521935a0d7d7",
+      "size": 2169,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.0.arm64_sequoia",
+        "sh.brew.bottle.digest": "b8e388c96be5a63a46e0335c390fecb20dda7adb1368a2ba0209b38cae17c708",
+        "sh.brew.bottle.size": "793864",
+        "sh.brew.bottle.installed_size": "1910417",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19\",\"changed_files\":[\"lib/pkgconfig/libbrotlicommon.pc\",\"lib/pkgconfig/libbrotlidec.pc\",\"lib/pkgconfig/libbrotlienc.pc\"],\"source_modified_time\":1761570468,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/brotli"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d122358801615e5602cf2c080ab4d7a269593a3ab552cf4690cf1f3bac10ba00",
+      "size": 2166,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.0.arm64_sonoma",
+        "sh.brew.bottle.digest": "46b1cc7ef8ba325e56f7363de1068a84449dac940187dd2290a75e7008b3b4e1",
+        "sh.brew.bottle.size": "793998",
+        "sh.brew.bottle.installed_size": "1910289",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19\",\"changed_files\":[\"lib/pkgconfig/libbrotlicommon.pc\",\"lib/pkgconfig/libbrotlidec.pc\",\"lib/pkgconfig/libbrotlienc.pc\"],\"source_modified_time\":1761570468,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/brotli"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3fc24b4495fbc5bb1b2cca966fab65721ec390bea303952d0f5f18b63e5d73ba",
+      "size": 2161,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.0.arm64_tahoe",
+        "sh.brew.bottle.digest": "71ffd30ccd74a9f28cfb210c21fcdc1aa5fec79e23ad2264b6dbceb73437601f",
+        "sh.brew.bottle.size": "793489",
+        "sh.brew.bottle.installed_size": "1905351",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19\",\"changed_files\":[\"lib/pkgconfig/libbrotlicommon.pc\",\"lib/pkgconfig/libbrotlidec.pc\",\"lib/pkgconfig/libbrotlienc.pc\"],\"source_modified_time\":1761570468,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/brotli"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:df3722ce96cc275cf2ab002553c5de986f7a9bdab829c886ef93f98beab05b44",
+      "size": 2150,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.0.sonoma",
+        "sh.brew.bottle.digest": "c9d272f3ac33b730d548da14ca323e8b4e0185273a6c85b0f12a4bbcd9f684af",
+        "sh.brew.bottle.size": "808495",
+        "sh.brew.bottle.installed_size": "1842095",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19\",\"changed_files\":[\"lib/pkgconfig/libbrotlicommon.pc\",\"lib/pkgconfig/libbrotlidec.pc\",\"lib/pkgconfig/libbrotlienc.pc\"],\"source_modified_time\":1761570468,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/brotli"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:12c5ae56330cda68d85c7e9a9e8fb89e70b46b6f490dfa4d453fdb1e43d6ef2e",
+      "size": 2244,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.2.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "d97618daaa84b66bc783888297f1765eb6f60e6a78e9b7c2ba0406889c159c05",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "841674",
+        "sh.brew.bottle.installed_size": "2081300",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.18-54-g8f67192\",\"changed_files\":[\"lib/pkgconfig/libbrotlicommon.pc\",\"lib/pkgconfig/libbrotlidec.pc\",\"lib/pkgconfig/libbrotlienc.pc\"],\"source_modified_time\":1761570468,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/brotli"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-10-27T17:44:33Z",
+    "org.opencontainers.image.description": "Generic-purpose lossless compression algorithm by Google",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/brotli",
+    "org.opencontainers.image.licenses": "MIT",
+    "org.opencontainers.image.ref.name": "1.2.0",
+    "org.opencontainers.image.revision": "22d2a42f9111d4d96a548d6a246e99c2f7e47615",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/22d2a42f9111d4d96a548d6a246e99c2f7e47615/Formula/b/brotli.rb",
+    "org.opencontainers.image.title": "brotli",
+    "org.opencontainers.image.url": "https://github.com/google/brotli",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.2.0"
+  }
+}

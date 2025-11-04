@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:677efaf9e15079fbdcf410c889ca64f190b4ce672abf18d8646e2a7cbb3d3ed1",
+      "size": 2597,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.14.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "8e6e9979f6e88ae812222d215688d5b044e25f3182a70e3fbeec3ca07dd9f3d9",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "750006",
+        "sh.brew.bottle.installed_size": "3700203",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-45-g33f026a\",\"changed_files\":[\"include/unixODBC/unixodbc_conf.h\",\"lib/pkgconfig/odbc.pc\",\"lib/pkgconfig/odbccr.pc\",\"lib/pkgconfig/odbcinst.pc\"],\"source_modified_time\":1759821938,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/odbc_config,bin/iusql,bin/odbcinst,bin/slencheck,bin/isql,bin/dltest"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:4b80304de209ebb2a173102a42192a79de635c8ae76db108f79bfb36f65ff020",
+      "size": 2539,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.14.arm64_sequoia",
+        "sh.brew.bottle.digest": "e1522105d20545743c713e90c17bf6393d7a829ec01137ec0d6942bbc04ea2d2",
+        "sh.brew.bottle.size": "594588",
+        "sh.brew.bottle.installed_size": "2374034",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-45-g33f026a\",\"changed_files\":[\"include/unixODBC/unixodbc_conf.h\",\"lib/pkgconfig/odbc.pc\",\"lib/pkgconfig/odbccr.pc\",\"lib/pkgconfig/odbcinst.pc\"],\"source_modified_time\":1759821938,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/iusql,bin/dltest,bin/isql,bin/slencheck,bin/odbcinst,bin/odbc_config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:790c28aab5534ce7f24a483029711eea95a22b1a7448e7d59e8efb4ebdf0280a",
+      "size": 2536,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.14.arm64_sonoma",
+        "sh.brew.bottle.digest": "39f022a55a502b3b1d46769705cc46c4aa9f9206b902558ed56cd47aab3d54d8",
+        "sh.brew.bottle.size": "599908",
+        "sh.brew.bottle.installed_size": "2385914",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-45-g33f026a\",\"changed_files\":[\"include/unixODBC/unixodbc_conf.h\",\"lib/pkgconfig/odbc.pc\",\"lib/pkgconfig/odbccr.pc\",\"lib/pkgconfig/odbcinst.pc\"],\"source_modified_time\":1759821938,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/iusql,bin/dltest,bin/isql,bin/slencheck,bin/odbcinst,bin/odbc_config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:35eac448c63e8ccf1274bc253bce1623345eec63464db1e766027640f67af93f",
+      "size": 2531,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.14.arm64_tahoe",
+        "sh.brew.bottle.digest": "16b4c2a9d565749bae947c75a100ec4628e57c427af5b542593f67474077b3cb",
+        "sh.brew.bottle.size": "593788",
+        "sh.brew.bottle.installed_size": "2369480",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-45-g33f026a\",\"changed_files\":[\"include/unixODBC/unixodbc_conf.h\",\"lib/pkgconfig/odbc.pc\",\"lib/pkgconfig/odbccr.pc\",\"lib/pkgconfig/odbcinst.pc\"],\"source_modified_time\":1759821938,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/iusql,bin/dltest,bin/isql,bin/slencheck,bin/odbcinst,bin/odbc_config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:143c3bfaa7bb23423c3086d21e44c291c9d8e1d4778f4f03bb5a27b5d630222f",
+      "size": 2520,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.14.sonoma",
+        "sh.brew.bottle.digest": "6fc56b53e2abd5b38ed655c2c32caae95753e6b6f5a9fe0a10c4b760a3974d2e",
+        "sh.brew.bottle.size": "587466",
+        "sh.brew.bottle.installed_size": "1983294",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-45-g33f026a\",\"changed_files\":[\"include/unixODBC/unixodbc_conf.h\",\"lib/pkgconfig/odbc.pc\",\"lib/pkgconfig/odbccr.pc\",\"lib/pkgconfig/odbcinst.pc\"],\"source_modified_time\":1759821938,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/iusql,bin/dltest,bin/isql,bin/slencheck,bin/odbcinst,bin/odbc_config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9a530ce71efa43e686dc3fba2a8d61c3f9973a3fa485b9ca9e3a4052a128b04e",
+      "size": 2602,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.14.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "3f04884aa241e341fea833df1fcb51ec7b181e5a75ff4a7b86ca87dc4c7a24dd",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "741390",
+        "sh.brew.bottle.installed_size": "2908930",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.16-45-g33f026a\",\"changed_files\":[\"include/unixODBC/unixodbc_conf.h\",\"lib/pkgconfig/odbc.pc\",\"lib/pkgconfig/odbccr.pc\",\"lib/pkgconfig/odbcinst.pc\"],\"source_modified_time\":1759821938,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/iusql,bin/odbcinst,bin/odbc_config,bin/dltest,bin/isql,bin/slencheck"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-10-07T08:50:25Z",
+    "org.opencontainers.image.description": "ODBC 3 connectivity for UNIX",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/unixodbc",
+    "org.opencontainers.image.licenses": "LGPL-2.1-or-later",
+    "org.opencontainers.image.ref.name": "2.3.14",
+    "org.opencontainers.image.revision": "cf8963208a776b8ce64e704141e8896ebf1f5797",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/cf8963208a776b8ce64e704141e8896ebf1f5797/Formula/u/unixodbc.rb",
+    "org.opencontainers.image.title": "unixodbc",
+    "org.opencontainers.image.url": "https://www.unixodbc.org/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.3.14"
+  }
+}

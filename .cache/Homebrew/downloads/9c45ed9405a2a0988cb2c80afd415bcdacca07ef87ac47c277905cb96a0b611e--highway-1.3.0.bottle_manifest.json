@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7f2436d8eefcb903e13a22cb009f105b98c43f331491256b0b13687d4746a0ab",
+      "size": 2206,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.0.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "4608e3689ddc33b32d0328c2618eaafa332985bbea7ef32b211c680a15990be1",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1730779",
+        "sh.brew.bottle.installed_size": "7413411",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-77-gdf84f7a\",\"changed_files\":[\"lib/pkgconfig/libhwy-contrib.pc\",\"lib/pkgconfig/libhwy.pc\"],\"source_modified_time\":1755156353,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:fdea7a830b13d664728561807f9efbc1d9ad2128ccffcb1deecf3a822233ced7",
+      "size": 2121,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.0.arm64_sequoia",
+        "sh.brew.bottle.digest": "0dfc837e61d17b1cd2c5e27afc94993a4eb75b59ca8a057ef7c6dea61acbdd7a",
+        "sh.brew.bottle.size": "897310",
+        "sh.brew.bottle.installed_size": "5562864",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-80-geb11438\",\"changed_files\":[\"lib/pkgconfig/libhwy-contrib.pc\",\"lib/pkgconfig/libhwy.pc\"],\"source_modified_time\":1755156353,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1e0a6c939ba71cfd00e9b6602f0a32a975b5145db08b1a8c79926c31ce5f2ecd",
+      "size": 2118,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.0.arm64_sonoma",
+        "sh.brew.bottle.digest": "2f9c0e4c9aff6efe166b35fd6ddc8d1caa136f3bdcc50ab8aa96119ab72874aa",
+        "sh.brew.bottle.size": "894927",
+        "sh.brew.bottle.installed_size": "5550896",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-80-geb11438\",\"changed_files\":[\"lib/pkgconfig/libhwy-contrib.pc\",\"lib/pkgconfig/libhwy.pc\"],\"source_modified_time\":1755156353,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6a67d7341fa8aa11af39b12dc63164b5ab6f8195379b5a9e6c06faf58d9bcc98",
+      "size": 2121,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.0.arm64_ventura",
+        "sh.brew.bottle.digest": "b6e9d5855fedf4203e7856273243216006891456a0eef39fe76d49e54644fc30",
+        "sh.brew.bottle.size": "862111",
+        "sh.brew.bottle.installed_size": "5107568",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-80-geb11438\",\"changed_files\":[\"lib/pkgconfig/libhwy-contrib.pc\",\"lib/pkgconfig/libhwy.pc\"],\"source_modified_time\":1755156353,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:917aa64d9f3970041a6a2ff7fce2ef419d9c40f74f7572a2c52a24136c465854",
+      "size": 2104,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.0.sonoma",
+        "sh.brew.bottle.digest": "da1f77ecabc34ef77c51fc88b93822d97c71a2194e01718dbb0b022adcc65f18",
+        "sh.brew.bottle.size": "1799800",
+        "sh.brew.bottle.installed_size": "9168850",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-82-g5e17e56\",\"changed_files\":[\"lib/pkgconfig/libhwy-contrib.pc\",\"lib/pkgconfig/libhwy.pc\"],\"source_modified_time\":1755156353,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:16bfd21123f6f9da39d2ee8258b5f9adbceefc25e4bb43c9c5c8274a8a628640",
+      "size": 2107,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.0.ventura",
+        "sh.brew.bottle.digest": "570a43c0431fb340fec123e7e4b84fcc57ac3119520abc04837d33fdf66b2746",
+        "sh.brew.bottle.size": "1799813",
+        "sh.brew.bottle.installed_size": "9312058",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-82-g5e17e56\",\"changed_files\":[\"lib/pkgconfig/libhwy-contrib.pc\",\"lib/pkgconfig/libhwy.pc\"],\"source_modified_time\":1755156353,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:fe215d3e9c7a5e8bceebc63bcfbf6452705dc67a53f0ec66fcff9845066e601a",
+      "size": 2211,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "7e2f815b1622ec617780ff5b796c16c97dbe0b7e148f428d329f49a9ec6bc72f",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1891301",
+        "sh.brew.bottle.installed_size": "9129840",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-77-gdf84f7a\",\"changed_files\":[\"lib/pkgconfig/libhwy-contrib.pc\",\"lib/pkgconfig/libhwy.pc\"],\"source_modified_time\":1755156353,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8102ee26d2cfabc85d4e65aa7ab5f8e30d349b4de259923af2677d8da9b6b1c2",
+      "size": 2114,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.0.arm64_tahoe",
+        "sh.brew.bottle.digest": "05e894730e54a6fad0d82afc54683f1b0adb57030df6267b9bc5b9158fbdc8eb",
+        "sh.brew.bottle.size": "896672",
+        "sh.brew.bottle.installed_size": "5554239",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\"lib/pkgconfig/libhwy-contrib.pc\",\"lib/pkgconfig/libhwy.pc\"],\"source_modified_time\":1755156353,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-08-14T14:47:15Z",
+    "org.opencontainers.image.description": "Performance-portable, length-agnostic SIMD with runtime dispatch",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/highway",
+    "org.opencontainers.image.licenses": "Apache-2.0",
+    "org.opencontainers.image.ref.name": "1.3.0",
+    "org.opencontainers.image.revision": "774c431d6304a087d8e259acb1bfba87c402e383",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/774c431d6304a087d8e259acb1bfba87c402e383/Formula/h/highway.rb",
+    "org.opencontainers.image.title": "highway",
+    "org.opencontainers.image.url": "https://github.com/google/highway",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.3.0"
+  }
+}

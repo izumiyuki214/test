@@ -1,0 +1,35 @@
+2025-11-03 16:39:57 +0900
+
+/home/linuxbrew/.linuxbrew/Cellar/fontconfig/2.17.1/bin/fc-cache
+--force
+--really-force
+--verbose
+
+Font directories:
+	/System/Library/Fonts
+	/Library/Fonts
+	/home/uanxpyuki/Library/Fonts
+	/home/uanxpyuki/.local/share/fonts
+	/usr/local/share/fonts
+	/usr/share/fonts
+	/home/uanxpyuki/.fonts
+	/usr/share/fonts/truetype
+	/usr/share/fonts/truetype/dejavu
+	/usr/share/fonts/truetype/ubuntu
+/System/Library/Fonts: skipping, no such directory
+/Library/Fonts: skipping, no such directory
+/home/uanxpyuki/Library/Fonts: skipping, no such directory
+/home/uanxpyuki/.local/share/fonts: skipping, no such directory
+/usr/local/share/fonts: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/truetype: caching, new cache contents: 0 fonts, 2 dirs
+/usr/share/fonts/truetype/dejavu: caching, new cache contents: 8 fonts, 0 dirs
+/usr/share/fonts/truetype/ubuntu: caching, new cache contents: 232 fonts, 0 dirs
+/home/uanxpyuki/.fonts: skipping, no such directory
+/usr/share/fonts/truetype: skipping, looped directory detected
+/usr/share/fonts/truetype/dejavu: skipping, looped directory detected
+/usr/share/fonts/truetype/ubuntu: skipping, looped directory detected
+/home/linuxbrew/.linuxbrew/var/cache/fontconfig: cleaning cache directory
+/home/uanxpyuki/.cache/fontconfig: not cleaning non-existent cache directory
+/home/uanxpyuki/.fontconfig: not cleaning non-existent cache directory
+/home/linuxbrew/.linuxbrew/Cellar/fontconfig/2.17.1/bin/fc-cache: succeeded

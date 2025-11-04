@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9d47f8257172a448f6ea39c8094b523203063d5fc88956313ebc75ecdcf5961b",
+      "size": 2858,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.ventura",
+        "sh.brew.bottle.digest": "72c6a3af4f5dc6649fdf8ace41e27c917d88bfb4f25b6a468cc072944ae42cc1",
+        "sh.brew.bottle.size": "3809705",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.5-28-g385cf78\",\"changed_files\":[\"bin/checkbandwidth\",\"bin/ipf-mod.pl\",\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"bin/traptoemail\",\"ChangeLog\",\"NEWS\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man1/snmpconf.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\",\"share/snmp/mib2c-data/mfd-makefile.m2m\"],\"source_modified_time\":1692131544,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.3\",\"cpu_family\":\"penryn\",\"xcode\":\"14.3\",\"clt\":\"14.3.0.0.1.1679647830\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d937314a544dc20c3ad44f40a5a67bcfe10d492068bc4743f56751630fb2c1cb",
+      "size": 2735,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 11.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.arm64_big_sur",
+        "sh.brew.bottle.digest": "08d71e1fd013508a956360a8c1ee0806974b21334e06daa519c91fc58e5b1cf4",
+        "sh.brew.bottle.size": "3870482",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.5-28-g385cf78\",\"changed_files\":[\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\"],\"source_modified_time\":1692131544,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.7\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1e574b96cd7ef89789f180868244e57e3695219b09c4645781e5a218a53e1bde",
+      "size": 2860,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 11.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.big_sur",
+        "sh.brew.bottle.digest": "6eb8407f90572a45ff98d040761b9857998638d9a739bd21c06e1420412009ee",
+        "sh.brew.bottle.size": "3817936",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.5-28-g385cf78\",\"changed_files\":[\"bin/checkbandwidth\",\"bin/ipf-mod.pl\",\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"bin/traptoemail\",\"ChangeLog\",\"NEWS\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man1/snmpconf.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\",\"share/snmp/mib2c-data/mfd-makefile.m2m\"],\"source_modified_time\":1692131544,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.7\",\"cpu_family\":\"penryn\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:837dca42b694df7896c5ccae0d89261f206bcecfcd239d3616952823c7b74d87",
+      "size": 2782,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.2"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "909269505e442c956639f60e3b0cd1dbdc1e7723eb96b291e9fdba7781d533f4",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "4322875",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.5-28-g385cf78\",\"changed_files\":[\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\"],\"source_modified_time\":1692131544,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.2\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:75444ebaf55d089648ebb0d9c16b4aa2241151b5de60ba73fcf3c6d16a3b3ae8",
+      "size": 2861,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.monterey",
+        "sh.brew.bottle.digest": "25f84e57f018ce8d5c4f60ecdb28bf93a53f53fb7c3fe2d2ade1053013ba8993",
+        "sh.brew.bottle.size": "3817673",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.5-28-g385cf78\",\"changed_files\":[\"bin/checkbandwidth\",\"bin/ipf-mod.pl\",\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"bin/traptoemail\",\"ChangeLog\",\"NEWS\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man1/snmpconf.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\",\"share/snmp/mib2c-data/mfd-makefile.m2m\"],\"source_modified_time\":1692131544,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"penryn\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c60850ed951cc4da30f06e35e93f7f601051543d8263efe20f53a70add6684df",
+      "size": 2719,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.arm64_monterey",
+        "sh.brew.bottle.digest": "0ee61805fb803dc4126a163c1f41438fbae869158cab3c5f9fb4db626ace6059",
+        "sh.brew.bottle.size": "3859224",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.5-28-g385cf78\",\"changed_files\":[\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\"],\"source_modified_time\":1692131544,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"dunno\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:45db222a6d27d0359469165862a5111ceb64d1842e845ebb94e3dddfea37a1da",
+      "size": 2716,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.arm64_ventura",
+        "sh.brew.bottle.digest": "8d1f5f1b9c27087c08b7fb17c97445d925c7c0afa77e4939979778ca9fc39fa4",
+        "sh.brew.bottle.size": "3861647",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.5-28-g385cf78\",\"changed_files\":[\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\"],\"source_modified_time\":1692131544,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.3\",\"cpu_family\":\"dunno\",\"xcode\":\"14.3\",\"clt\":\"14.3.0.0.1.1679647830\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:86495dee90b4ea3e9bf7fa8de5cc802796182e5d8b5d9a155a4a18c40632806b",
+      "size": 2712,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.arm64_sonoma",
+        "sh.brew.bottle.digest": "9d0ea2f793065eab2cb7c858d5926bb9ec40dfd0460a31c4d9f09932ae1c2455",
+        "sh.brew.bottle.size": "3857805",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.11-36-g184efd9\",\"changed_files\":[\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\"],\"source_modified_time\":1692131544,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"dunno\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3fd77221d58f1a19d1d962d78ed98415ce2d9d88729ea1ba8b528b1f49f0c3b6",
+      "size": 2854,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.sonoma",
+        "sh.brew.bottle.digest": "520f34569542954e98b71e04ec30a470994550f983969d476ba7a3e229e9795e",
+        "sh.brew.bottle.size": "3806756",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.11-36-g184efd9\",\"changed_files\":[\"bin/checkbandwidth\",\"bin/ipf-mod.pl\",\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"bin/traptoemail\",\"ChangeLog\",\"NEWS\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man1/snmpconf.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\",\"share/snmp/mib2c-data/mfd-makefile.m2m\"],\"source_modified_time\":1692131544,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"penryn\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7b55d02ddfdd3d7d81c35d9b38e445b3e3c401a727577929b9c98c0de0717be0",
+      "size": 3517,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.arm64_sequoia",
+        "sh.brew.bottle.digest": "fdeaf56a79dfe93f7ed48765a26f6b34f030f1a0d96950410c7c4a3100eb0e7f",
+        "sh.brew.bottle.size": "3858337",
+        "sh.brew.bottle.installed_size": "15690293",
+        "sh.brew.license": "MIT-CMU AND MIT AND BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.20-36-gf0be97f\",\"changed_files\":[\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\"],\"source_modified_time\":1692131544,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2024-07-02\",\"revision\":0,\"pkg_version\":\"2024-07-02\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.3.2\",\"revision\":0,\"pkg_version\":\"3.3.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.0\",\"clt\":\"16.0.0.0.1.1724870825\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/snmptranslate,bin/snmpset,bin/net-snmp-cert,bin/net-snmp-create-v3-user,bin/snmpdelta,bin/snmpconf,bin/snmpinform,bin/snmpdf,bin/snmpstatus,bin/checkbandwidth,bin/mib2c,bin/snmpusm,bin/snmpvacm,bin/encode_keychange,bin/traptoemail,bin/tkmib,bin/agentxtrap,bin/snmpnetstat,bin/net-snmp-config,bin/snmpgetnext,bin/snmpps,bin/ipf-mod.pl,bin/snmpbulkwalk,bin/snmptrap,bin/snmpget,bin/snmptable,bin/snmpbulkget,bin/snmptop,bin/snmp-bridge-mib,bin/snmpping,bin/snmpwalk,bin/snmppcap,bin/snmpcheck,bin/fixproc,bin/snmptest,bin/mib2c-update,sbin/snmpd,sbin/snmptrapd"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7ca06726a6ad6ca189341702b05fce414308e106f373de3f2713f0482ba5309b",
+      "size": 3595,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "acf8bb48c7f532c9b87aacd38766c0bf73686619aff0369a2755eb3ff814a9e9",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "4391405",
+        "sh.brew.bottle.installed_size": "19247289",
+        "sh.brew.license": "MIT-CMU AND MIT AND BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.26-146-g7707ef1\",\"changed_files\":[\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\"],\"source_modified_time\":1692131544,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-02-25\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-02-25\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/snmpget,bin/traptoemail,bin/snmpwalk,bin/mib2c,bin/snmpnetstat,bin/agentxtrap,bin/snmpvacm,bin/snmptest,bin/snmpping,bin/snmptrap,bin/snmp-bridge-mib,bin/snmpbulkwalk,bin/snmpusm,bin/snmptable,bin/ipf-mod.pl,bin/net-snmp-create-v3-user,bin/snmpgetnext,bin/snmpdf,bin/tkmib,bin/net-snmp-config,bin/mib2c-update,bin/snmpps,bin/snmpset,bin/fixproc,bin/snmpcheck,bin/snmptranslate,bin/snmpinform,bin/checkbandwidth,bin/snmpbulkget,bin/encode_keychange,bin/net-snmp-cert,bin/snmpstatus,bin/snmpdelta,bin/snmpconf,sbin/snmpd,sbin/snmptrapd"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f5f8c946d9d517aa92b8549faf6d97e95d510f3ab0bd6f415fb05d1450b3b900",
+      "size": 3553,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.9.4.arm64_tahoe",
+        "sh.brew.bottle.digest": "34b4f0cbacf3987de86686ef84d7de0ad8fe4934c2d7f9d352df3ac1933d2a33",
+        "sh.brew.bottle.size": "3855383",
+        "sh.brew.bottle.installed_size": "15661790",
+        "sh.brew.license": "MIT-CMU AND MIT AND BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-33-g34be148\",\"changed_files\":[\"bin/mib2c\",\"bin/net-snmp-config\",\"bin/net-snmp-create-v3-user\",\"bin/snmpcheck\",\"bin/snmpconf\",\"include/net-snmp/net-snmp-config.h\",\"lib/pkgconfig/netsnmp-agent.pc\",\"lib/pkgconfig/netsnmp.pc\",\"share/man/man1/mib2c.1\",\"share/man/man1/snmpcmd.1\",\"share/man/man3/netsnmp_config_api.3\",\"share/man/man3/netsnmp_mib_api.3\",\"share/man/man5/snmp.conf.5\",\"share/man/man5/snmp_config.5\",\"share/man/man5/snmpd.conf.5\",\"share/man/man5/snmpd.examples.5\",\"share/man/man5/snmpd.internal.5\",\"share/man/man5/snmptrapd.conf.5\",\"share/man/man5/variables.5\",\"share/man/man8/snmpd.8\"],\"source_modified_time\":1692131544,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/snmptranslate,bin/snmpset,bin/net-snmp-cert,bin/net-snmp-create-v3-user,bin/snmpdelta,bin/snmpconf,bin/snmpinform,bin/snmpdf,bin/snmpstatus,bin/checkbandwidth,bin/mib2c,bin/snmpusm,bin/snmpvacm,bin/encode_keychange,bin/traptoemail,bin/tkmib,bin/agentxtrap,bin/snmpnetstat,bin/net-snmp-config,bin/snmpgetnext,bin/snmpps,bin/ipf-mod.pl,bin/snmpbulkwalk,bin/snmptrap,bin/snmpget,bin/snmptable,bin/snmpbulkget,bin/snmptop,bin/snmp-bridge-mib,bin/snmpping,bin/snmpwalk,bin/snmppcap,bin/snmpcheck,bin/fixproc,bin/snmptest,bin/mib2c-update,sbin/snmpd,sbin/snmptrapd"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2023-08-15",
+    "org.opencontainers.image.description": "Implements SNMP v1, v2c, and v3, using IPv4 and IPv6",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/net-snmp",
+    "org.opencontainers.image.license": "Net-SNMP",
+    "org.opencontainers.image.ref.name": "5.9.4",
+    "org.opencontainers.image.revision": "0f5003bc81dcd653e08b6a12d3c62fe7365fc804",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/0f5003bc81dcd653e08b6a12d3c62fe7365fc804/Formula/n/net-snmp.rb",
+    "org.opencontainers.image.title": "net-snmp",
+    "org.opencontainers.image.url": "http://www.net-snmp.org/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "5.9.4"
+  }
+}

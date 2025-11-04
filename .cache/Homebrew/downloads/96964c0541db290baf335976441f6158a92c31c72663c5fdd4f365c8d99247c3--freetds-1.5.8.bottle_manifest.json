@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d9a1dddd454b8f1e222a9f8effe32af0bb42ed2510cb7d2d2727c766930d32fd",
+      "size": 3577,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.5.8.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "d338e5ea10b54f64aad3f8168c9ee3dfb71ed3f91eecf47e24ad2ac38ca6c8a2",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "3515224",
+        "sh.brew.bottle.installed_size": "18963135",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"share/man/man5/freetds.conf.5\"],\"source_modified_time\":1762074098,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":false},{\"full_name\":\"unixodbc\",\"version\":\"2.3.14\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.14\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20251016-3.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"20251016-3.1_1\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":true},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/freebcp,bin/osql,bin/fisql,bin/bsqlodbc,bin/bsqldb,bin/datacopy,bin/defncopy,bin/tsql,bin/tdspool"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:55e943adbfb15ac7c5852a41e3394799c48e7c2929b4dba80c1f50aea7e47cc6",
+      "size": 2949,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.5.8.arm64_sequoia",
+        "sh.brew.bottle.digest": "ea5051e7702a4a0801e0dab1d1dd4c140be41d5b897ee2776a3e0c0f26608575",
+        "sh.brew.bottle.size": "3226228",
+        "sh.brew.bottle.installed_size": "17119948",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"share/man/man5/freetds.conf.5\"],\"source_modified_time\":1762074098,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":false},{\"full_name\":\"unixodbc\",\"version\":\"2.3.14\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.14\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/datacopy,bin/freebcp,bin/tdspool,bin/tsql,bin/defncopy,bin/osql,bin/bsqlodbc,bin/bsqldb,bin/fisql"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:50a83e81ef0cd90a0e3b4c2de9ebf9737acd08ac1ee51d37516e7ee9a05ea489",
+      "size": 2946,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.5.8.arm64_sonoma",
+        "sh.brew.bottle.digest": "16bec4fe3f7bc47e1f4dd7d36982fc2986835def30451a6131f1a0015dccbbc8",
+        "sh.brew.bottle.size": "3181398",
+        "sh.brew.bottle.installed_size": "16962724",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"share/man/man5/freetds.conf.5\"],\"source_modified_time\":1762074098,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":false},{\"full_name\":\"unixodbc\",\"version\":\"2.3.14\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.14\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/datacopy,bin/freebcp,bin/tdspool,bin/tsql,bin/defncopy,bin/osql,bin/bsqlodbc,bin/bsqldb,bin/fisql"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1caaebaffa6041bff2aaf6bb444b62e1fca25d4fff6efa80871694a13b5e89e8",
+      "size": 2941,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.5.8.arm64_tahoe",
+        "sh.brew.bottle.digest": "1d9ae5e99830018dc55a13ce633db247eec1d8d6a8c56458b9b343c3ad239900",
+        "sh.brew.bottle.size": "3225207",
+        "sh.brew.bottle.installed_size": "17106146",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"share/man/man5/freetds.conf.5\"],\"source_modified_time\":1762074098,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":false},{\"full_name\":\"unixodbc\",\"version\":\"2.3.14\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.14\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/datacopy,bin/freebcp,bin/tdspool,bin/tsql,bin/defncopy,bin/osql,bin/bsqlodbc,bin/bsqldb,bin/fisql"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d8b400af210f445f00389d00e9c5dc1ff30679ebeeeaac558f8897b5745d9d73",
+      "size": 2930,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.5.8.sonoma",
+        "sh.brew.bottle.digest": "2c15f415c435d813424b50ef2e9871909a00f58fa40ddc210d9a2ab05c80ec00",
+        "sh.brew.bottle.size": "3118218",
+        "sh.brew.bottle.installed_size": "16320294",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"share/man/man5/freetds.conf.5\"],\"source_modified_time\":1762074098,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":false},{\"full_name\":\"unixodbc\",\"version\":\"2.3.14\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.14\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/datacopy,bin/freebcp,bin/tdspool,bin/tsql,bin/defncopy,bin/osql,bin/bsqlodbc,bin/bsqldb,bin/fisql"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:54a7245d4461433413e8461819d0b4bb5941f0a28840552ddee1b2354026efad",
+      "size": 3585,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.5.8.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "be872500fff4601d557747b7327688b14c6744f3c391bff2d51ff69c6734d837",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "3542110",
+        "sh.brew.bottle.installed_size": "18420788",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"share/man/man5/freetds.conf.5\"],\"source_modified_time\":1762074098,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"m4\",\"version\":\"1.4.20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.20\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.5.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.5.4\",\"declared_directly\":false},{\"full_name\":\"unixodbc\",\"version\":\"2.3.14\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.14\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20251016-3.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"20251016-3.1_1\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":true},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"icelake\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/bsqlodbc,bin/defncopy,bin/bsqldb,bin/osql,bin/fisql,bin/freebcp,bin/datacopy,bin/tdspool,bin/tsql"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-11-02T11:04:01Z",
+    "org.opencontainers.image.description": "Libraries to talk to Microsoft SQL Server and Sybase databases",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/freetds",
+    "org.opencontainers.image.licenses": "GPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "1.5.8",
+    "org.opencontainers.image.revision": "f577169bd96881c37b11d34a967de219b829f74e",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/f577169bd96881c37b11d34a967de219b829f74e/Formula/f/freetds.rb",
+    "org.opencontainers.image.title": "freetds",
+    "org.opencontainers.image.url": "https://www.freetds.org/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.5.8"
+  }
+}

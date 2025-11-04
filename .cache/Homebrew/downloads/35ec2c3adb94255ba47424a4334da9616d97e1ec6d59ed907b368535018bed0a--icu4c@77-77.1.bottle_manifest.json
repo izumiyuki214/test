@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:5ac24b093874a161ae2e30db916992a2aa12e09fef66d81de0a6999064285df6",
+      "size": 2458,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "77.1.arm64_sequoia",
+        "sh.brew.bottle.digest": "19f6b5fef0cdf1dfc7f136ca103348ec8530ffdf8012273f6ee4a6159cdfaf75",
+        "sh.brew.bottle.size": "31130817",
+        "sh.brew.bottle.installed_size": "85198637",
+        "sh.brew.license": "ICU",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-186-gc9a6bd6\",\"changed_files\":[\"bin/icu-config\",\"lib/icu/77.1/Makefile.inc\",\"lib/icu/77.1/pkgdata.inc\",\"lib/pkgconfig/icu-i18n.pc\",\"lib/pkgconfig/icu-io.pc\",\"lib/pkgconfig/icu-uc.pc\"],\"source_modified_time\":1741890687,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/makeconv,bin/gencnval,bin/icu-config,bin/gencfu,bin/icuinfo,bin/gendict,bin/genrb,bin/icuexportdata,bin/pkgdata,bin/genbrk,bin/derb,bin/uconv,sbin/gennorm2,sbin/escapesrc,sbin/gensprep,sbin/icupkg,sbin/gencmn,sbin/genccode"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:97a82aa169000a46a78d1aeebb721ef938c2381fa2728aa136c1531bde9f4422",
+      "size": 2457,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "77.1.arm64_sonoma",
+        "sh.brew.bottle.digest": "f2b3a9d78e046b3b1ca1f06227272c0ea25490bd8efa4c98a33ffdcc734452ff",
+        "sh.brew.bottle.size": "31130341",
+        "sh.brew.bottle.installed_size": "85197783",
+        "sh.brew.license": "ICU",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-186-gc9a6bd6\",\"changed_files\":[\"bin/icu-config\",\"lib/icu/77.1/Makefile.inc\",\"lib/icu/77.1/pkgdata.inc\",\"lib/pkgconfig/icu-i18n.pc\",\"lib/pkgconfig/icu-io.pc\",\"lib/pkgconfig/icu-uc.pc\"],\"source_modified_time\":1741890687,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/makeconv,bin/gencnval,bin/icu-config,bin/gencfu,bin/icuinfo,bin/gendict,bin/genrb,bin/icuexportdata,bin/pkgdata,bin/genbrk,bin/derb,bin/uconv,sbin/gennorm2,sbin/escapesrc,sbin/gensprep,sbin/icupkg,sbin/gencmn,sbin/genccode"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:00bbd0ccc9236486369576b847b3c2a6ff859f7be6efabac570be415c63ebf4f",
+      "size": 2460,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "77.1.arm64_ventura",
+        "sh.brew.bottle.digest": "425a38eb7a7a1bb54dd25ac58194ef89d79caf1777a01fb244ed37487c1f7d80",
+        "sh.brew.bottle.size": "31126686",
+        "sh.brew.bottle.installed_size": "85164599",
+        "sh.brew.license": "ICU",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-186-gc9a6bd6\",\"changed_files\":[\"bin/icu-config\",\"lib/icu/77.1/Makefile.inc\",\"lib/icu/77.1/pkgdata.inc\",\"lib/pkgconfig/icu-i18n.pc\",\"lib/pkgconfig/icu-io.pc\",\"lib/pkgconfig/icu-uc.pc\"],\"source_modified_time\":1741890687,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/makeconv,bin/gencnval,bin/icu-config,bin/gencfu,bin/icuinfo,bin/gendict,bin/genrb,bin/icuexportdata,bin/pkgdata,bin/genbrk,bin/derb,bin/uconv,sbin/gennorm2,sbin/escapesrc,sbin/gensprep,sbin/icupkg,sbin/gencmn,sbin/genccode"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:32f2d6e44fe68628333ca61b406f3201684c9ea7e8d056b650d570c81e8f2442",
+      "size": 2441,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "77.1.sonoma",
+        "sh.brew.bottle.digest": "54d609febedd08e8a4a825435d85f6d4db045f586523edb8965434e8e9c93fa6",
+        "sh.brew.bottle.size": "30931188",
+        "sh.brew.bottle.installed_size": "83933585",
+        "sh.brew.license": "ICU",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-188-gc67f24b\",\"changed_files\":[\"bin/icu-config\",\"lib/icu/77.1/Makefile.inc\",\"lib/icu/77.1/pkgdata.inc\",\"lib/pkgconfig/icu-i18n.pc\",\"lib/pkgconfig/icu-io.pc\",\"lib/pkgconfig/icu-uc.pc\"],\"source_modified_time\":1741890687,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/makeconv,bin/gencnval,bin/icu-config,bin/gencfu,bin/icuinfo,bin/gendict,bin/genrb,bin/icuexportdata,bin/pkgdata,bin/genbrk,bin/derb,bin/uconv,sbin/gennorm2,sbin/escapesrc,sbin/gensprep,sbin/icupkg,sbin/gencmn,sbin/genccode"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6cdd169bf812f1ae6cb07c1043bb6df9721063808782720f04e26b26070a6d17",
+      "size": 2444,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "77.1.ventura",
+        "sh.brew.bottle.digest": "6f04d1757707495212ff68722bab629766329874ef7d0531e756903dff5022cb",
+        "sh.brew.bottle.size": "30934861",
+        "sh.brew.bottle.installed_size": "84537257",
+        "sh.brew.license": "ICU",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-188-gc67f24b\",\"changed_files\":[\"bin/icu-config\",\"lib/icu/77.1/Makefile.inc\",\"lib/icu/77.1/pkgdata.inc\",\"lib/pkgconfig/icu-i18n.pc\",\"lib/pkgconfig/icu-io.pc\",\"lib/pkgconfig/icu-uc.pc\"],\"source_modified_time\":1741890687,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/makeconv,bin/gencnval,bin/icu-config,bin/gencfu,bin/icuinfo,bin/gendict,bin/genrb,bin/icuexportdata,bin/pkgdata,bin/genbrk,bin/derb,bin/uconv,sbin/gennorm2,sbin/escapesrc,sbin/gensprep,sbin/icupkg,sbin/gencmn,sbin/genccode"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:598c2b2629aa9d74a5459affbfb3b5527cb17e715ad006a03d75d7e52e7b2c47",
+      "size": 2548,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "77.1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "f82d4ca07fbdcf99cb5553ae9cf298bbff475a465f13e1c5d934dcbcb1e14741",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "32828765",
+        "sh.brew.bottle.installed_size": "93291210",
+        "sh.brew.license": "ICU",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-186-gc9a6bd6\",\"changed_files\":[\"bin/icu-config\",\"lib/icu/77.1/Makefile.inc\",\"lib/icu/77.1/pkgdata.inc\",\"lib/pkgconfig/icu-i18n.pc\",\"lib/pkgconfig/icu-io.pc\",\"lib/pkgconfig/icu-uc.pc\"],\"source_modified_time\":1741890687,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen2\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/gencnval,bin/icuinfo,bin/icuexportdata,bin/gencfu,bin/derb,bin/icu-config,bin/gendict,bin/genbrk,bin/uconv,bin/pkgdata,bin/genrb,bin/makeconv,sbin/icupkg,sbin/gensprep,sbin/genccode,sbin/gennorm2,sbin/gencmn,sbin/escapesrc"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:aa3c57633415ff4886678b04b1d3f4b135dc584cc5a3c68d5654555602c28e72",
+      "size": 2543,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "77.1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "6d633e676a17c418e7e1e6e58d41a7c61856f06cf198a3efa97e4a5489ab0196",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "32818597",
+        "sh.brew.bottle.installed_size": "95275040",
+        "sh.brew.license": "ICU",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-276-gfec5b64\",\"changed_files\":[\"bin/icu-config\",\"lib/icu/77.1/Makefile.inc\",\"lib/icu/77.1/pkgdata.inc\",\"lib/pkgconfig/icu-i18n.pc\",\"lib/pkgconfig/icu-io.pc\",\"lib/pkgconfig/icu-uc.pc\"],\"source_modified_time\":1741890687,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/genrb,bin/genbrk,bin/gendict,bin/icuinfo,bin/pkgdata,bin/uconv,bin/icu-config,bin/gencnval,bin/gencfu,bin/derb,bin/makeconv,bin/icuexportdata,sbin/gencmn,sbin/icupkg,sbin/gennorm2,sbin/genccode,sbin/gensprep,sbin/escapesrc"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:883a36788dd72ec289adfafc3946b4ada34fcb8926a8a7f7a66633aac87829cf",
+      "size": 2451,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "77.1.arm64_tahoe",
+        "sh.brew.bottle.digest": "57af4061e0e0d0b6266470343d2db56fc51a0cbaa1bd459bd3bee3c916c0fab9",
+        "sh.brew.bottle.size": "30934115",
+        "sh.brew.bottle.installed_size": "84921363",
+        "sh.brew.license": "ICU",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\"bin/icu-config\",\"lib/icu/77.1/Makefile.inc\",\"lib/icu/77.1/pkgdata.inc\",\"lib/pkgconfig/icu-i18n.pc\",\"lib/pkgconfig/icu-io.pc\",\"lib/pkgconfig/icu-uc.pc\"],\"source_modified_time\":1741890687,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/makeconv,bin/gencnval,bin/icu-config,bin/gencfu,bin/icuinfo,bin/gendict,bin/genrb,bin/icuexportdata,bin/pkgdata,bin/genbrk,bin/derb,bin/uconv,sbin/gennorm2,sbin/escapesrc,sbin/gensprep,sbin/icupkg,sbin/gencmn,sbin/genccode"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-03-14T23:37:23Z",
+    "org.opencontainers.image.description": "C/C++ and Java libraries for Unicode and globalization",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/icu4c@77",
+    "org.opencontainers.image.licenses": "ICU",
+    "org.opencontainers.image.ref.name": "77.1",
+    "org.opencontainers.image.revision": "cbb0887de4558de6fe62e3726804b271902c7b97",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/cbb0887de4558de6fe62e3726804b271902c7b97/Formula/i/icu4c@77.rb",
+    "org.opencontainers.image.title": "icu4c@77",
+    "org.opencontainers.image.url": "https://icu.unicode.org/home",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "77.1"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:bc0a6e9e73c48de17fba54c2cc566dc1484f8c8fbcf188891d358ce59b1f6db9",
+      "size": 2109,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.0.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "55a4b0298d894b1a45f56c3480a1368b58333a04f2ab97cbd64f434c7c89d798",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "217466",
+        "sh.brew.bottle.installed_size": "791432",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.12-11-g21c60eb\",\"changed_files\":[\"lib/pkgconfig/libnghttp3.pc\"],\"source_modified_time\":1758704329,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b0ea192ae0484bb740e77d4790e670eccdd5c77652c27b18122fc9694f7dae3f",
+      "size": 2039,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.0.arm64_sequoia",
+        "sh.brew.bottle.digest": "1eb2c780340d21a766a0e7f4a7f2ae330377340d8a272fa0ad5d144ca709cca5",
+        "sh.brew.bottle.size": "188635",
+        "sh.brew.bottle.installed_size": "601961",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.13\",\"changed_files\":[\"lib/pkgconfig/libnghttp3.pc\"],\"source_modified_time\":1758704329,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f839bc653efdcf940aa198efc77122ead32a3e6bc70bb6cbc4cd8a409c0dddc0",
+      "size": 2036,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.0.arm64_sonoma",
+        "sh.brew.bottle.digest": "9ca811ccb32e85dacdf552d23f3fb461cd7892408cd9db5cf8ba71229ddd3e8c",
+        "sh.brew.bottle.size": "189386",
+        "sh.brew.bottle.installed_size": "604529",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.13\",\"changed_files\":[\"lib/pkgconfig/libnghttp3.pc\"],\"source_modified_time\":1758704329,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:99253bbcebb0c84fd85c1a53f428dbff78234fe1b5deb6c8b0f43ee8ffc9262c",
+      "size": 2031,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.0.arm64_tahoe",
+        "sh.brew.bottle.digest": "e284d356865af5e93210253ef973a4f90692b560627eba68e54cf47527a386a5",
+        "sh.brew.bottle.size": "188393",
+        "sh.brew.bottle.installed_size": "600903",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.13\",\"changed_files\":[\"lib/pkgconfig/libnghttp3.pc\"],\"source_modified_time\":1758704329,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9b0d1a0c574b54a8745c60fd37e27546147b2919f40be3e0bca19adfb8f8d5f5",
+      "size": 2020,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.0.sonoma",
+        "sh.brew.bottle.digest": "81311931d8acb0cb2cb216c87bb17c9fe2abb19bff1edcf35436d75b0997f06c",
+        "sh.brew.bottle.size": "186101",
+        "sh.brew.bottle.installed_size": "567109",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.13\",\"changed_files\":[\"lib/pkgconfig/libnghttp3.pc\"],\"source_modified_time\":1758704329,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:5ff2a26d3e6505672fc35057a705478e899a5b7d5da120e23a9a0a88e2603c3f",
+      "size": 2114,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "a58df7a8c2219f36db9057662b7d1fd5ee6ef345839b51e168ade2396514b291",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "216061",
+        "sh.brew.bottle.installed_size": "723138",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.12-11-g21c60eb\",\"changed_files\":[\"lib/pkgconfig/libnghttp3.pc\"],\"source_modified_time\":1758704329,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-09-24T11:16:42Z",
+    "org.opencontainers.image.description": "HTTP/3 library written in C",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libnghttp3",
+    "org.opencontainers.image.licenses": "MIT",
+    "org.opencontainers.image.ref.name": "1.12.0",
+    "org.opencontainers.image.revision": "b190ef75125e116365668a6b70e2b54585780cf6",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/b190ef75125e116365668a6b70e2b54585780cf6/Formula/lib/libnghttp3.rb",
+    "org.opencontainers.image.title": "libnghttp3",
+    "org.opencontainers.image.url": "https://nghttp2.org/nghttp3/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.12.0"
+  }
+}

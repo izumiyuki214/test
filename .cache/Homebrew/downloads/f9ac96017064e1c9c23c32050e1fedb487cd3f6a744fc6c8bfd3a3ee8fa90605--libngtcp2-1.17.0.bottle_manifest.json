@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:aa0fe48b3b15496da8a75a97e00221c6cac35afe75af97703df5e435521440d3",
+      "size": 2451,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.17.0.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "656f94bac5fa1bae366054b021db804d958f3b8c0c4b94e9a1f238b8808d6abd",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "464156",
+        "sh.brew.bottle.installed_size": "1566401",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.17-47-g67863ea\",\"changed_files\":[\"lib/pkgconfig/libngtcp2.pc\",\"lib/pkgconfig/libngtcp2_crypto_ossl.pc\"],\"source_modified_time\":1760690972,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a20e211f3e70235351b6a6f116a3ba5a683c38c43f41aae9d3468705697e81ae",
+      "size": 2393,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.17.0.arm64_sequoia",
+        "sh.brew.bottle.digest": "382644b013aaa31d42ee620515259cd8588f5e27ca7707febd4370959fb02bed",
+        "sh.brew.bottle.size": "400355",
+        "sh.brew.bottle.installed_size": "1324287",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.17-47-g67863ea\",\"changed_files\":[\"lib/pkgconfig/libngtcp2.pc\",\"lib/pkgconfig/libngtcp2_crypto_ossl.pc\"],\"source_modified_time\":1760690972,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a8b33ca0e04e077a198477b4738398548823153dd2f98434a789dd64859c025c",
+      "size": 2390,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.17.0.arm64_sonoma",
+        "sh.brew.bottle.digest": "7e40f64c028902984431c01d865e782fb5157c51ac736c860ef93cb20e63cc03",
+        "sh.brew.bottle.size": "402252",
+        "sh.brew.bottle.installed_size": "1326791",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.17-47-g67863ea\",\"changed_files\":[\"lib/pkgconfig/libngtcp2.pc\",\"lib/pkgconfig/libngtcp2_crypto_ossl.pc\"],\"source_modified_time\":1760690972,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d07937e1f8cc6313bf24f9dc02aa4344f2f9038ebb1b380cafcceee1e736d75e",
+      "size": 2385,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.17.0.arm64_tahoe",
+        "sh.brew.bottle.digest": "a70f750eb0cc3afb5e199dffb127d4f688dd63c758b23ab79f95e131aecd777c",
+        "sh.brew.bottle.size": "400317",
+        "sh.brew.bottle.installed_size": "1321813",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.17-47-g67863ea\",\"changed_files\":[\"lib/pkgconfig/libngtcp2.pc\",\"lib/pkgconfig/libngtcp2_crypto_ossl.pc\"],\"source_modified_time\":1760690972,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:48d5662d7436527481fc533a8f591a8cc0bb63c9bcda7b6b942afeddc1ef6696",
+      "size": 2374,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.17.0.sonoma",
+        "sh.brew.bottle.digest": "279e17de0c8b5c87ee81b95babfabd42a485afa0eaca39e349a6b1fbbe121f83",
+        "sh.brew.bottle.size": "400065",
+        "sh.brew.bottle.installed_size": "1248283",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.17-47-g67863ea\",\"changed_files\":[\"lib/pkgconfig/libngtcp2.pc\",\"lib/pkgconfig/libngtcp2_crypto_ossl.pc\"],\"source_modified_time\":1760690972,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:57ad26e65741977f2d279cd565848f1f9276c9a4d88611a015a31c831e8fb110",
+      "size": 2456,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.17.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "d499c01a90f66d1aed33a628a40e868b45bc959ab17cbecbb5a9f1d87e72dff9",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "460540",
+        "sh.brew.bottle.installed_size": "1506771",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.17-47-g67863ea\",\"changed_files\":[\"lib/pkgconfig/libngtcp2.pc\",\"lib/pkgconfig/libngtcp2_crypto_ossl.pc\"],\"source_modified_time\":1760690972,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-10-17T11:16:05Z",
+    "org.opencontainers.image.description": "IETF QUIC protocol implementation",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libngtcp2",
+    "org.opencontainers.image.licenses": "MIT",
+    "org.opencontainers.image.ref.name": "1.17.0",
+    "org.opencontainers.image.revision": "fa7450d7382ad5c89bcff1b54831beed26324e48",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/fa7450d7382ad5c89bcff1b54831beed26324e48/Formula/lib/libngtcp2.rb",
+    "org.opencontainers.image.title": "libngtcp2",
+    "org.opencontainers.image.url": "https://nghttp2.org/ngtcp2/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.17.0"
+  }
+}

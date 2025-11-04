@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6ccfc78bdb23605fbfe40fe015afa1ee6eec86845fa5da4969fc3a14a3465a82",
+      "size": 2311,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "64ab04c378cb3546baef10c3804ce5c1f3ec70a293df98b8e48b674e123c28b7",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "849940",
+        "sh.brew.bottle.installed_size": "3140477",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.9-35-g343748f\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"source_modified_time\":1750882156,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c4fb37cb33130f43cfeab26ef950f8d7108a27d690754110393d6bbca9917e74",
+      "size": 2119,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.1.arm64_sequoia",
+        "sh.brew.bottle.digest": "3afa0c228ce704810d09d40ce7d1265777df8b9034a7bfc18f0f4c19094710a8",
+        "sh.brew.bottle.size": "758219",
+        "sh.brew.bottle.installed_size": "2675907",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.9-35-g343748f\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:58a33ec5c2b628ef1b47489565152655897fd2b83ddbf3c0ea62c6a27e19fd45",
+      "size": 2116,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.1.arm64_sonoma",
+        "sh.brew.bottle.digest": "51a9a7122a89fd2464fc631f8c31721afc700b3b220ed8b0c23655514b04db73",
+        "sh.brew.bottle.size": "761725",
+        "sh.brew.bottle.installed_size": "2681923",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.9-35-g343748f\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:170c80abad3d4d7b60f91e09ecdea5c0f537675412f6e5346371724fedd4e05f",
+      "size": 2119,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.1.arm64_ventura",
+        "sh.brew.bottle.digest": "5788e1e5f713d5253edfc4b9d137d384b692fee6de1c79af3dba18fa7efd31c3",
+        "sh.brew.bottle.size": "761932",
+        "sh.brew.bottle.installed_size": "2681955",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.9-35-g343748f\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b81ef178ef338f3a05b6ea8511a576fd3045ffeadbebd7cffcae837f23e4b24c",
+      "size": 2164,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.1.sequoia",
+        "sh.brew.bottle.digest": "85d56c6896ac184bf38b1b0867d050235fb0a4873c152b52a46748aa1b458ec9",
+        "sh.brew.bottle.size": "737229",
+        "sh.brew.bottle.installed_size": "2552549",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.9-37-gb631179\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\",\"share/doc/readline/INSTALL\",\"share/readline/rl-fgets.c\"],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"penryn\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a86ff743488b5e73c94fae982ddfc93d1863420155d8e311d16fcf299ade8432",
+      "size": 2161,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.1.sonoma",
+        "sh.brew.bottle.digest": "1ca59c2fba1ae707b3c893bc237c6638c5140fd73795e76fb186b1176b5931ff",
+        "sh.brew.bottle.size": "735814",
+        "sh.brew.bottle.installed_size": "2552285",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.9-37-gb631179\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\",\"share/doc/readline/INSTALL\",\"share/readline/rl-fgets.c\"],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0c69b155f865b789ae8301f9c05a1a7ecd7379305507fa8c5b156e6a3d864e25",
+      "size": 2164,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.1.ventura",
+        "sh.brew.bottle.digest": "722187db867ece23e06d6e1ce4b67190d602e2b456e113a9b3c5e3930de923d8",
+        "sh.brew.bottle.size": "735982",
+        "sh.brew.bottle.installed_size": "2601069",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.9-37-gb631179\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\",\"share/doc/readline/INSTALL\",\"share/readline/rl-fgets.c\"],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:592e0da7cb94cd970ea10c7adf8c30d95e30e0e49d9a2b4dc510ab49866756a5",
+      "size": 2316,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "148c40946804e22da82f0864b458d1eb01f23b9cf30c7b9f10501853b92ad33a",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "829379",
+        "sh.brew.bottle.installed_size": "3070967",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.9-35-g343748f\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"source_modified_time\":1750882156,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:13672ad25b3982795821879fda120c848c355184095f8f6e32f9c6597487d396",
+      "size": 2112,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.1.arm64_tahoe",
+        "sh.brew.bottle.digest": "faa8450e4edc3b34ed521de8e46b48ab12d29f16ae58648178a769287da573cc",
+        "sh.brew.bottle.size": "757728",
+        "sh.brew.bottle.installed_size": "2673694",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-20-g51a98eb\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7600dbdd348d2b24fce4710699047381b8a36183f634443d02c8570abfc4afa7",
+      "size": 2096,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "8.3.1.tahoe",
+        "sh.brew.bottle.digest": "539e73fcb36921fdc276f60fe7b9c2eb9ea81876468e44457e3566f04650190f",
+        "sh.brew.bottle.size": "737045",
+        "sh.brew.bottle.installed_size": "2552448",
+        "sh.brew.license": "GPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\"lib/pkgconfig/history.pc\",\"lib/pkgconfig/readline.pc\"],\"source_modified_time\":1750882156,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"penryn\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-07-11T17:26:08Z",
+    "org.opencontainers.image.description": "Library for command-line editing",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/readline",
+    "org.opencontainers.image.licenses": "GPL-3.0-or-later",
+    "org.opencontainers.image.ref.name": "8.3.1",
+    "org.opencontainers.image.revision": "a2fead80fb064e52a5faa127e52fd5a22cf0f0f1",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/a2fead80fb064e52a5faa127e52fd5a22cf0f0f1/Formula/r/readline.rb",
+    "org.opencontainers.image.title": "readline",
+    "org.opencontainers.image.url": "https://tiswww.case.edu/php/chet/readline/rltop.html",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "8.3.1"
+  }
+}
